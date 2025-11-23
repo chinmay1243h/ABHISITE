@@ -1,0 +1,631 @@
+2024-11-19 19:28:14 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.reds.redis-cloud.com
+2024-11-19 19:33:44 [ERROR]: Error connecting to Redis: 982C0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:355:
+
+2024-11-19 20:22:21 [ERROR]: cryptoJS.randomInt is not a function
+2024-11-19 20:32:29 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-11-19 20:33:34 [ERROR]: Error connecting to Redis: Connection timeout
+2024-11-19 20:35:31 [ERROR]: notNull Violation: user.userName cannot be null,
+notNull Violation: user.password cannot be null,
+notNull Violation: user.phoneNumber cannot be null
+2024-11-19 20:38:25 [ERROR]: notNull Violation: user.userName cannot be null
+2024-11-19 20:38:52 [ERROR]: Assignment to constant variable.
+2024-11-19 20:39:02 [ERROR]: Assignment to constant variable.
+2024-11-19 21:36:37 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-11-19 22:35:34 [ERROR]: string violation: password cannot be an array or an object
+2024-11-19 22:40:33 [ERROR]: Invalid argument type
+2024-11-19 22:43:03 [ERROR]: redisClient.setex is not a function
+2024-11-19 23:04:38 [ERROR]: Cannot access 'data' before initialization
+2024-11-19 23:06:48 [ERROR]: Cannot access 'data' before initialization
+2024-11-19 23:28:09 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <a href="<%= actionUrl %>" class="button">Take Action</a>
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-19 23:28:45 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <a href="<%= actionUrl %>" class="button">Take Action</a>
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-19 23:29:02 [ERROR]: C:\Users\amita\Desktop\LMS-AP\server\src\views\emailTamplet.ejs:81
+    79| 
+    80|       <!-- Optional Action Button (like a "Verify Email" button) -->
+ >> 81|       <!-- <a href="<%= actionUrl %>" sclass="button">Take Action</a> -->
+    82|     </div>
+    83| 
+    84|     <!-- Footer Section -->
+
+actionUrl is not defined
+2024-11-20 08:27:19 [ERROR]: Illegal arguments: string, undefined
+2024-11-20 08:30:35 [ERROR]: CurrentPassword is incorrect 
+2024-11-20 08:30:35 [ERROR]: httpResponseCodes is not defined
+2024-11-20 08:31:08 [ERROR]: CurrentPassword is incorrect 
+2024-11-20 08:51:58 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-11-20 11:46:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-04 12:31:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-04 18:38:24 [ERROR]: Unhandled Rejection: ReferenceError: async is not defined
+2024-12-04 18:58:41 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: SidebarMenu.to cannot be null,
+notNull Violation: SidebarMenu.title cannot be null
+2024-12-04 19:41:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-05 06:31:01 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-05 10:44:21 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-08 00:13:09 [ERROR]: Error Connecting to Database
+2024-12-08 00:17:25 [ERROR]: Error Connecting to Database
+2024-12-08 00:19:43 [ERROR]: Error Connecting to Database
+2024-12-08 00:20:15 [ERROR]: Error Connecting to Database Access denied for user 'admin'@'103.182.10.185' (using password: YES)
+2024-12-12 15:49:26 [ERROR]: Invalid argument type
+2024-12-12 17:55:44 [ERROR]: CurrentPassword is incorrect 
+2024-12-12 17:55:51 [ERROR]: CurrentPassword is incorrect 
+2024-12-12 17:58:52 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:58:52 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:59:04 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-12 17:59:04 [ERROR]: Cannot read properties of undefined (reading 'id')
+2024-12-13 11:40:59 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 13:05:15 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 18:04:39 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 22:05:31 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-13 22:32:38 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-14 12:37:56 [ERROR]: Uncaught Exception: file is not defined
+2024-12-14 12:40:29 [ERROR]: Uncaught Exception: file is not defined
+2024-12-14 17:49:18 [ERROR]: CurrentPassword is incorrect 
+2024-12-14 18:04:15 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Video.preview_url cannot be null,
+notNull Violation: Video.video_url cannot be null
+2024-12-14 18:05:47 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Video.preview_url cannot be null,
+notNull Violation: Video.video_url cannot be null
+2024-12-14 18:32:33 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-20 15:21:44 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:25:39 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:26:37 [ERROR]: Error Connecting to Database Unknown database 'livabhiproductions'
+2024-12-20 15:28:32 [ERROR]: Error Connecting to Database Unknown database 'livabhiproductions'
+2024-12-20 15:29:18 [ERROR]: Error Syncing Database: Key column 'userName' doesn't exist in table
+2024-12-20 15:29:44 [ERROR]: Error Syncing Database: Key column 'firseName' doesn't exist in table
+2024-12-20 16:00:39 [ERROR]: Invalid argument type
+2024-12-20 16:02:41 [ERROR]: Invalid argument type
+2024-12-20 17:18:37 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-20 17:49:56 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 17:51:11 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 18:02:55 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-20 18:43:24 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: portfolioProject.title cannot be null
+2024-12-22 12:41:13 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:43:46 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: portfolioProject.title cannot be null
+2024-12-22 12:43:58 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:46:32 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 12:50:16 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-22 15:15:12 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-23 15:54:42 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 15:54:55 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 16:15:49 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-23 17:39:25 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`livabhiproductions`.`portfolio`, CONSTRAINT `portfolio_userId_foreign_idx` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2024-12-23 17:45:52 [ERROR]: result is not defined
+2024-12-23 18:13:51 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-23 20:30:28 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:30:32 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:34:26 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:35:36 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:39:40 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:40:46 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:42:25 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'url' in 'field list'
+2024-12-23 20:48:27 [ERROR]: Internal server error:SequelizeDatabaseError: Unknown column 'email' in 'field list'
+2024-12-23 22:43:09 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-24 19:28:06 [ERROR]: CurrentPassword is incorrect 
+2024-12-24 19:28:16 [ERROR]: CurrentPassword is incorrect 
+2024-12-24 19:44:16 [ERROR]: Internal server error:ReferenceError: nul is not defined
+2024-12-25 00:37:32 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `salary` VARCHAR(255) NOT NULL, `contactEmail` VARCHAR(255) NOT NUL' at line 1
+2024-12-25 00:38:24 [ERROR]: Error Syncing Database: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[] NOT NULL, `salary` VARCHAR(255) NOT NULL, `contactEmail` VARCHAR(255) NOT NUL' at line 1
+2024-12-25 00:57:27 [ERROR]: CurrentPassword is incorrect 
+2024-12-25 01:03:53 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-25 19:55:17 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:12:30 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: '' for column 'portfolioId' at row 1
+2024-12-26 11:52:56 [ERROR]: CurrentPassword is incorrect 
+2024-12-26 12:26:03 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 12:47:54 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:00:36 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:01:33 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 13:10:37 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 13:10:39 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-26 16:35:03 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:39:27 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:41:02 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 16:47:29 [ERROR]: Illegal arguments: undefined, string
+2024-12-26 17:14:49 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:16:16 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:16:21 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-26 17:48:03 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-26 17:51:43 [ERROR]: Error Syncing Database: Incorrect table definition; there can be only one auto column and it must be defined as a key
+2024-12-26 18:04:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-26 18:05:13 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:35 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:52 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-26 18:05:55 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-27 05:37:50 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 05:58:15 [ERROR]: Internal server error:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`livabhi`.`course`, CONSTRAINT `course_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`))
+2024-12-27 07:13:23 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:35:24 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:43:19 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 11:45:03 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-27 12:03:20 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-27 12:03:31 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 05:20:14 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 05:59:45 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 06:22:10 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:10 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:26 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:22:26 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:23:12 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:23:12 [ERROR]: Unhandled Rejection: TypeError: razorpay.Razorpay is not a constructor
+2024-12-29 06:44:42 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 18:25:36 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 20:26:21 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:27:06 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:34:38 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:35:10 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-29 20:49:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-29 21:11:18 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2024-12-29 21:53:14 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null,
+notNull Violation: payment.amount cannot be null
+2024-12-29 21:56:51 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null,
+notNull Violation: payment.amount cannot be null
+2024-12-29 22:02:01 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null
+2024-12-29 22:05:18 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: payment.id cannot be null
+2024-12-29 22:07:41 [ERROR]: Internal server error:SequelizeDatabaseError: Field 'id' doesn't have a default value
+2024-12-29 22:10:16 [ERROR]: Internal server error:SequelizeDatabaseError: Field 'id' doesn't have a default value
+2024-12-30 15:29:31 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:49:37 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:50:53 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 15:51:45 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 17:53:43 [ERROR]: Internal server error:SequelizeUniqueConstraintError: Validation error
+2024-12-30 17:55:18 [ERROR]: Internal server error:SequelizeUniqueConstraintError: Validation error
+2024-12-30 18:16:52 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-30 21:26:39 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-30 21:48:49 [ERROR]: Internal server error:SequelizeEagerLoadingError: Video is not associated to course!
+2024-12-30 21:51:46 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:29 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:36 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2024-12-30 21:52:45 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 04:30:41 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 05:01:18 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-31 05:22:12 [ERROR]: Uncaught Exception: read ECONNRESET
+2024-12-31 05:27:59 [ERROR]: Error connecting to Redis: Connection timeout
+2024-12-31 05:29:08 [ERROR]: Error connecting to Redis: getaddrinfo ENOTFOUND redis-15322.c263.us-east-1-2.ec2.redns.redis-cloud.com
+2024-12-31 05:52:27 [ERROR]: Account not found
+2024-12-31 05:52:34 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:52:35 [ERROR]: Account not found
+2024-12-31 05:53:34 [ERROR]: Account not found
+2024-12-31 05:54:43 [ERROR]: Account not found
+2024-12-31 05:55:09 [ERROR]: Account not found
+2024-12-31 05:55:55 [ERROR]: Account not found
+2024-12-31 06:33:56 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 06:33:58 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 06:35:43 [ERROR]: Internal server error:SequelizeDatabaseError: Incorrect integer value: 'test' for column 'name' at row 1
+2024-12-31 16:17:32 [ERROR]: CurrentPassword is incorrect 
+2024-12-31 16:28:12 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: Portfolio.lastName cannot be null
+2025-01-01 12:04:04 [ERROR]: Error Connecting to Database sequilize.then is not a function
+2025-01-01 13:31:03 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-01 14:57:24 [ERROR]: Error Connecting to Database sequilize.then is not a function
+2025-01-01 15:07:59 [ERROR]: Error connecting to Redis: Connection timeout
+2025-01-01 15:08:05 [ERROR]: Error Connecting to Database connect ETIMEDOUT
+2025-01-01 20:35:51 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 08:00:26 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-04 09:18:29 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 09:52:17 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 11:24:30 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 12:31:26 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 12:53:39 [ERROR]: Internal server error:ReferenceError: DELETE is not defined
+2025-01-04 12:53:49 [ERROR]: Internal server error:ReferenceError: DELETE is not defined
+2025-01-04 13:03:30 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'destroy')
+2025-01-04 13:03:39 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'destroy')
+2025-01-04 13:26:15 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 17:20:56 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-04 17:24:01 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-05 20:12:38 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 07:24:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:32:45 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:42:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:56:24 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:57:44 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 08:29:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 09:55:34 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 16:45:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:46:06 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:50:33 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:37 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:47 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 18:02:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 17:53:30 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:13 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:52 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:56:59 [ERROR]: Account not found
+2025-01-10 18:06:34 [ERROR]: Account not found
+2025-01-10 18:06:47 [ERROR]: Account not found
+2025-01-10 18:25:09 [ERROR]: Account not found
+2025-01-10 18:25:16 [ERROR]: Account not found
+2025-01-10 18:25:30 [ERROR]: Account not found
+2025-01-10 21:18:48 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:30:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:37:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 22:50:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 16:13:28 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:14:14 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:16:39 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:35:03 [ERROR]: Error Syncing Database: Cannot change column 'jobId': used in a foreign key constraint 'job_applications_ibfk_1'
+2025-01-13 16:37:29 [ERROR]: Error Syncing Database: Duplicate column name 'jobID'
+2025-01-13 16:40:47 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:42:05 [ERROR]: Error Syncing Database: Constraint job_applications_ibfk_1 on table job_applications does not exist
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:48:00 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:50:09 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 19:36:53 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 20:05:00 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 20:16:57 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-25 00:17:05 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.thumbnail cannot be null
+2025-01-26 11:42:43 [ERROR]: Uncaught Exception: Socket closed unexpectedly
+2025-01-26 18:09:57 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:12 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:50 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:19:59 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:21:02 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:23:12 [ERROR]: CurrentPassword is incorrect 
+2025-01-26 18:25:50 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 20:51:24 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:02:23 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:03:18 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:03:27 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:03:46 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:03:46 [ERROR]: Full error: bad auth : authentication failed
+2025-11-20 21:03:46 [ERROR]: Authentication failed. Please check your username and password in MONGODB_URI
+2025-11-20 21:04:15 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:04:15 [ERROR]: Full error: bad auth : authentication failed
+2025-11-20 21:04:15 [ERROR]: Authentication failed. Please check your username and password in MONGODB_URI
+2025-11-20 21:05:09 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:05:09 [ERROR]: Full error: bad auth : authentication failed
+2025-11-20 21:05:09 [ERROR]: Authentication failed. Please check your username and password in MONGODB_URI
+2025-11-20 21:05:18 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:05:18 [ERROR]: Full error: bad auth : authentication failed
+2025-11-20 21:05:18 [ERROR]: Authentication failed. Please check your username and password in MONGODB_URI
+2025-11-20 21:05:32 [ERROR]: Error Connecting to MongoDB:
+2025-11-20 21:05:32 [ERROR]: Full error: bad auth : authentication failed
+2025-11-20 21:05:32 [ERROR]: Authentication failed. Please check your username and password in MONGODB_URI
+2025-11-20 21:40:13 [ERROR]: Account not found
+2025-11-20 21:40:18 [ERROR]: Account not found
+2025-11-20 21:40:42 [ERROR]: Error sending OTP email to mkfunmasti@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34726008e96sm3012162a91.0 - gsmtp
+2025-11-20 21:40:42 [ERROR]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-34726008e96sm3012162a91.0 - gsmtp
+2025-11-20 21:42:12 [ERROR]: Error sending OTP email to mkfunmasti@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3472694f137sm2951911a91.17 - gsmtp
+2025-11-20 21:42:12 [ERROR]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3472694f137sm2951911a91.17 - gsmtp
+2025-11-20 21:42:21 [ERROR]: Error sending OTP email to mkfunmasti@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b2ae1c3sm31429205ad.92 - gsmtp
+2025-11-20 21:42:21 [ERROR]: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b2ae1c3sm31429205ad.92 - gsmtp
+2025-11-20 21:43:47 [ERROR]: Account not found
+2025-11-20 21:43:57 [ERROR]: Account not found
+2025-11-20 21:45:08 [ERROR]: Account not found
+2025-11-20 21:48:29 [ERROR]: Account not found
+2025-11-20 21:50:51 [ERROR]: Account not found
+2025-11-20 21:51:16 [ERROR]: Error sending OTP email to mkfunmasti@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b1070c3sm31905355ad.12 - gsmtp
+2025-11-20 21:51:16 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b1070c3sm31905355ad.12 - gsmtp
+2025-11-20 22:00:45 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 22:01:03 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 22:03:09 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:03:10 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:06:59 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:07:51 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:07:51 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:09:24 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:11:01 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:13:30 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:14:59 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:15:00 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:17:41 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:17:41 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:18:24 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:18:57 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:23:07 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:23:07 [ERROR]: Error details:
+2025-11-20 22:23:41 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:23:41 [ERROR]: Error details:
+2025-11-20 22:26:59 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:26:59 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:27:13 [ERROR]: Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:27:13 [ERROR]: Error details:
+2025-11-20 22:29:14 [ERROR]: ❌ Multer upload error: The AWS Access Key Id you provided does not exist in our records.
+2025-11-20 22:29:14 [ERROR]: Error code:
+2025-11-20 22:29:14 [ERROR]: Error message:
+2025-11-20 22:29:14 [ERROR]: Full error:
+2025-11-20 22:35:01 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-11-20 22:35:18 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-11-20 22:35:45 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:35:45 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:38:07 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:41:36 [ERROR]: Error creating NewsandBlogs: Cannot read properties of undefined (reading 'create')
+2025-11-20 22:41:36 [ERROR]: Error message:
+2025-11-20 22:41:36 [ERROR]: Error stack:
+2025-11-20 22:41:36 [ERROR]: Request body:
+2025-11-20 22:41:49 [ERROR]: Error creating NewsandBlogs: Cannot read properties of undefined (reading 'create')
+2025-11-20 22:41:49 [ERROR]: Error message:
+2025-11-20 22:41:49 [ERROR]: Error stack:
+2025-11-20 22:41:49 [ERROR]: Request body:
+2025-11-20 22:42:58 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:42:58 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:43:08 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:43:08 [ERROR]: Internal server error:StrictPopulateError: Cannot populate path `JobApplication` because it is not in your schema. Set the `strictPopulate` option to false to override.
+2025-11-20 22:58:51 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 22:58:53 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:01:32 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:01:34 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:01:53 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:04:10 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:04:12 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:05:17 [ERROR]: CurrentPassword is incorrect 
+2025-11-20 23:11:01 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:11:01 [ERROR]: Error message:
+2025-11-20 23:11:01 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:11:01 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:12:49 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:12:49 [ERROR]: Error message:
+2025-11-20 23:13:05 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:13:05 [ERROR]: Error message:
+2025-11-20 23:13:06 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:13:06 [ERROR]: Error message:
+2025-11-20 23:13:13 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:13:13 [ERROR]: Error message:
+2025-11-20 23:13:13 [ERROR]: Error stack:
+2025-11-20 23:13:13 [ERROR]: Request body:
+2025-11-20 23:13:32 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:13:32 [ERROR]: Error message:
+2025-11-20 23:13:32 [ERROR]: Error stack:
+2025-11-20 23:13:32 [ERROR]: Request body:
+2025-11-20 23:16:07 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:07 [ERROR]: Error message:
+2025-11-20 23:16:07 [ERROR]: Error stack:
+2025-11-20 23:16:07 [ERROR]: Request body:
+2025-11-20 23:16:10 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error searching portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error searching portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:10 [ERROR]: Error getting one record for portfolio: Model portfolio not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:10 [ERROR]: Error message:
+2025-11-20 23:16:14 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:14 [ERROR]: Error message:
+2025-11-20 23:16:14 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:14 [ERROR]: Error message:
+2025-11-20 23:16:14 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:14 [ERROR]: Error message:
+2025-11-20 23:16:14 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:16:14 [ERROR]: Error message:
+2025-11-20 23:18:26 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:18:26 [ERROR]: Error message:
+2025-11-20 23:18:26 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:18:26 [ERROR]: Error message:
+2025-11-20 23:18:26 [ERROR]: Error searching NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:18:26 [ERROR]: Error message:
+2025-11-20 23:18:26 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:18:26 [ERROR]: Error message:
+2025-11-20 23:18:52 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:18:52 [ERROR]: Error message:
+2025-11-20 23:18:52 [ERROR]: Error stack:
+2025-11-20 23:18:52 [ERROR]: Request body:
+2025-11-20 23:19:17 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:19:17 [ERROR]: Error message:
+2025-11-20 23:19:17 [ERROR]: Error stack:
+2025-11-20 23:19:17 [ERROR]: Request body:
+2025-11-20 23:19:47 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:19:47 [ERROR]: Error message:
+2025-11-20 23:19:47 [ERROR]: Error stack:
+2025-11-20 23:19:47 [ERROR]: Request body:
+2025-11-20 23:20:20 [ERROR]: Error creating NewsandBlogs: Model NewsandBlogs not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:20:20 [ERROR]: Error message:
+2025-11-20 23:20:20 [ERROR]: Error stack:
+2025-11-20 23:20:20 [ERROR]: Request body:
+2025-11-20 23:21:56 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:21:56 [ERROR]: Error message:
+2025-11-20 23:21:56 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:21:56 [ERROR]: Error message:
+2025-11-20 23:25:12 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:25:12 [ERROR]: Error message:
+2025-11-20 23:25:12 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:25:12 [ERROR]: Error message:
+2025-11-20 23:25:52 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:25:52 [ERROR]: Error message:
+2025-11-20 23:25:52 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:25:52 [ERROR]: Error message:
+2025-11-20 23:25:57 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:25:57 [ERROR]: Error message:
+2025-11-20 23:26:02 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:26:02 [ERROR]: Error message:
+2025-11-20 23:26:07 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:26:07 [ERROR]: Error message:
+2025-11-20 23:26:12 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:26:12 [ERROR]: Error message:
+2025-11-20 23:28:51 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:28:52 [ERROR]: Error message:
+2025-11-20 23:28:52 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:28:52 [ERROR]: Error message:
+2025-11-20 23:29:01 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:01 [ERROR]: Error message:
+2025-11-20 23:29:01 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:01 [ERROR]: Error message:
+2025-11-20 23:29:33 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:33 [ERROR]: Error message:
+2025-11-20 23:29:33 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:33 [ERROR]: Error message:
+2025-11-20 23:29:53 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:53 [ERROR]: Error message:
+2025-11-20 23:29:53 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:29:53 [ERROR]: Error message:
+2025-11-20 23:30:31 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:30:31 [ERROR]: Error message:
+2025-11-20 23:30:31 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:30:31 [ERROR]: Error message:
+2025-11-20 23:34:04 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:34:04 [ERROR]: Error message:
+2025-11-20 23:34:04 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:34:04 [ERROR]: Error message:
+2025-11-20 23:35:20 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:35:20 [ERROR]: Error message:
+2025-11-20 23:35:20 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:35:20 [ERROR]: Error message:
+2025-11-20 23:36:17 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:36:17 [ERROR]: Error message:
+2025-11-20 23:36:17 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:36:17 [ERROR]: Error message:
+2025-11-20 23:37:11 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:37:11 [ERROR]: Error message:
+2025-11-20 23:37:11 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:37:11 [ERROR]: Error message:
+2025-11-20 23:38:32 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:32 [ERROR]: Error message:
+2025-11-20 23:38:32 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:32 [ERROR]: Error message:
+2025-11-20 23:38:43 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:43 [ERROR]: Error message:
+2025-11-20 23:38:43 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:43 [ERROR]: Error message:
+2025-11-20 23:38:47 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:47 [ERROR]: Error message:
+2025-11-20 23:38:47 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-20 23:38:47 [ERROR]: Error message:
+2025-11-21 21:52:40 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:52:40 [ERROR]: Error message:
+2025-11-21 21:52:40 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:52:40 [ERROR]: Error message:
+2025-11-21 21:54:48 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:54:52 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:07 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:08 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:09 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:09 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:10 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:10 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:10 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:55:55 [ERROR]: CurrentPassword is incorrect 
+2025-11-21 21:56:04 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:04 [ERROR]: Error message:
+2025-11-21 21:56:04 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:04 [ERROR]: Error message:
+2025-11-21 21:56:11 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:11 [ERROR]: Error message:
+2025-11-21 21:56:11 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:11 [ERROR]: Error message:
+2025-11-21 21:56:23 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:23 [ERROR]: Error message:
+2025-11-21 21:56:23 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-21 21:56:23 [ERROR]: Error message:
+2025-11-23 15:14:46 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:14:46 [ERROR]: Error message:
+2025-11-23 15:14:47 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:14:47 [ERROR]: Error message:
+2025-11-23 15:18:35 [ERROR]: Error sending OTP email to joshichinmay775@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b787407c0sm42326405ad.49 - gsmtp
+2025-11-23 15:18:35 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b787407c0sm42326405ad.49 - gsmtp
+2025-11-23 15:20:25 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:20:25 [ERROR]: Error message:
+2025-11-23 15:20:25 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:20:25 [ERROR]: Error message:
+2025-11-23 15:20:34 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:20:34 [ERROR]: Error message:
+2025-11-23 15:20:34 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:20:34 [ERROR]: Error message:
+2025-11-23 15:23:20 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:23:20 [ERROR]: Error message:
+2025-11-23 15:23:21 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:23:21 [ERROR]: Error message:
+2025-11-23 15:24:51 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:24:51 [ERROR]: Error message:
+2025-11-23 15:24:51 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:24:51 [ERROR]: Error message:
+2025-11-23 15:25:03 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:03 [ERROR]: Error message:
+2025-11-23 15:25:03 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:03 [ERROR]: Error message:
+2025-11-23 15:25:36 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:36 [ERROR]: Error message:
+2025-11-23 15:25:36 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:36 [ERROR]: Error message:
+2025-11-23 15:25:38 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:38 [ERROR]: Error message:
+2025-11-23 15:25:38 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:38 [ERROR]: Error message:
+2025-11-23 15:25:41 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:41 [ERROR]: Error message:
+2025-11-23 15:25:41 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:25:41 [ERROR]: Error message:
+2025-11-23 15:26:37 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:26:37 [ERROR]: Error message:
+2025-11-23 15:26:37 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:26:37 [ERROR]: Error message:
+2025-11-23 15:26:51 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:26:51 [ERROR]: Error message:
+2025-11-23 15:26:51 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:26:51 [ERROR]: Error message:
+2025-11-23 15:27:47 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:27:47 [ERROR]: Error message:
+2025-11-23 15:27:48 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:27:48 [ERROR]: Error message:
+2025-11-23 15:27:54 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:27:54 [ERROR]: Error message:
+2025-11-23 15:27:54 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:27:54 [ERROR]: Error message:
+2025-11-23 15:28:07 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:28:07 [ERROR]: Error message:
+2025-11-23 15:28:07 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:28:07 [ERROR]: Error message:
+2025-11-23 15:29:45 [ERROR]: Error creating Movies: Model Movies (normalized: Movies) not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:29:45 [ERROR]: Error message:
+2025-11-23 15:29:45 [ERROR]: Error stack:
+2025-11-23 15:29:45 [ERROR]: Request body:
+2025-11-23 15:32:27 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:32:27 [ERROR]: Error message:
+2025-11-23 15:32:28 [ERROR]: Error searching Movies: Model Movies not found. Available models: User, Course, Cart, Video, Audio, Pdf, JobPosting, JobApplication, Portfolio, PortfolioProject, PortfolioPhoto, PortfolioAchievement, PortfolioContact, Payment, Comment, Newsletter, NewsAndBlogs, Movie, Contact
+2025-11-23 15:32:28 [ERROR]: Error message:
+2025-11-23 15:41:54 [ERROR]: Error sending OTP email to chinmayjoshi9079@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7c3ed0751dfsm11165863b3a.6 - gsmtp
+2025-11-23 15:41:54 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7c3ed0751dfsm11165863b3a.6 - gsmtp
+2025-11-23 15:44:51 [ERROR]: Error sending OTP email to chinmayjoshi9079@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b25e56esm104868015ad.57 - gsmtp
+2025-11-23 15:44:51 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b25e56esm104868015ad.57 - gsmtp
+2025-11-23 17:19:26 [ERROR]: Account not found

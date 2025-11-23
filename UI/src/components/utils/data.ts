@@ -1,0 +1,208 @@
+export const artCategories = [
+  {
+    name: "Music",
+    description: "Explore the world of melodies and tunes.",
+    theme: "#e5752d",
+    value: "music",
+    src: "/assets/art category/Music.jpg",
+  },
+  {
+    name: "Video Non-Copyrighted",
+    description: "Access a library of non-copyrighted videos.",
+    theme: "#51c1e7",
+    value: "video-non-copyrighted",
+    src: "/assets/art category/Video Non-Copyrighted.jpg",
+  },
+  {
+    name: "Soft Books",
+    description: "A collection of lightweight and engaging reads.",
+    theme: "#feef23",
+    value: "soft-books",
+    src: "/assets/art category/Soft Books.jpg",
+  },
+  {
+    name: "Poetry",
+    description: "Dive into the art of words and emotions.",
+    theme: "#C70039",
+    value: "poetry",
+    src: "/assets/art category/Poetry.jpg",
+  },
+  {
+    name: "Lines and Shayari",
+    description: "Experience profound thoughts in short lines.",
+    theme: "#51c1e7",
+    value: "lines-shayari",
+    src: "/assets/art category/Lines and Shayari.jpg",
+  },
+  {
+    name: "Dialogue",
+    description: "Memorable dialogues from various contexts.",
+    theme: "#C70039",
+    value: "dialogue",
+    src: "/assets/art category/Dialogue.jpg",
+  },
+  {
+    name: "Songs",
+    description: "Collection of popular and trending songs.",
+    theme: "#feef23",
+    value: "songs",
+    src: "/assets/art category/Songs.jpg",
+  },
+  {
+    name: "Video",
+    description: "Engaging and creative video content.",
+    theme: "#e5752d",
+    value: "video",
+    src: "/assets/art category/Video.jpg",
+  },
+  {
+    name: "Film",
+    description: "A platform for showcasing cinematic art.",
+    theme: "#51c1e7",
+    value: "film",
+    src: "/assets/art category/Film.jpg",
+  },
+  {
+    name: "Movies",
+    description: "Popular and classic movies in one place.",
+    theme: "#feef23",
+    value: "movies",
+    src: "/assets/art category/Movies.jpg",
+  },
+  {
+    name: "Gameplay",
+    description: "Exciting gameplay videos from various genres.",
+    theme: "#C70039",
+    value: "gameplay",
+    src: "/assets/art category/Gameplay.jpg",
+  },
+  {
+    name: "Walkthrough",
+    description: "Step-by-step guides for games and activities.",
+    theme: "#51c1e7",
+    value: "walkthrough",
+    src: "/assets/art category/Walkthrough.jpg",
+  },
+  {
+    name: "Tricks & Tips",
+    description: "Learn handy tricks and tips for everyday use.",
+    theme: "#feef23",
+    value: "tricks-tips",
+    src: "/assets/art category/Tricks & Tips.jpg",
+  },
+  {
+    name: "Fan Art",
+    description: "Creative fan art from various fandoms.",
+    theme: "#C70039",
+    value: "fan-art",
+    src: "/assets/art category/Fan Art.jpg",
+  },
+  {
+    name: "Tribute",
+    description: "Honoring great personalities through art.",
+    theme: "#e5752d",
+    value: "tribute",
+    src: "/assets/art category/Tribute.jpg",
+  },
+  {
+    name: "Series",
+    description: "Explore engaging and thrilling series.",
+    theme: "#51c1e7",
+    value: "series",
+    src: "/assets/art category/Series.jpg",
+  },
+  {
+    name: "Documentary",
+    description: "Informative and insightful documentaries.",
+    theme: "#feef23",
+    value: "documentary",
+    src: "/assets/art category/Documentary.jpg",
+  },
+  {
+    name: "Journey",
+    description: "Stories and experiences from incredible journeys.",
+    theme: "#C70039",
+    value: "journey",
+    src: "/assets/art category/Journey.jpg",
+  },
+];
+
+
+  
+
+export const artistCategoryTypes = [
+  {
+    name: "Singer",
+    description: "A performer specializing in vocal music.",
+    theme: "#e5752d",
+    value: "singer",
+    src: "/assets/art category/Singer.jpg",
+  },
+  {
+    name: "Actor",
+    description: "A professional performing in theatre, film, or television.",
+    theme: "#51c1e7",
+    value: "actor",
+    src: "/assets/art category/Actor.jpg",
+  },
+  {
+    name: "Painter",
+    description: "An artist creating visual art with paints.",
+    theme: "#feef23",
+    value: "painter",
+    src: "/assets/art category/Painter.jpg",
+  },
+  {
+    name: "Dancer",
+    description: "An artist expressing through the art of dance.",
+    theme: "#C70039",
+    value: "dancer",
+    src: "/assets/art category/Dancer.jpg",
+  },
+  {
+    name: "Digital Artist",
+    description: "A creator working with digital mediums.",
+    theme: "#51c1e7",
+    value: "digital-artist",
+    src: "/assets/art category/Digital Artist.jpg",
+  },
+  {
+    name: "Photographer",
+    description: "A professional capturing moments through photography.",
+    theme: "#feef23",
+    value: "photographer",
+    src: "/assets/art category/Photographer.jpg",
+  },
+  {
+    name: "Writer",
+    description: "An artist crafting words to tell stories or convey ideas.",
+    theme: "#e5752d",
+    value: "writer",
+    src: "/assets/art category/Writer.jpg",
+  },
+  {
+    name: "Musician",
+    description: "A creator of melodies, tunes, and harmonies.",
+    theme: "#51c1e7",
+    value: "musician",
+    src: "/assets/art category/Musician.jpg",
+  },
+  {
+    name: "Cinematographer",
+    description: "An expert in visual storytelling through cameras.",
+    theme: "#C70039",
+    value: "cinematographer",
+    src: "/assets/art category/Cinematographer.jpg",
+  },
+  {
+    name: "Voice Artist",
+    description: "A performer specializing in voice-overs or dubbing.",
+    theme: "#e5752d",
+    value: "voice-artist",
+    src: "/assets/art category/Voice Artist.jpg",
+  },
+];
+
+  
+  
+  export const contentFormats = ["Audio", "Video", "Document"];

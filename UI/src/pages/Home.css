@@ -1,0 +1,80 @@
+#r-news-head {
+  font-family: "Custom-Regular";
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.2;
+  height: fit-content;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 4px;
+}
+#r-news-head-horz {
+  /* font-family: "Custom-Regular"; */
+  color: black;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.2;
+  height: fit-content;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 4px;
+}
+#r-news-head:hover {
+  /* text-shadow: 0px 0px 16px rgb(255, 0, 0); */
+  /* color: white; */
+  text-decoration: underline;
+}
+#r-news-head-horz:hover {
+  /* text-shadow: 0px 0px 16px rgb(255, 0, 0); */
+  /* color: white; */
+  text-decoration: underline;
+}
+
+#r-news-date {
+  padding: 0.3rem 0.7rem 0.2rem 0.7rem;
+  display: flex;
+  gap: 5px;
+  font-size: 8px;
+  color: white;
+  background: black;
+  width: fit-content;
+  border-radius: 42px;
+  line-height: 1.2;
+  border: solid 1px white;
+  margin-bottom: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Add this to your CSS file */
+.sidebar-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.sidebar-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 300ms ease, opacity 300ms ease;
+}
+.sidebar-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+.sidebar-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 300ms ease, opacity 300ms ease;
+}
