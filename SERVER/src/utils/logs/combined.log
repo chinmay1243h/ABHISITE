@@ -7551,3 +7551,19 @@ notNull Violation: payment.amount cannot be null
 2025-12-15 22:43:20 [INFO]: GridFS bucket 'uploads' initialized
 2025-12-15 22:43:20 [INFO]: ✅ Using MongoDB GridFS for file storage
 2025-12-15 22:43:20 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:43:24 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:43:24 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:43:24 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:43:24 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:43:24 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:43:25 [INFO]: server is running on port 4000
+2025-12-15 22:43:25 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:43:25 [INFO]: Connected to database: test
+2025-12-15 22:43:25 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:43:25 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:43:27 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:43:27 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:43:27 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:43:27 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:44:41 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:44:41 [INFO]: Getting one record for Portfolio with query:
