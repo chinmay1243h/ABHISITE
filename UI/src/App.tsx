@@ -19,7 +19,6 @@ import JobApplicationForm from "./pages/Career/JobApplicationForm";
 import NewsDetails from "./pages/News/NewsDetails";
 import { ShopLandingPage } from "./pages/Shop/ShopLandingPage";
 import ProductDetails from "./pages/Shop/ProductDetails";
-import PortfolioForm from "./pages/Portfolio/PortfolioForm/ProfileForm";
 import PortfolioFormTabs from "./pages/Portfolio/PortfolioForm/PortfolioFormTabs";
 import VerifyOtp from "./pages/Account/VerifyOtp";
 import { ToastContainer } from 'react-toastify';
@@ -50,6 +49,8 @@ import EditCourseForm from "./pages/Shop/EditCourse";
 import RefundPolicy from "./RefundPolicy";
 // import ShippingPolicy from './pages/ShippingPolicy'
 import ContactUs from './ContactUs'
+// import TelegramCourseUpload from "./pages/TelegramCourseUpload";
+import CourseAccess from "./pages/Shop/CourseAccess";
 
 
 
@@ -93,6 +94,8 @@ function App() {
                   <Route path="/account" element={<PrivateRoute component={Account} />} />
                   <Route path="/course-upload" element={<PrivateRoute component={CourseUploadForm} />} />
                   <Route path="/upload" element={<PrivateRoute component={UploadCourse} />} />
+                  {/* <Route path="/telegram-upload" element={<PrivateRoute component={TelegramCourseUpload} />} /> */}
+                  <Route path="/course-access" element={<CourseAccess />} />
 
                   <Route path="/portfolio/:id" element={<PrivateRoute component={Portfolio} />} />
                   <Route path="/portfolio-form" element={<PortfolioFormTabs />} />

@@ -629,3 +629,166 @@ notNull Violation: payment.amount cannot be null
 2025-11-23 15:44:51 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29b5b25e56esm104868015ad.57 - gsmtp
 2025-11-23 17:19:26 [ERROR]: Account not found
+2025-11-23 21:38:49 [ERROR]: Invalid or expired OTP
+2025-11-23 21:48:16 [ERROR]: Error creating Portfolio: E11000 duplicate key error collection: test.portfolios index: userId_1 dup key: { userId: ObjectId('69233371827511e628b2cdc5') }
+2025-11-23 21:48:16 [ERROR]: Error message:
+2025-11-23 21:48:16 [ERROR]: Error stack:
+2025-11-23 21:48:16 [ERROR]: Request body:
+2025-11-23 21:50:22 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:22 [ERROR]: Error message:
+2025-11-23 21:50:22 [ERROR]: Error stack:
+2025-11-23 21:50:22 [ERROR]: Request body:
+2025-11-23 21:50:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:27 [ERROR]: Error message:
+2025-11-23 21:50:27 [ERROR]: Error stack:
+2025-11-23 21:50:27 [ERROR]: Request body:
+2025-11-23 21:50:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:27 [ERROR]: Error message:
+2025-11-23 21:50:27 [ERROR]: Error stack:
+2025-11-23 21:50:27 [ERROR]: Request body:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:34 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:34 [ERROR]: Error message:
+2025-11-23 21:50:34 [ERROR]: Error stack:
+2025-11-23 21:50:34 [ERROR]: Request body:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:51:03 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:03 [ERROR]: Error message:
+2025-11-23 21:51:03 [ERROR]: Error stack:
+2025-11-23 21:51:03 [ERROR]: Request body:
+2025-11-23 21:51:03 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:03 [ERROR]: Error message:
+2025-11-23 21:51:03 [ERROR]: Error stack:
+2025-11-23 21:51:03 [ERROR]: Request body:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:05 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:05 [ERROR]: Error message:
+2025-11-23 21:51:05 [ERROR]: Error stack:
+2025-11-23 21:51:05 [ERROR]: Request body:
+2025-11-24 22:45:49 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:49 [ERROR]: Error message:
+2025-11-24 22:45:49 [ERROR]: Error stack:
+2025-11-24 22:45:49 [ERROR]: Request body:
+2025-11-24 22:45:50 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:50 [ERROR]: Error message:
+2025-11-24 22:45:50 [ERROR]: Error stack:
+2025-11-24 22:45:50 [ERROR]: Request body:
+2025-11-24 22:45:50 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:50 [ERROR]: Error message:
+2025-11-24 22:45:50 [ERROR]: Error stack:
+2025-11-24 22:45:50 [ERROR]: Request body:
+2025-11-24 22:46:01 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:46:01 [ERROR]: Error message:
+2025-11-24 22:46:01 [ERROR]: Error stack:
+2025-11-24 22:46:01 [ERROR]: Request body:
+2025-11-28 19:46:01 [ERROR]: Error sending OTP email to chinmayjoshi9079@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3477b7341d2sm4961703a91.11 - gsmtp
+2025-11-28 19:46:01 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3477b7341d2sm4961703a91.11 - gsmtp
+2025-11-28 19:46:32 [ERROR]: Invalid or expired OTP
+2025-11-28 19:49:00 [ERROR]: Error creating PortfolioProject: PortfolioProject validation failed: portfolioId: Path `portfolioId` is required.
+2025-11-28 19:49:00 [ERROR]: Error message:
+2025-11-28 19:49:00 [ERROR]: Error stack:
+2025-11-28 19:49:00 [ERROR]: Request body:
+2025-11-28 19:49:19 [ERROR]: Error creating PortfolioProject: PortfolioProject validation failed: portfolioId: Path `portfolioId` is required.
+2025-11-28 19:49:19 [ERROR]: Error message:
+2025-11-28 19:49:19 [ERROR]: Error stack:
+2025-11-28 19:49:19 [ERROR]: Request body:
+2025-11-30 23:15:28 [ERROR]: Account not found
+2025-12-12 20:25:21 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:21 [ERROR]: Error message:
+2025-12-12 20:25:21 [ERROR]: Error stack:
+2025-12-12 20:25:21 [ERROR]: Request body:
+2025-12-12 20:25:26 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:26 [ERROR]: Error message:
+2025-12-12 20:25:26 [ERROR]: Error stack:
+2025-12-12 20:25:26 [ERROR]: Request body:
+2025-12-12 20:25:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:27 [ERROR]: Error message:
+2025-12-12 20:25:27 [ERROR]: Error stack:
+2025-12-12 20:25:27 [ERROR]: Request body:
+2025-12-12 20:25:44 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:44 [ERROR]: Error message:
+2025-12-12 20:25:44 [ERROR]: Error stack:
+2025-12-12 20:25:44 [ERROR]: Request body:
+2025-12-12 20:27:58 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.
+2025-12-12 20:27:58 [ERROR]: Error message:
+2025-12-12 20:27:58 [ERROR]: Error stack:
+2025-12-12 20:27:58 [ERROR]: Request body:
+2025-12-12 20:29:13 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.
+2025-12-12 20:29:13 [ERROR]: Error message:
+2025-12-12 20:29:13 [ERROR]: Error stack:
+2025-12-12 20:29:13 [ERROR]: Request body:

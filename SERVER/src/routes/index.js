@@ -13,6 +13,12 @@ router.use("/auth", require("./auth.route"));
 router.use("/razorpay", require("./razorpay.route"));
 router.use("/job", require("./job.posting"));
 router.use("/chatbot", require("./chatbot.route"));
+router.use("/telegram", require("./telegramBot.route"));
+router.use("/Course", require("./course.routes"));
+
+// New Telegram course management routes
+router.use("/courses", require("./courses"));
+router.use("/telegram-files", require("./telegramFiles"));
 
 // Catch-all route should be last - only match paths not already handled
 const queryRoute = require("./query.route");

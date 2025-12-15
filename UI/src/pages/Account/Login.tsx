@@ -7,9 +7,9 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import { useFormik } from "formik";
-import { JSXElementConstructor, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { toast, ToastContentProps } from "react-toastify";
+import { toast } from "react-toastify";
 import PasswordField from "../../components/form/PasswordField";
 import { Arrow } from "../../components/shared/Arrow";
 import color from "../../components/utils/Colors";
@@ -17,6 +17,7 @@ import { inputSx } from "../../components/utils/CommonStyle";
 import { loginSchema } from "../../components/utils/schema";
 import { setCurrentAccessToken } from "../../services/axiosClient";
 import { login } from "../../services/services";
+import LoginDebug from "../../components/shared/LoginDebug";
 
 const LoginPage = () => {
   const formik = useFormik({
@@ -32,20 +33,56 @@ const LoginPage = () => {
         email: values.email,
         password: values.password
       }
-      login(payLoad).then((res: { data: { msg: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | ((props: ToastContentProps<unknown>) => ReactNode) | null | undefined; data: { accessToken: any; role: any; }; }; }) => {
-
-
+      login(payLoad).then((res: any) => {
+        console.log("Login response:", res);
+        console.log("Response data:", res?.data);
+        console.log("Response data data:", res?.data?.data);
+        
+        // Debug: Check actual structure
+        console.log("Full response structure:", JSON.stringify(res, null, 2));
+        
         if (res?.data?.data?.accessToken) {
+          console.log("Setting token:", res?.data?.data?.accessToken);
           setCurrentAccessToken(res?.data?.data?.accessToken);
+          console.log("Token set successfully");
+          
+          // Verify token was set
+          const verifyToken = localStorage.getItem('accessToken');
+          console.log("Token verification in localStorage:", verifyToken ? "✅ Set" : "❌ Not set");
+        } else {
+          console.log("No access token in response");
+          // Try alternative paths
+          console.log("Checking alternative paths:");
+          console.log("res?.data?.accessToken:", res?.data?.accessToken);
+          console.log("res?.accessToken:", res?.accessToken);
         }
+        
         if (res?.data?.data?.role === "Admin") {
+          console.log("Redirecting to admin dashboard");
           window.location.href = "/admin-dashboard"
         } else {
+          console.log("Redirecting to home page");
           window.location.href = "/"
         }
-        toast(res?.data?.msg);
-      }).catch((err: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | ((props: ToastContentProps<unknown>) => ReactNode) | null | undefined) => {
-        toast("password is incorrect")
+        
+        toast(res?.data?.msg || "Login successful!");
+      }).catch((err: any) => {
+        console.error("Login error:", err);
+        console.error("Error response:", err?.response);
+        console.error("Error status:", err?.response?.status);
+        console.error("Error data:", err?.response?.data);
+        
+        if (err?.response?.data?.msg) {
+          toast.error(err.response.data.msg);
+        } else if (err?.response?.status === 404) {
+          toast.error("Account not found. Please check your email or sign up.");
+        } else if (err?.response?.status === 401) {
+          toast.error("Incorrect password. Please try again.");
+        } else if (err?.response?.status === 500) {
+          toast.error("Server error. Please try again later.");
+        } else {
+          toast.error("Login failed. Please try again.");
+        }
       })
     },
   });
@@ -221,6 +258,7 @@ const LoginPage = () => {
           </Typography>
 
           <Typography
+            component="div"
             style={{
               textAlign: "center",
               color: "white",
@@ -231,7 +269,7 @@ const LoginPage = () => {
               marginBottom: "10px",
             }}
           >
-            <Typography
+            <span
               style={{
                 textAlign: "center",
                 color: "white",
@@ -241,7 +279,7 @@ const LoginPage = () => {
               }}
             >
               Visit
-            </Typography>
+            </span>
             <span
               onClick={() => {
                 navigate("/blog");
@@ -406,6 +444,7 @@ const LoginPage = () => {
           </Box>
         </Box>
       </div>
+      <LoginDebug />
     </Box>
   );
 };

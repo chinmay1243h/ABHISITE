@@ -33,13 +33,19 @@ let verifySign = (req, res, next) => {
       .status(httpResponseCodes.UNAUTHORIZED)
       .json(prepareResponse("UNAUTHORIZED", ACCESS_TOKEN_MISSING, null, null));
   }
+  
+  // Remove "Bearer " prefix if present
+  const token = bearerToken.startsWith("Bearer ") ? bearerToken.slice(7) : bearerToken;
+  
   try {
-    jwt.verify(bearerToken, JWT_SECRET_KEY, function (error, decoded) {
+    jwt.verify(token, JWT_SECRET_KEY, function (error, decoded) {
       if (error) {
+        console.error('JWT Verification Error:', error.message);
+        console.error('Token received:', token.substring(0, 20) + '...');
         return res
           .status(httpResponseCodes.UNAUTHORIZED)
           .json(
-            prepareResponse("FORBIDDEN", INVALID_ACCESS_TOKEN, null, error)
+            prepareResponse("FORBIDDEN", INVALID_ACCESS_TOKEN, null, error.message)
           );
       }
       req.decoded = decoded;

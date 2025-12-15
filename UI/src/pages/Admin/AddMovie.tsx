@@ -167,9 +167,16 @@ const AddMovie = () => {
             console.error("No valid user ID found. Please log out and log back in.");
             return;
           }
-        } catch (profileError) {
+        } catch (profileError: any) {
           console.error("Error fetching profile:", profileError);
-          toast.error("User ID not found. Please login again.");
+          // Check if it's an authentication error
+          if (profileError?.response?.status === 401) {
+            toast.error("Session expired. Please login again.");
+            // Redirect to login page
+            navigate('/login');
+            return;
+          }
+          toast.error("Unable to verify user identity. Please login again.");
           return;
         }
       }

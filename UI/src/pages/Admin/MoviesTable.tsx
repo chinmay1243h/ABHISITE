@@ -42,8 +42,20 @@ const MoviesTable = () => {
             toast.success("Movie deleted successfully.");
         } catch (error: any) {
             console.error("Failed to delete movie:", error);
-            const errorMessage = error?.response?.data?.msg || error?.message || "Failed to delete movie";
-            toast.error(errorMessage);
+            
+            if (error?.response?.status === 401) {
+                toast.error("Session expired. Please login again.");
+                setTimeout(() => {
+                    window.location.href = '/login';
+                }, 2000);
+            } else if (error?.response?.status === 403) {
+                toast.error("You don't have permission to delete this movie.");
+            } else if (error?.response?.status === 404) {
+                toast.error("Movie not found or already deleted.");
+            } else {
+                const errorMessage = error?.response?.data?.msg || error?.message || "Failed to delete movie";
+                toast.error(errorMessage);
+            }
         }
     };
 

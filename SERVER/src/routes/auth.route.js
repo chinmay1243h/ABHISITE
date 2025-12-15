@@ -54,7 +54,7 @@ router
 //GET the PROFILE
 router
   .route("/profile")
-  .get(verifySign, asyncHandler("user", asyncHandler("user", getProfile)));
+  .get(verifySign, asyncHandler("user", getProfile));
 
 //update the PROFILE
 router

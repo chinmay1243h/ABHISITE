@@ -13,6 +13,8 @@ module.exports = {
   PortfolioAchievement: require("./portfolioAchivements"),
   PortfolioContact: require("./portfolioContact"),
   Payment: require("./payment.model"),
+  Order: require("./order.model"),
+  Transaction: require("./transaction.model"),
   Comment: require("./comment.model"),
   Newsletter: require("./newslatter"),
   NewsAndBlogs: require("./newsandblogs"),

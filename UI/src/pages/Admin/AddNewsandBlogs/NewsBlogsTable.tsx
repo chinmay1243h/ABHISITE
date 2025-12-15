@@ -63,8 +63,20 @@ const NewsAndBlogsTable: React.FC = () => {
                 setNewsIdToDelete(null); // Reset the ID
             } catch (error: any) {
                 console.error("Delete news/blog error:", error);
-                const errorMessage = error?.response?.data?.msg || error?.message || "Failed to delete news/blog";
-                toast.error(errorMessage);
+                
+                if (error?.response?.status === 401) {
+                    toast.error("Session expired. Please login again.");
+                    setTimeout(() => {
+                        window.location.href = '/login';
+                    }, 2000);
+                } else if (error?.response?.status === 403) {
+                    toast.error("You don't have permission to delete this item.");
+                } else if (error?.response?.status === 404) {
+                    toast.error("Item not found or already deleted.");
+                } else {
+                    const errorMessage = error?.response?.data?.msg || error?.message || "Failed to delete news/blog";
+                    toast.error(errorMessage);
+                }
             }
         }
     };
@@ -116,7 +128,8 @@ const NewsAndBlogsTable: React.FC = () => {
                                             alt="Thumbnail"
                                             style={{ width: "50px", height: "50px", objectFit: "cover" }}
                                             onError={(e) => {
-                                                (e.target as HTMLImageElement).src = "https://via.placeholder.com/50x50?text=No+Image";
+                                                const img = e.target as HTMLImageElement;
+                                                img.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjRjVGNUY1Ii8+CjxwYXRoIGQ9Ik0yNSAzNUMzMC41MjI4IDM1IDM1IDMwLjUyMjggMzUgMjVDMzUgMTkuNDc3MiAzMC41MjI4IDE1IDI1IDE1QzE5LjQ3NzIgMTUgMTUgMTkuNDc3MiAxNSAyNUMxNSAzMC41MjI4IDE5LjQ3NzIgMzUgMjUgMzVaIiBmaWxsPSIjOTk5OTk5Ii8+CjxwYXRoIGQ9Ik0yNSAyMEMyNy43NjE0IDIwIDMwIDIyLjIzODYgMzAgMjVDMzAgMjcuNzYxNCAyNy43NjE0IDMwIDI1IDMwQzIyLjIzODYgMzAgMjAgMjcuNzYxNCAyMCAyNUMyMCAyMi4yMzg2IDIyLjIzODYgMjAgMjUgMjBaIiBmaWxsPSIjOTk5OTk5Ii8+Cjwvc3ZnPgo=";
                                             }}
                                         />
                                     ) : (

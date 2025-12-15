@@ -2,27 +2,22 @@
 import {
   Box,
   Button,
-  FormHelperText,
   Grid,
+  Typography,
+  TextField,
+  FormHelperText,
   InputLabel,
   MenuItem,
-  TextField,
-  Typography,
 } from "@mui/material";
-import { Field, Form, Formik } from "formik";
-import { useEffect, useState } from "react";
-import * as Yup from "yup";
-import { inputSx } from "../../components/utils/CommonStyle";
-import { docsUpload, getProfile, insertCourse } from "../../services/services";
-import {
-  getfirstName,
-  getlastName,
-  getUserId,
-  isLoggedIn,
-} from "../../services/axiosClient";
-import { toast } from "react-toastify";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import { Formik, Form, Field } from "formik";
+import * as Yup from "yup";
+import { insertCourse, docsUpload } from "../../services/services";
+import { getUserId } from "../../services/axiosClient";
 import { artCategories } from "../../components/utils/data";
+import { inputSx } from "../../components/utils/CommonStyle";
 
 const licenseTypes = ["Free", "Paid", "Creative Commons", "Royalty-Free"];
 
@@ -41,18 +36,33 @@ const validationSchema = Yup.object().shape({
   releaseDate: Yup.date().required("Release date is required"),
   // thumbnail: Yup.mixed().required("Thumbnail is required"),
   licenseType: Yup.string().required("Please select a license type"),
+  courseType: Yup.string().required("Please select a course type"),
 });
 
 const courseUploadForm = () => {
-  const [user, setUser] = useState<any>({ firstName: "", lastName: "" });
+  const [user, setUser] = useState<any>({
+    firstName: "",
+    lastName: "",
+    email: "",
+  });
+
   useEffect(() => {
-    getProfile()
-      .then((res: any) => {
-        setUser(res?.data?.data);
-      })
-      .catch((err: any) => {
-        console.log(err);
-      });
+    // Get user data from decoded token instead of API call
+    const token = localStorage.getItem('token') || localStorage.getItem('accessToken');
+    if (token) {
+      try {
+        // Decode JWT token to get user data
+        const payload = JSON.parse(atob(token.split('.')[1]));
+        const nameParts = payload.name?.split(' ') || ['', ''];
+        setUser({
+          firstName: nameParts[0] || '',
+          lastName: nameParts[1] || '',
+          email: payload.email_id || '',
+        });
+      } catch (error) {
+        console.error('Error decoding token:', error);
+      }
+    }
   }, []);
   console.log(user);
   const initialValues = {
@@ -70,33 +80,50 @@ const courseUploadForm = () => {
   };
   const navigate = useNavigate();
 
-  const handleSubmit = (values: any) => {
+  const handleSubmit = async (values: any) => {
     console.log("Form Values:", values);
-    const payLoad = {
-      userId: getUserId(),
-      firstName: user.firstName,
-      lastName: user.lastName,
-      title: values.productTitle,
-      description: values.description,
-      category: values.category,
-      tags: values.tags,
-      price: values.price,
-      discount: values.discount,
-      productType: values.productType,
-      licenseType: values.licenseType,
-      thumbnail: values.thumbnail,
-      releaseDate: values.releaseDate,
-      courseType: values.courseType,
-    };
-    console.log(payLoad);
-    insertCourse(payLoad)
-      .then((res: any) => {
-        toast(res?.data?.msg);
-        navigate("/upload", { state: res?.data?.data?.id });
-      })
-      .catch((err: any) => {
-        console.log(err);
-      });
+    console.log("User data:", user);
+    console.log("User ID:", getUserId());
+    
+    // Validate required fields before sending
+    if (!values.productTitle || !values.description || !values.category || !values.courseType) {
+      toast.error("Please fill in all required fields");
+      return;
+    }
+    
+    try {
+      // Prepare course payload for regular course creation
+      const coursePayload = {
+        userId: getUserId(),
+        instructor: getUserId(), // Same as userId for now
+        firstName: user.firstName || "Unknown",
+        lastName: user.lastName || "Artist",
+        title: values.productTitle,
+        description: values.description,
+        category: values.category,
+        tags: values.tags ? values.tags.split(',').map((tag: string) => tag.trim()) : [],
+        price: parseFloat(values.price) || 0,
+        discount: values.discount || "0%",
+        licenseType: values.licenseType || "Paid",
+        courseType: values.courseType,
+        thumbnail: values.thumbnail || null,
+        releaseDate: values.releaseDate ? new Date(values.releaseDate) : new Date(),
+        isPublished: false, // Start as draft
+        isDraft: true,
+      };
+      
+      console.log("Course Payload:", coursePayload);
+      
+      const res = await insertCourse(coursePayload);
+      toast.success("Course created successfully!");
+      
+      // Navigate to course details or dashboard
+      navigate(`/product/${res?.data?.data?._id}`);
+      
+    } catch (err: any) {
+      console.log("Error details:", err);
+      toast.error(err?.response?.data?.message || err?.response?.data?.msg || "Error creating course");
+    }
   };
   const [uploading, setUploading] = useState(false);
   const [thumbnailPreview, setThumbnailPreview] = useState<string | null>(null);

@@ -8,16 +8,21 @@ const BASE_URL = 'http://localhost:4000/api'
 
 
 export function getCurrentAccessToken() {
-    return localStorage.getItem('accessToken');
+    // SSR ya build issues avoid karne ke liye
+    if (typeof window === "undefined") return null;
+
+    const token = localStorage.getItem('accessToken');
+    
+    // Console spam avoid karne ke liye comment kar diya
+    // if (!token) {
+    //     console.warn('No access token found in localStorage');
+    // }
+    
+    return token;
 }
 
 export function isLoggedIn() {
-    if (localStorage.getItem('accessToken')) {
-        return true;
-    }
-    else {
-        return false;
-    }
+    return getCurrentAccessToken() !== null;
 }
 
 export async function logout() {
@@ -60,7 +65,7 @@ export function getlastName(): string {
 
 
 export function getUserId(): string {
-    let token: any = localStorage.getItem('accessToken');
+    let token: any = localStorage.getItem('token') || localStorage.getItem('accessToken');
     if (token) {
         try {
             let decoded: any = jwtDecode(token);

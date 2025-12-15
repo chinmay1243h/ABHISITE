@@ -50,6 +50,12 @@ const userSchema = new mongoose.Schema(
       type: String,
       default: null,
     },
+    telegram: {
+      userId: { type: Number, default: null },
+      chatId: { type: Number, default: null },
+      username: { type: String, default: null },
+      linkedAt: { type: Date, default: null },
+    },
   },
   {
     timestamps: true,
@@ -58,7 +64,7 @@ const userSchema = new mongoose.Schema(
 );
 
 // Indexes
-userSchema.index({ email: 1 });
+// Email index is automatically created by unique: true in schema definition
 userSchema.index({ firstName: 1 });
 userSchema.index({ status: 1 });
 

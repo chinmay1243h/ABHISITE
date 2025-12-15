@@ -71,8 +71,14 @@ export const Header: React.FC = () => {
     if (isLoggedIn()) {
       getProfile().then((res) => {
         setUser(res?.data?.data);
-      }).catch((err) => {
+      }).catch((err: any) => {
         console.log(err)
+        // Check if it's an authentication error
+        if (err?.response?.status === 401) {
+          console.error("Session expired");
+          // Redirect to login page
+          window.location.href = '/login';
+        }
       })
     }
   }, [])

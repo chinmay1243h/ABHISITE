@@ -1,18 +1,13 @@
 const color = {
-  // firstColor: "#fdb500",
-  firstColor: 'linear-gradient(30deg, black 1%,red 100%)',
-
-  textColor: "#ffffff",
-  textColor1: "#1fd8d1",
-  textColor2: "#86e46b",
-
-  headingBg: 'black',
-
-  secondColor: '#26262e',
-  thirdColor: '#fffbf5',
-
-  borderColor: "#abbaab",
-  forthColor: '#5a2c91',
+  firstColor: "linear-gradient(140deg, #1f1f1f, #2c2c2c)",
+  textColor: "#f5f5f5",
+  textColor1: "#d1c7b8",
+  textColor2: "#aab4c3",
+  headingBg: "#1a1a1a",
+  secondColor: "#232323",
+  thirdColor: "#f3f3f1",
+  borderColor: "#3c3c3c",
+  forthColor: "#6b7280",
 };
 
 export default color;

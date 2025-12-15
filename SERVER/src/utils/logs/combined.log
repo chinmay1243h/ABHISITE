@@ -5292,3 +5292,2262 @@ notNull Violation: payment.amount cannot be null
 2025-11-23 17:50:11 [INFO]: Connected to database: test
 2025-11-23 17:50:11 [INFO]: ✅ MongoDB Connected Successfully
 2025-11-23 17:50:11 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-23 21:29:53 [INFO]: Attempting to connect to MongoDB...
+2025-11-23 21:29:53 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-23 21:29:53 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-23 21:29:53 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-23 21:29:53 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-23 21:29:53 [INFO]: server is running on port 4000
+2025-11-23 21:29:53 [INFO]: MongoDB Connected Successfully
+2025-11-23 21:29:53 [INFO]: Connected to database: test
+2025-11-23 21:29:53 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-23 21:29:53 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-23 21:29:55 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-23 21:29:55 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-23 21:29:55 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-23 21:29:55 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:30:55 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:16 [WARN]: Blocked CORS origin: http://localhost:3000
+2025-11-23 21:32:57 [INFO]: Attempting to connect to MongoDB...
+2025-11-23 21:32:57 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-23 21:32:57 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-23 21:32:57 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-23 21:32:57 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-23 21:32:57 [INFO]: server is running on port 4000
+2025-11-23 21:32:58 [INFO]: MongoDB Connected Successfully
+2025-11-23 21:32:58 [INFO]: Connected to database: test
+2025-11-23 21:32:58 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-23 21:32:58 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-23 21:33:00 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-23 21:33:00 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-23 21:33:00 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-23 21:33:00 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-23 21:33:38 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-23 21:33:38 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-23 21:33:39 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:33:39 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:33:39 [INFO]: Searching User with data:
+2025-11-23 21:33:39 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:33:39 [INFO]: Searching Movie with data:
+2025-11-23 21:33:40 [INFO]: Searching Course with data:
+2025-11-23 21:33:40 [INFO]: Searching User with data:
+2025-11-23 21:33:40 [INFO]: Searching Movie with data:
+2025-11-23 21:33:40 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:33:40 [INFO]: Searching Course with data:
+2025-11-23 21:33:53 [INFO]: File uploaded to GridFS: 1763913832106_666834107_Screenshot 2025-11-23 173518.png (ID: 69233068827511e628b2ccf2, Size: 487881 bytes)
+2025-11-23 21:33:53 [INFO]: File upload request received
+2025-11-23 21:33:53 [INFO]: Files:
+2025-11-23 21:33:53 [INFO]: File:
+2025-11-23 21:33:53 [INFO]: Processing 1 file(s)
+2025-11-23 21:33:53 [INFO]: File 0 properties:
+2025-11-23 21:33:53 [INFO]: File 0 uploaded to GridFS: 1763913832106_666834107_Screenshot 2025-11-23 173518.png (ID: 69233068827511e628b2ccf2)
+2025-11-23 21:33:53 [INFO]: Upload response data:
+2025-11-23 21:34:08 [INFO]: File uploaded to GridFS: 1763913848636_492112207_Screenshot 2025-11-20 032121.png (ID: 69233078827511e628b2ccf5, Size: 418293 bytes)
+2025-11-23 21:34:08 [INFO]: File upload request received
+2025-11-23 21:34:08 [INFO]: Files:
+2025-11-23 21:34:08 [INFO]: File:
+2025-11-23 21:34:08 [INFO]: Processing 1 file(s)
+2025-11-23 21:34:08 [INFO]: File 0 properties:
+2025-11-23 21:34:08 [INFO]: File 0 uploaded to GridFS: 1763913848636_492112207_Screenshot 2025-11-20 032121.png (ID: 69233078827511e628b2ccf5)
+2025-11-23 21:34:08 [INFO]: Upload response data:
+2025-11-23 21:34:16 [INFO]: Creating NewsAndBlogs with data:
+2025-11-23 21:34:16 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:34:16 [INFO]: Searching User with data:
+2025-11-23 21:34:16 [INFO]: Searching Movie with data:
+2025-11-23 21:34:16 [INFO]: Searching Course with data:
+2025-11-23 21:34:16 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:34:16 [INFO]: Searching User with data:
+2025-11-23 21:34:16 [INFO]: Searching Movie with data:
+2025-11-23 21:34:16 [INFO]: Searching Course with data:
+2025-11-23 21:34:20 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:34:20 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:34:20 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:34:20 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:35:45 [INFO]: File uploaded to GridFS: 1763913945317_502274673_Screenshot 2025-11-23 153017.png (ID: 692330d9827511e628b2cd14, Size: 312815 bytes)
+2025-11-23 21:35:45 [INFO]: File upload request received
+2025-11-23 21:35:45 [INFO]: Files:
+2025-11-23 21:35:45 [INFO]: File:
+2025-11-23 21:35:45 [INFO]: Processing 1 file(s)
+2025-11-23 21:35:45 [INFO]: File 0 properties:
+2025-11-23 21:35:45 [INFO]: File 0 uploaded to GridFS: 1763913945317_502274673_Screenshot 2025-11-23 153017.png (ID: 692330d9827511e628b2cd14)
+2025-11-23 21:35:45 [INFO]: Upload response data:
+2025-11-23 21:36:02 [INFO]: File uploaded to GridFS: 1763913962091_624960468_Screenshot 2025-11-20 035653.png (ID: 692330ea827511e628b2cd17, Size: 805873 bytes)
+2025-11-23 21:36:02 [INFO]: File upload request received
+2025-11-23 21:36:02 [INFO]: Files:
+2025-11-23 21:36:02 [INFO]: File:
+2025-11-23 21:36:02 [INFO]: Processing 1 file(s)
+2025-11-23 21:36:02 [INFO]: File 0 properties:
+2025-11-23 21:36:02 [INFO]: File 0 uploaded to GridFS: 1763913962091_624960468_Screenshot 2025-11-20 035653.png (ID: 692330ea827511e628b2cd17)
+2025-11-23 21:36:02 [INFO]: Upload response data:
+2025-11-23 21:36:03 [INFO]: Creating Movie with data:
+2025-11-23 21:36:04 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:36:04 [INFO]: Searching User with data:
+2025-11-23 21:36:04 [INFO]: Searching Course with data:
+2025-11-23 21:36:04 [INFO]: Searching Movie with data:
+2025-11-23 21:36:04 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:36:04 [INFO]: Searching User with data:
+2025-11-23 21:36:04 [INFO]: Searching Movie with data:
+2025-11-23 21:36:04 [INFO]: Searching Course with data:
+2025-11-23 21:36:07 [INFO]: Searching Movie with data:
+2025-11-23 21:36:07 [INFO]: Searching Movie with data:
+2025-11-23 21:36:18 [INFO]: Searching Movie with data:
+2025-11-23 21:36:18 [INFO]: Searching Movie with data:
+2025-11-23 21:36:33 [INFO]: Searching Movie with data:
+2025-11-23 21:36:33 [INFO]: Searching Movie with data:
+2025-11-23 21:36:35 [INFO]: Searching Movie with data:
+2025-11-23 21:36:35 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:36:35 [INFO]: Searching User with data:
+2025-11-23 21:36:35 [INFO]: Searching User with data:
+2025-11-23 21:36:35 [INFO]: Searching Movie with data:
+2025-11-23 21:36:35 [INFO]: Searching Course with data:
+2025-11-23 21:36:35 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:36:35 [INFO]: Searching Course with data:
+2025-11-23 21:37:54 [INFO]: OTP email sent successfully to lolhappens53@gmail.com. MessageId: <24d7d683-8bac-4dd7-78c2-80cdb0a0afe0@gmail.com>
+2025-11-23 21:38:49 [INFO]: User data from OTP:
+2025-11-23 21:38:49 [ERROR]: Invalid or expired OTP
+2025-11-23 21:38:59 [INFO]: User data from OTP:
+2025-11-23 21:39:05 [INFO]: Generating token for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-11-23 21:39:05 [INFO]: Login successful for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-11-23 21:39:07 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:39:07 [INFO]: Searching Movie with data:
+2025-11-23 21:39:07 [INFO]: Searching Course with data:
+2025-11-23 21:39:07 [INFO]: Searching Portfolio with data:
+2025-11-23 21:39:07 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:07 [INFO]: Searching Movie with data:
+2025-11-23 21:39:07 [INFO]: Searching Course with data:
+2025-11-23 21:39:07 [INFO]: Searching Portfolio with data:
+2025-11-23 21:39:07 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:07 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:39:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:14 [INFO]: Searching Movie with data:
+2025-11-23 21:39:14 [INFO]: Searching Movie with data:
+2025-11-23 21:39:23 [INFO]: Searching Movie with data:
+2025-11-23 21:39:23 [INFO]: Searching Course with data:
+2025-11-23 21:39:23 [INFO]: Searching Portfolio with data:
+2025-11-23 21:39:23 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:39:23 [INFO]: Searching Movie with data:
+2025-11-23 21:39:23 [INFO]: Searching Course with data:
+2025-11-23 21:39:23 [INFO]: Searching Portfolio with data:
+2025-11-23 21:39:23 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:40:25 [INFO]: Searching Course with data:
+2025-11-23 21:40:25 [INFO]: Searching Course with data:
+2025-11-23 21:40:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:40:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:40:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:40:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:40:51 [INFO]: Searching Movie with data:
+2025-11-23 21:40:51 [INFO]: Searching Movie with data:
+2025-11-23 21:41:06 [INFO]: Searching Course with data:
+2025-11-23 21:41:06 [INFO]: Searching Payment with data:
+2025-11-23 21:41:06 [INFO]: Searching Course with data:
+2025-11-23 21:41:06 [INFO]: Searching Payment with data:
+2025-11-23 21:41:11 [INFO]: Searching Portfolio with data:
+2025-11-23 21:41:11 [INFO]: Searching Portfolio with data:
+2025-11-23 21:41:16 [INFO]: Searching JobPosting with data:
+2025-11-23 21:41:16 [INFO]: Searching JobPosting with data:
+2025-11-23 21:41:22 [INFO]: Searching Movie with data:
+2025-11-23 21:41:22 [INFO]: Searching Course with data:
+2025-11-23 21:41:22 [INFO]: Searching Portfolio with data:
+2025-11-23 21:41:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:41:22 [INFO]: Searching Movie with data:
+2025-11-23 21:41:22 [INFO]: Searching Course with data:
+2025-11-23 21:41:22 [INFO]: Searching Portfolio with data:
+2025-11-23 21:41:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:45:28 [INFO]: OTP email sent successfully to iamgamer4u@gmail.com. MessageId: <36804615-a43e-71e9-794c-42c17e72a1dd@gmail.com>
+2025-11-23 21:46:49 [INFO]: User data from OTP:
+2025-11-23 21:47:34 [INFO]: File uploaded to GridFS: 1763914654061_247887456_Screenshot 2025-11-23 173518.png (ID: 6923339e827511e628b2cdc8, Size: 487881 bytes)
+2025-11-23 21:47:34 [INFO]: File upload request received
+2025-11-23 21:47:34 [INFO]: Files:
+2025-11-23 21:47:34 [INFO]: File:
+2025-11-23 21:47:34 [INFO]: Processing 1 file(s)
+2025-11-23 21:47:34 [INFO]: File 0 properties:
+2025-11-23 21:47:34 [INFO]: File 0 uploaded to GridFS: 1763914654061_247887456_Screenshot 2025-11-23 173518.png (ID: 6923339e827511e628b2cdc8)
+2025-11-23 21:47:34 [INFO]: Upload response data:
+2025-11-23 21:48:15 [INFO]: Creating Portfolio with data:
+2025-11-23 21:48:16 [INFO]: Creating Portfolio with data:
+2025-11-23 21:48:16 [ERROR]: Error creating Portfolio: E11000 duplicate key error collection: test.portfolios index: userId_1 dup key: { userId: ObjectId('69233371827511e628b2cdc5') }
+2025-11-23 21:48:16 [ERROR]: Error message:
+2025-11-23 21:48:16 [ERROR]: Error stack:
+2025-11-23 21:48:16 [ERROR]: Request body:
+2025-11-23 21:48:23 [INFO]: Searching Course with data:
+2025-11-23 21:48:24 [INFO]: Searching Course with data:
+2025-11-23 21:48:35 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-11-23 21:48:35 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-11-23 21:48:37 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:48:37 [INFO]: Searching Movie with data:
+2025-11-23 21:48:37 [INFO]: Searching Course with data:
+2025-11-23 21:48:37 [INFO]: Searching Portfolio with data:
+2025-11-23 21:48:37 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:48:37 [INFO]: Searching Movie with data:
+2025-11-23 21:48:37 [INFO]: Searching Course with data:
+2025-11-23 21:48:37 [INFO]: Searching Portfolio with data:
+2025-11-23 21:48:37 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:48:37 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:48:45 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:48:45 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:48:52 [INFO]: Searching Course with data:
+2025-11-23 21:48:52 [INFO]: Searching Course with data:
+2025-11-23 21:48:55 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:48:55 [INFO]: Getting one record for Portfolio with query:
+2025-11-23 21:49:02 [INFO]: Searching Course with data:
+2025-11-23 21:49:02 [INFO]: Searching Course with data:
+2025-11-23 21:49:16 [INFO]: Searching Course with data:
+2025-11-23 21:49:16 [INFO]: Searching Course with data:
+2025-11-23 21:50:02 [INFO]: File uploaded to GridFS: 1763914802041_692366760_Screenshot 2025-11-23 173518.png (ID: 69233432827511e628b2ce06, Size: 487881 bytes)
+2025-11-23 21:50:02 [INFO]: File upload request received
+2025-11-23 21:50:02 [INFO]: Files:
+2025-11-23 21:50:02 [INFO]: File:
+2025-11-23 21:50:02 [INFO]: Processing 1 file(s)
+2025-11-23 21:50:02 [INFO]: File 0 properties:
+2025-11-23 21:50:02 [INFO]: File 0 uploaded to GridFS: 1763914802041_692366760_Screenshot 2025-11-23 173518.png (ID: 69233432827511e628b2ce06)
+2025-11-23 21:50:02 [INFO]: Upload response data:
+2025-11-23 21:50:22 [INFO]: Creating Course with data:
+2025-11-23 21:50:22 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:22 [ERROR]: Error message:
+2025-11-23 21:50:22 [ERROR]: Error stack:
+2025-11-23 21:50:22 [ERROR]: Request body:
+2025-11-23 21:50:27 [INFO]: Creating Course with data:
+2025-11-23 21:50:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:27 [ERROR]: Error message:
+2025-11-23 21:50:27 [ERROR]: Error stack:
+2025-11-23 21:50:27 [ERROR]: Request body:
+2025-11-23 21:50:27 [INFO]: Creating Course with data:
+2025-11-23 21:50:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:27 [ERROR]: Error message:
+2025-11-23 21:50:27 [ERROR]: Error stack:
+2025-11-23 21:50:27 [ERROR]: Request body:
+2025-11-23 21:50:28 [INFO]: Creating Course with data:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [INFO]: Creating Course with data:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [INFO]: Creating Course with data:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:28 [INFO]: Creating Course with data:
+2025-11-23 21:50:28 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:28 [ERROR]: Error message:
+2025-11-23 21:50:28 [ERROR]: Error stack:
+2025-11-23 21:50:28 [ERROR]: Request body:
+2025-11-23 21:50:34 [INFO]: Creating Course with data:
+2025-11-23 21:50:34 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:34 [ERROR]: Error message:
+2025-11-23 21:50:34 [ERROR]: Error stack:
+2025-11-23 21:50:34 [ERROR]: Request body:
+2025-11-23 21:50:35 [INFO]: Creating Course with data:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [INFO]: Creating Course with data:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [INFO]: Creating Course with data:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [INFO]: Creating Course with data:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:35 [ERROR]: Error message:
+2025-11-23 21:50:35 [ERROR]: Error stack:
+2025-11-23 21:50:35 [ERROR]: Request body:
+2025-11-23 21:50:35 [INFO]: Creating Course with data:
+2025-11-23 21:50:35 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [INFO]: Creating Course with data:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [INFO]: Creating Course with data:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [INFO]: Creating Course with data:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [INFO]: Creating Course with data:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:50:36 [INFO]: Creating Course with data:
+2025-11-23 21:50:36 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:50:36 [ERROR]: Error message:
+2025-11-23 21:50:36 [ERROR]: Error stack:
+2025-11-23 21:50:36 [ERROR]: Request body:
+2025-11-23 21:51:03 [INFO]: Creating Course with data:
+2025-11-23 21:51:03 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:03 [ERROR]: Error message:
+2025-11-23 21:51:03 [ERROR]: Error stack:
+2025-11-23 21:51:03 [ERROR]: Request body:
+2025-11-23 21:51:03 [INFO]: Creating Course with data:
+2025-11-23 21:51:03 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:03 [ERROR]: Error message:
+2025-11-23 21:51:03 [ERROR]: Error stack:
+2025-11-23 21:51:03 [ERROR]: Request body:
+2025-11-23 21:51:04 [INFO]: Creating Course with data:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [INFO]: Creating Course with data:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [INFO]: Creating Course with data:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [INFO]: Creating Course with data:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:04 [INFO]: Creating Course with data:
+2025-11-23 21:51:04 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:04 [ERROR]: Error message:
+2025-11-23 21:51:04 [ERROR]: Error stack:
+2025-11-23 21:51:04 [ERROR]: Request body:
+2025-11-23 21:51:05 [INFO]: Creating Course with data:
+2025-11-23 21:51:05 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-23 21:51:05 [ERROR]: Error message:
+2025-11-23 21:51:05 [ERROR]: Error stack:
+2025-11-23 21:51:05 [ERROR]: Request body:
+2025-11-23 21:54:33 [INFO]: Searching Movie with data:
+2025-11-23 21:54:33 [INFO]: Searching Course with data:
+2025-11-23 21:54:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 21:54:34 [INFO]: Searching Portfolio with data:
+2025-11-23 21:54:34 [INFO]: Searching Movie with data:
+2025-11-23 21:54:34 [INFO]: Searching Course with data:
+2025-11-23 21:54:34 [INFO]: Searching Portfolio with data:
+2025-11-23 21:54:34 [INFO]: Searching NewsAndBlogs with data:
+2025-11-23 22:02:31 [INFO]: Attempting to connect to MongoDB...
+2025-11-23 22:02:32 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-23 22:02:32 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-23 22:02:32 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-23 22:02:32 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-23 22:02:32 [INFO]: server is running on port 4000
+2025-11-24 22:15:39 [INFO]: Attempting to connect to MongoDB...
+2025-11-24 22:15:39 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-24 22:15:39 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-24 22:15:39 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-24 22:15:39 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-24 22:15:39 [INFO]: server is running on port 4000
+2025-11-24 22:15:40 [INFO]: MongoDB Connected Successfully
+2025-11-24 22:15:40 [INFO]: Connected to database: test
+2025-11-24 22:15:40 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-24 22:15:40 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-24 22:15:42 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-24 22:15:42 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-24 22:15:42 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-24 22:15:42 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-24 22:16:10 [INFO]: Searching Movie with data:
+2025-11-24 22:16:10 [INFO]: Searching Course with data:
+2025-11-24 22:16:10 [INFO]: Searching Portfolio with data:
+2025-11-24 22:16:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:16:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-24 22:16:10 [INFO]: Searching Movie with data:
+2025-11-24 22:16:10 [INFO]: Searching Course with data:
+2025-11-24 22:16:10 [INFO]: Searching Portfolio with data:
+2025-11-24 22:16:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:16:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-24 22:35:09 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-11-24 22:35:09 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-11-24 22:35:11 [INFO]: Searching Movie with data:
+2025-11-24 22:35:11 [INFO]: Searching Course with data:
+2025-11-24 22:35:11 [INFO]: Getting one record for Portfolio with query:
+2025-11-24 22:35:11 [INFO]: Searching Portfolio with data:
+2025-11-24 22:35:11 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:35:11 [INFO]: Searching Course with data:
+2025-11-24 22:35:11 [INFO]: Searching Movie with data:
+2025-11-24 22:35:11 [INFO]: Searching Portfolio with data:
+2025-11-24 22:35:11 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:35:11 [INFO]: Getting one record for Portfolio with query:
+2025-11-24 22:36:22 [INFO]: Searching Movie with data:
+2025-11-24 22:36:22 [INFO]: Getting one record for Portfolio with query:
+2025-11-24 22:36:22 [INFO]: Searching Course with data:
+2025-11-24 22:36:22 [INFO]: Searching Portfolio with data:
+2025-11-24 22:36:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:37:38 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:37:38 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:37:38 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:37:38 [INFO]: Searching NewsAndBlogs with data:
+2025-11-24 22:37:43 [INFO]: Searching Movie with data:
+2025-11-24 22:37:43 [INFO]: Searching Movie with data:
+2025-11-24 22:37:46 [INFO]: Searching Course with data:
+2025-11-24 22:37:46 [INFO]: Searching Course with data:
+2025-11-24 22:45:35 [INFO]: File uploaded to GridFS: 1764004535060_409446220_Screenshot 2025-11-23 173518.png (ID: 692492b75fd09963c47ee0ed, Size: 487881 bytes)
+2025-11-24 22:45:35 [INFO]: File upload request received
+2025-11-24 22:45:35 [INFO]: Files:
+2025-11-24 22:45:35 [INFO]: File:
+2025-11-24 22:45:35 [INFO]: Processing 1 file(s)
+2025-11-24 22:45:35 [INFO]: File 0 properties:
+2025-11-24 22:45:35 [INFO]: File 0 uploaded to GridFS: 1764004535060_409446220_Screenshot 2025-11-23 173518.png (ID: 692492b75fd09963c47ee0ed)
+2025-11-24 22:45:35 [INFO]: Upload response data:
+2025-11-24 22:45:49 [INFO]: Creating Course with data:
+2025-11-24 22:45:49 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:49 [ERROR]: Error message:
+2025-11-24 22:45:49 [ERROR]: Error stack:
+2025-11-24 22:45:49 [ERROR]: Request body:
+2025-11-24 22:45:50 [INFO]: Creating Course with data:
+2025-11-24 22:45:50 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:50 [ERROR]: Error message:
+2025-11-24 22:45:50 [ERROR]: Error stack:
+2025-11-24 22:45:50 [ERROR]: Request body:
+2025-11-24 22:45:50 [INFO]: Creating Course with data:
+2025-11-24 22:45:50 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:45:50 [ERROR]: Error message:
+2025-11-24 22:45:50 [ERROR]: Error stack:
+2025-11-24 22:45:50 [ERROR]: Request body:
+2025-11-24 22:46:01 [INFO]: Creating Course with data:
+2025-11-24 22:46:01 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-11-24 22:46:01 [ERROR]: Error message:
+2025-11-24 22:46:01 [ERROR]: Error stack:
+2025-11-24 22:46:01 [ERROR]: Request body:
+2025-11-25 03:14:06 [INFO]: MongoDB reconnected
+2025-11-25 03:14:06 [INFO]: MongoDB reconnected
+2025-11-25 13:23:47 [WARN]: MongoDB disconnected
+2025-11-25 13:23:48 [INFO]: MongoDB reconnected
+2025-11-25 19:49:43 [INFO]: MongoDB reconnected
+2025-11-25 19:49:43 [INFO]: MongoDB reconnected
+2025-11-25 19:49:53 [WARN]: MongoDB disconnected
+2025-11-25 19:49:53 [INFO]: MongoDB reconnected
+2025-11-25 19:53:30 [INFO]: MongoDB reconnected
+2025-11-25 19:53:30 [INFO]: MongoDB reconnected
+2025-11-25 19:53:41 [WARN]: MongoDB disconnected
+2025-11-25 19:53:41 [INFO]: MongoDB reconnected
+2025-11-25 21:58:51 [INFO]: MongoDB reconnected
+2025-11-26 21:23:01 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:23:01 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:23:01 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:23:01 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:23:01 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:23:01 [INFO]: server is running on port 4000
+2025-11-26 21:23:02 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:23:02 [INFO]: Connected to database: test
+2025-11-26 21:23:02 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:23:02 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:23:04 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:23:04 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:23:04 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:23:04 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:23:25 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:23:26 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:23:26 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:23:26 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:23:26 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:23:26 [INFO]: server is running on port 4000
+2025-11-26 21:23:27 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:23:27 [INFO]: Connected to database: test
+2025-11-26 21:23:27 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:23:27 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:23:29 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:23:29 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:23:29 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:23:29 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:23:38 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:23:38 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:23:38 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:23:38 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:23:38 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:23:38 [INFO]: server is running on port 4000
+2025-11-26 21:23:39 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:23:39 [INFO]: Connected to database: test
+2025-11-26 21:23:39 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:23:39 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:23:41 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:23:41 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:23:41 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:23:41 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:23:47 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:23:48 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:23:48 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:23:48 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:23:48 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:23:48 [INFO]: server is running on port 4000
+2025-11-26 21:23:48 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:23:48 [INFO]: Connected to database: test
+2025-11-26 21:23:48 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:23:48 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:23:50 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:23:50 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:23:50 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:23:50 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:24:02 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:24:03 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:24:03 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:24:03 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:24:03 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:24:03 [INFO]: server is running on port 4000
+2025-11-26 21:24:03 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:24:03 [INFO]: Connected to database: test
+2025-11-26 21:24:03 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:24:03 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:24:05 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:24:05 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:24:05 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:24:05 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:24:14 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:24:14 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:24:14 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:24:14 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:24:14 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:24:15 [INFO]: server is running on port 4000
+2025-11-26 21:24:15 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:24:15 [INFO]: Connected to database: test
+2025-11-26 21:24:15 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:24:15 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:24:17 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:24:17 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:24:17 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:24:17 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:24:28 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:24:29 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:24:29 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:24:29 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:24:29 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:24:29 [INFO]: server is running on port 4000
+2025-11-26 21:24:29 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:24:29 [INFO]: Connected to database: test
+2025-11-26 21:24:29 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:24:29 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:24:31 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:24:31 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:24:31 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:24:31 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:24:53 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:24:54 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:24:54 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:24:54 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:24:54 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:24:54 [INFO]: server is running on port 4000
+2025-11-26 21:24:54 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:24:54 [INFO]: Connected to database: test
+2025-11-26 21:24:54 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:24:54 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:24:56 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:24:56 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:24:56 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:24:56 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:25:36 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:25:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:25:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:25:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:25:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:25:37 [INFO]: server is running on port 4000
+2025-11-26 21:25:37 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:25:37 [INFO]: Connected to database: test
+2025-11-26 21:25:37 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:25:37 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:25:39 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:25:39 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:25:39 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:25:39 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:25:45 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:25:46 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:25:46 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:25:46 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:25:46 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:25:46 [INFO]: server is running on port 4000
+2025-11-26 21:25:46 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:25:46 [INFO]: Connected to database: test
+2025-11-26 21:25:46 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:25:46 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:25:48 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:25:48 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:25:48 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:25:48 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:31:19 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:31:20 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:31:20 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:31:20 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:31:20 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:31:20 [INFO]: server is running on port 4000
+2025-11-26 21:31:20 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:31:20 [INFO]: Connected to database: test
+2025-11-26 21:31:20 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:31:20 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:31:22 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:31:23 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:31:23 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:31:23 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:31:23 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:31:23 [INFO]: server is running on port 4000
+2025-11-26 21:31:23 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:31:23 [INFO]: Connected to database: test
+2025-11-26 21:31:23 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:31:23 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:31:26 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:31:27 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:31:27 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:31:27 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:31:27 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:31:27 [INFO]: server is running on port 4000
+2025-11-26 21:31:27 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:31:27 [INFO]: Connected to database: test
+2025-11-26 21:31:27 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:31:27 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:31:29 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:31:29 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:31:29 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:31:29 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:33:09 [INFO]: Attempting to connect to MongoDB...
+2025-11-26 21:33:09 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-26 21:33:09 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-26 21:33:09 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-26 21:33:09 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-26 21:33:10 [INFO]: server is running on port 4000
+2025-11-26 21:33:10 [INFO]: MongoDB Connected Successfully
+2025-11-26 21:33:10 [INFO]: Connected to database: test
+2025-11-26 21:33:10 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-26 21:33:10 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-26 21:33:12 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-26 21:33:12 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-26 21:33:12 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-26 21:33:12 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-26 21:36:33 [INFO]: Received Telegram update
+2025-11-26 21:36:33 [INFO]: Telegram update
+2025-11-26 21:38:28 [INFO]: Getting one record for Portfolio with query:
+2025-11-26 21:38:28 [INFO]: Searching Movie with data:
+2025-11-26 21:38:28 [INFO]: Searching Movie with data:
+2025-11-26 21:38:28 [INFO]: Searching Course with data:
+2025-11-26 21:38:28 [INFO]: Searching Course with data:
+2025-11-26 21:38:28 [INFO]: Searching Portfolio with data:
+2025-11-26 21:38:28 [INFO]: Searching NewsAndBlogs with data:
+2025-11-26 21:38:28 [INFO]: Searching Portfolio with data:
+2025-11-26 21:38:28 [INFO]: Searching NewsAndBlogs with data:
+2025-11-26 21:38:28 [INFO]: Getting one record for Portfolio with query:
+2025-11-26 23:13:01 [INFO]: MongoDB reconnected
+2025-11-26 23:13:01 [INFO]: MongoDB reconnected
+2025-11-28 19:43:08 [WARN]: MongoDB disconnected
+2025-11-28 19:43:09 [INFO]: MongoDB reconnected
+2025-11-28 19:44:20 [INFO]: MongoDB reconnected
+2025-11-28 19:44:20 [INFO]: MongoDB reconnected
+2025-11-28 19:44:31 [WARN]: MongoDB disconnected
+2025-11-28 19:44:31 [INFO]: MongoDB reconnected
+2025-11-28 19:46:01 [ERROR]: Error sending OTP email to chinmayjoshi9079@gmail.com: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3477b7341d2sm4961703a91.11 - gsmtp
+2025-11-28 19:46:01 [ERROR]: Error sending email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3477b7341d2sm4961703a91.11 - gsmtp
+2025-11-28 19:46:01 [WARN]: Registration continued despite email failure
+2025-11-28 19:46:32 [INFO]: User data from OTP:
+2025-11-28 19:46:32 [ERROR]: Invalid or expired OTP
+2025-11-28 19:47:11 [INFO]: User data from OTP:
+2025-11-28 19:47:39 [INFO]: File uploaded to GridFS: 1764339458951_218256769_Screenshot 2025-11-23 173518.png (ID: 6929af02454630122bcf6351, Size: 487881 bytes)
+2025-11-28 19:47:39 [INFO]: File upload request received
+2025-11-28 19:47:39 [INFO]: Files:
+2025-11-28 19:47:39 [INFO]: File:
+2025-11-28 19:47:39 [INFO]: Processing 1 file(s)
+2025-11-28 19:47:39 [INFO]: File 0 properties:
+2025-11-28 19:47:39 [INFO]: File 0 uploaded to GridFS: 1764339458951_218256769_Screenshot 2025-11-23 173518.png (ID: 6929af02454630122bcf6351)
+2025-11-28 19:47:39 [INFO]: Upload response data:
+2025-11-28 19:48:29 [INFO]: Creating Portfolio with data:
+2025-11-28 19:48:38 [INFO]: File uploaded to GridFS: 1764339518659_872658660_Screenshot 2025-11-23 153017.png (ID: 6929af3e454630122bcf6359, Size: 312815 bytes)
+2025-11-28 19:48:38 [INFO]: File upload request received
+2025-11-28 19:48:38 [INFO]: Files:
+2025-11-28 19:48:38 [INFO]: File:
+2025-11-28 19:48:38 [INFO]: Processing 1 file(s)
+2025-11-28 19:48:38 [INFO]: File 0 properties:
+2025-11-28 19:48:38 [INFO]: File 0 uploaded to GridFS: 1764339518659_872658660_Screenshot 2025-11-23 153017.png (ID: 6929af3e454630122bcf6359)
+2025-11-28 19:48:38 [INFO]: Upload response data:
+2025-11-28 19:49:00 [INFO]: Creating PortfolioProject with data:
+2025-11-28 19:49:00 [ERROR]: Error creating PortfolioProject: PortfolioProject validation failed: portfolioId: Path `portfolioId` is required.
+2025-11-28 19:49:00 [ERROR]: Error message:
+2025-11-28 19:49:00 [ERROR]: Error stack:
+2025-11-28 19:49:00 [ERROR]: Request body:
+2025-11-28 19:49:19 [INFO]: Creating PortfolioProject with data:
+2025-11-28 19:49:19 [ERROR]: Error creating PortfolioProject: PortfolioProject validation failed: portfolioId: Path `portfolioId` is required.
+2025-11-28 19:49:19 [ERROR]: Error message:
+2025-11-28 19:49:19 [ERROR]: Error stack:
+2025-11-28 19:49:19 [ERROR]: Request body:
+2025-11-28 19:54:57 [INFO]: MongoDB reconnected
+2025-11-28 19:54:57 [INFO]: MongoDB reconnected
+2025-11-28 19:55:07 [WARN]: MongoDB disconnected
+2025-11-28 19:55:07 [INFO]: MongoDB reconnected
+2025-11-29 02:26:35 [INFO]: MongoDB reconnected
+2025-11-29 02:26:35 [INFO]: MongoDB reconnected
+2025-11-30 16:47:59 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 16:47:59 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 16:47:59 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 16:47:59 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 16:47:59 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 16:47:59 [INFO]: server is running on port 4000
+2025-11-30 16:48:00 [INFO]: MongoDB Connected Successfully
+2025-11-30 16:48:00 [INFO]: Connected to database: test
+2025-11-30 16:48:00 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 16:48:00 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 16:48:02 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 16:48:02 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 16:48:02 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 16:48:02 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 16:48:41 [INFO]: Searching Movie with data:
+2025-11-30 16:48:41 [INFO]: Searching Course with data:
+2025-11-30 16:48:41 [INFO]: Searching Portfolio with data:
+2025-11-30 16:48:41 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:48:41 [INFO]: Searching Movie with data:
+2025-11-30 16:48:41 [INFO]: Searching Course with data:
+2025-11-30 16:48:41 [INFO]: Searching Portfolio with data:
+2025-11-30 16:48:41 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:49:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:49:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:49:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:49:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:50:55 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:50:55 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:51:00 [INFO]: Searching Movie with data:
+2025-11-30 16:51:00 [INFO]: Searching Movie with data:
+2025-11-30 16:51:08 [INFO]: Generating token for user: chinmayjoshi9079@gmail.com, ID: 6929aee7454630122bcf634e
+2025-11-30 16:51:08 [INFO]: Login successful for user: chinmayjoshi9079@gmail.com, ID: 6929aee7454630122bcf634e
+2025-11-30 16:51:09 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 16:51:09 [INFO]: Searching Movie with data:
+2025-11-30 16:51:09 [INFO]: Searching Portfolio with data:
+2025-11-30 16:51:09 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:51:09 [INFO]: Searching Course with data:
+2025-11-30 16:51:09 [INFO]: Searching Movie with data:
+2025-11-30 16:51:09 [INFO]: Searching Course with data:
+2025-11-30 16:51:09 [INFO]: Searching Portfolio with data:
+2025-11-30 16:51:09 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:51:09 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 16:51:22 [INFO]: Searching Course with data:
+2025-11-30 16:51:22 [INFO]: Searching Course with data:
+2025-11-30 16:51:35 [INFO]: Searching Movie with data:
+2025-11-30 16:51:35 [INFO]: Searching Movie with data:
+2025-11-30 16:51:44 [INFO]: Searching Movie with data:
+2025-11-30 16:51:44 [INFO]: Searching Movie with data:
+2025-11-30 16:52:00 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 16:52:01 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 16:52:01 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 16:52:01 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 16:52:01 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 16:52:01 [INFO]: server is running on port 4000
+2025-11-30 16:52:02 [INFO]: MongoDB Connected Successfully
+2025-11-30 16:52:02 [INFO]: Connected to database: test
+2025-11-30 16:52:02 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 16:52:02 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 16:52:19 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 16:52:20 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 16:52:20 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 16:52:20 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 16:52:20 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 16:52:20 [INFO]: server is running on port 4000
+2025-11-30 16:52:20 [INFO]: MongoDB Connected Successfully
+2025-11-30 16:52:20 [INFO]: Connected to database: test
+2025-11-30 16:52:20 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 16:52:20 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 16:52:22 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 16:52:22 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 16:52:22 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 16:52:22 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 16:52:43 [INFO]: Searching Movie with data:
+2025-11-30 16:52:43 [INFO]: Searching Course with data:
+2025-11-30 16:52:43 [INFO]: Searching Portfolio with data:
+2025-11-30 16:52:43 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 16:52:43 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:52:43 [INFO]: Searching Movie with data:
+2025-11-30 16:52:43 [INFO]: Searching Course with data:
+2025-11-30 16:52:43 [INFO]: Searching Portfolio with data:
+2025-11-30 16:52:43 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:52:43 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 16:56:26 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:57:16 [INFO]: Searching Movie with data:
+2025-11-30 16:57:16 [INFO]: Searching Movie with data:
+2025-11-30 16:57:19 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:57:19 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:57:19 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 16:57:19 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 17:00:05 [INFO]: Searching Movie with data:
+2025-11-30 17:00:05 [INFO]: Searching Course with data:
+2025-11-30 17:00:05 [INFO]: Searching Portfolio with data:
+2025-11-30 17:00:05 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 17:00:05 [INFO]: Searching Movie with data:
+2025-11-30 17:00:05 [INFO]: Searching Course with data:
+2025-11-30 17:00:05 [INFO]: Searching Portfolio with data:
+2025-11-30 17:00:05 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 17:01:10 [INFO]: Searching Movie with data:
+2025-11-30 17:01:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 17:01:10 [INFO]: Searching Course with data:
+2025-11-30 17:01:10 [INFO]: Searching Portfolio with data:
+2025-11-30 17:01:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 17:01:10 [INFO]: Searching Movie with data:
+2025-11-30 17:01:10 [INFO]: Searching Course with data:
+2025-11-30 17:01:10 [INFO]: Searching Portfolio with data:
+2025-11-30 17:01:10 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 17:01:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:38:33 [INFO]: Searching Movie with data:
+2025-11-30 21:38:33 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:38:33 [INFO]: Searching Course with data:
+2025-11-30 21:38:33 [INFO]: Searching Portfolio with data:
+2025-11-30 21:38:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:38:33 [INFO]: Searching Movie with data:
+2025-11-30 21:38:33 [INFO]: Searching Course with data:
+2025-11-30 21:38:33 [INFO]: Searching Portfolio with data:
+2025-11-30 21:38:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:38:33 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:40:56 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:40:56 [INFO]: Searching Movie with data:
+2025-11-30 21:40:56 [INFO]: Searching Movie with data:
+2025-11-30 21:40:56 [INFO]: Searching Course with data:
+2025-11-30 21:40:56 [INFO]: Searching Portfolio with data:
+2025-11-30 21:40:56 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:40:56 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:40:56 [INFO]: Searching Movie with data:
+2025-11-30 21:40:56 [INFO]: Searching Course with data:
+2025-11-30 21:40:57 [INFO]: Searching Course with data:
+2025-11-30 21:40:57 [INFO]: Searching Portfolio with data:
+2025-11-30 21:40:57 [INFO]: Searching Portfolio with data:
+2025-11-30 21:40:57 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:40:57 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:40:57 [INFO]: Searching Movie with data:
+2025-11-30 21:40:57 [INFO]: Searching Course with data:
+2025-11-30 21:40:57 [INFO]: Searching Portfolio with data:
+2025-11-30 21:40:57 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:40:57 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:40:57 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:41:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:41:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:41:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:41:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:42:16 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:42:17 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:42:17 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:42:17 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:42:17 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:42:17 [INFO]: server is running on port 4000
+2025-11-30 21:42:18 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:42:18 [INFO]: Connected to database: test
+2025-11-30 21:42:18 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:42:18 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:42:20 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:42:20 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:42:20 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:42:20 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:42:54 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:42:55 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:42:55 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:42:55 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:42:55 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:42:55 [INFO]: server is running on port 4000
+2025-11-30 21:42:56 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:42:56 [INFO]: Connected to database: test
+2025-11-30 21:42:56 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:42:56 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:42:58 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:42:58 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:42:58 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:42:58 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:43:06 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:43:07 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:43:07 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:43:07 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:43:07 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:43:07 [INFO]: server is running on port 4000
+2025-11-30 21:43:08 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:43:08 [INFO]: Connected to database: test
+2025-11-30 21:43:08 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:43:08 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:43:10 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:43:10 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:43:10 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:43:10 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:43:29 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:43:31 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:43:31 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:43:31 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:43:31 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:43:31 [INFO]: server is running on port 4000
+2025-11-30 21:43:31 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:43:31 [INFO]: Connected to database: test
+2025-11-30 21:43:31 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:43:31 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:43:33 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:43:33 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:43:33 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:43:33 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:45:12 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:45:12 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:45:12 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:45:12 [INFO]: Searching Movie with data:
+2025-11-30 21:45:12 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:45:12 [INFO]: Searching Course with data:
+2025-11-30 21:45:12 [INFO]: Searching Portfolio with data:
+2025-11-30 21:45:12 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:46:02 [INFO]: Searching Movie with data:
+2025-11-30 21:46:02 [INFO]: Searching Movie with data:
+2025-11-30 21:46:02 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:46:02 [INFO]: Searching Course with data:
+2025-11-30 21:46:02 [INFO]: Searching Portfolio with data:
+2025-11-30 21:46:02 [INFO]: Searching Portfolio with data:
+2025-11-30 21:46:02 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:46:02 [INFO]: Searching Course with data:
+2025-11-30 21:47:11 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:47:11 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:47:11 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:47:11 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:47:11 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:47:12 [INFO]: server is running on port 4000
+2025-11-30 21:47:12 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:47:12 [INFO]: Connected to database: test
+2025-11-30 21:47:12 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:47:12 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:47:14 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:47:14 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:47:14 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:47:14 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:48:26 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 21:48:26 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 21:48:26 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 21:48:26 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 21:48:26 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 21:48:26 [INFO]: server is running on port 4000
+2025-11-30 21:48:27 [INFO]: MongoDB Connected Successfully
+2025-11-30 21:48:27 [INFO]: Connected to database: test
+2025-11-30 21:48:27 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 21:48:27 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 21:48:29 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 21:48:29 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 21:48:29 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 21:48:29 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 21:49:30 [INFO]: Searching Movie with data:
+2025-11-30 21:49:30 [INFO]: Searching Course with data:
+2025-11-30 21:49:30 [INFO]: Searching Portfolio with data:
+2025-11-30 21:49:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:49:30 [INFO]: Searching Movie with data:
+2025-11-30 21:49:30 [INFO]: Searching Course with data:
+2025-11-30 21:49:30 [INFO]: Searching Portfolio with data:
+2025-11-30 21:49:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:50:29 [INFO]: Searching Movie with data:
+2025-11-30 21:50:29 [INFO]: Searching Course with data:
+2025-11-30 21:50:29 [INFO]: Searching Portfolio with data:
+2025-11-30 21:50:29 [INFO]: Searching Portfolio with data:
+2025-11-30 21:50:29 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:50:29 [INFO]: Searching Movie with data:
+2025-11-30 21:50:29 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:50:29 [INFO]: Searching Course with data:
+2025-11-30 21:50:44 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 21:50:44 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 21:50:45 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:50:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:50:45 [INFO]: Searching User with data:
+2025-11-30 21:50:45 [INFO]: Searching Movie with data:
+2025-11-30 21:50:45 [INFO]: Searching Course with data:
+2025-11-30 21:50:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:50:45 [INFO]: Searching User with data:
+2025-11-30 21:50:45 [INFO]: Searching Movie with data:
+2025-11-30 21:50:45 [INFO]: Searching Course with data:
+2025-11-30 21:50:45 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:52:55 [INFO]: File uploaded to GridFS: 1764519775581_738966714_Screenshot 2025-11-30 213849.png (ID: 692c6f5f559ad228f4c0cc10, Size: 322744 bytes)
+2025-11-30 21:52:55 [INFO]: File upload request received
+2025-11-30 21:52:55 [INFO]: Files:
+2025-11-30 21:52:55 [INFO]: File:
+2025-11-30 21:52:55 [INFO]: Processing 1 file(s)
+2025-11-30 21:52:55 [INFO]: File 0 properties:
+2025-11-30 21:52:55 [INFO]: File 0 uploaded to GridFS: 1764519775581_738966714_Screenshot 2025-11-30 213849.png (ID: 692c6f5f559ad228f4c0cc10)
+2025-11-30 21:52:55 [INFO]: Upload response data:
+2025-11-30 21:53:18 [INFO]: File uploaded to GridFS: 1764519798446_180488268_Screenshot 2025-11-30 020021.png (ID: 692c6f76559ad228f4c0cc13, Size: 51783 bytes)
+2025-11-30 21:53:18 [INFO]: File upload request received
+2025-11-30 21:53:18 [INFO]: Files:
+2025-11-30 21:53:18 [INFO]: File:
+2025-11-30 21:53:18 [INFO]: Processing 1 file(s)
+2025-11-30 21:53:18 [INFO]: File 0 properties:
+2025-11-30 21:53:18 [INFO]: File 0 uploaded to GridFS: 1764519798446_180488268_Screenshot 2025-11-30 020021.png (ID: 692c6f76559ad228f4c0cc13)
+2025-11-30 21:53:18 [INFO]: Upload response data:
+2025-11-30 21:53:33 [INFO]: Creating NewsAndBlogs with data:
+2025-11-30 21:53:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:53:33 [INFO]: Searching User with data:
+2025-11-30 21:53:33 [INFO]: Searching Movie with data:
+2025-11-30 21:53:33 [INFO]: Searching Course with data:
+2025-11-30 21:53:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:53:33 [INFO]: Searching User with data:
+2025-11-30 21:53:33 [INFO]: Searching Movie with data:
+2025-11-30 21:53:33 [INFO]: Searching Course with data:
+2025-11-30 21:53:55 [INFO]: Generating token for user: chinmayjoshi9079@gmail.com, ID: 6929aee7454630122bcf634e
+2025-11-30 21:53:55 [INFO]: Login successful for user: chinmayjoshi9079@gmail.com, ID: 6929aee7454630122bcf634e
+2025-11-30 21:53:56 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:53:56 [INFO]: Searching Movie with data:
+2025-11-30 21:53:56 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:53:56 [INFO]: Searching Course with data:
+2025-11-30 21:53:56 [INFO]: Searching Portfolio with data:
+2025-11-30 21:53:56 [INFO]: Searching Movie with data:
+2025-11-30 21:53:56 [INFO]: Searching Course with data:
+2025-11-30 21:53:56 [INFO]: Searching Portfolio with data:
+2025-11-30 21:53:56 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:53:56 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:54:22 [INFO]: Searching Movie with data:
+2025-11-30 21:54:22 [INFO]: Searching Course with data:
+2025-11-30 21:54:22 [INFO]: Searching Portfolio with data:
+2025-11-30 21:54:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:54:22 [INFO]: Searching Movie with data:
+2025-11-30 21:54:22 [INFO]: Searching Course with data:
+2025-11-30 21:54:22 [INFO]: Searching Portfolio with data:
+2025-11-30 21:54:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:55:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:55:10 [INFO]: Getting one record for User with query:
+2025-11-30 21:55:10 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 21:55:10 [INFO]: Getting one record for User with query:
+2025-11-30 21:55:17 [INFO]: Searching Movie with data:
+2025-11-30 21:55:17 [INFO]: Searching Course with data:
+2025-11-30 21:55:17 [INFO]: Searching Portfolio with data:
+2025-11-30 21:55:17 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 21:55:17 [INFO]: Searching Movie with data:
+2025-11-30 21:55:17 [INFO]: Searching Course with data:
+2025-11-30 21:55:17 [INFO]: Searching Portfolio with data:
+2025-11-30 21:55:17 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:07:36 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:07:36 [INFO]: Searching Movie with data:
+2025-11-30 22:07:36 [INFO]: Searching Movie with data:
+2025-11-30 22:07:36 [INFO]: Searching Course with data:
+2025-11-30 22:07:36 [INFO]: Searching Portfolio with data:
+2025-11-30 22:07:36 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:07:36 [INFO]: Searching Course with data:
+2025-11-30 22:07:36 [INFO]: Searching Portfolio with data:
+2025-11-30 22:07:36 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:07:36 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:33:21 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 22:33:22 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 22:33:22 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 22:33:22 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 22:33:22 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 22:33:22 [INFO]: server is running on port 4000
+2025-11-30 22:33:22 [INFO]: MongoDB Connected Successfully
+2025-11-30 22:33:22 [INFO]: Connected to database: test
+2025-11-30 22:33:22 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 22:33:22 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 22:33:24 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 22:33:24 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 22:33:24 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 22:33:24 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 22:44:22 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:44:22 [INFO]: Searching Movie with data:
+2025-11-30 22:44:22 [INFO]: Searching Course with data:
+2025-11-30 22:44:22 [INFO]: Searching Portfolio with data:
+2025-11-30 22:44:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:44:22 [INFO]: Searching Movie with data:
+2025-11-30 22:44:22 [INFO]: Searching Course with data:
+2025-11-30 22:44:22 [INFO]: Searching Portfolio with data:
+2025-11-30 22:44:22 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:44:22 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:46:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:46:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:46:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:46:30 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:47:36 [INFO]: Searching Movie with data:
+2025-11-30 22:47:36 [INFO]: Searching Course with data:
+2025-11-30 22:47:36 [INFO]: Searching Portfolio with data:
+2025-11-30 22:47:36 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:47:36 [INFO]: Searching Movie with data:
+2025-11-30 22:47:36 [INFO]: Searching Course with data:
+2025-11-30 22:47:36 [INFO]: Searching Portfolio with data:
+2025-11-30 22:47:36 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:48:23 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 22:48:23 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 22:48:24 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:48:24 [INFO]: Searching User with data:
+2025-11-30 22:48:24 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:48:24 [INFO]: Searching Movie with data:
+2025-11-30 22:48:24 [INFO]: Searching Course with data:
+2025-11-30 22:48:24 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:48:24 [INFO]: Searching User with data:
+2025-11-30 22:48:24 [INFO]: Searching Movie with data:
+2025-11-30 22:48:24 [INFO]: Searching Course with data:
+2025-11-30 22:48:24 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:53:53 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:54:34 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:54:35 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:54:35 [INFO]: Searching User with data:
+2025-11-30 22:54:35 [INFO]: Searching Movie with data:
+2025-11-30 22:54:35 [INFO]: Searching Course with data:
+2025-11-30 22:54:35 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:54:35 [INFO]: Searching User with data:
+2025-11-30 22:54:35 [INFO]: Searching Movie with data:
+2025-11-30 22:54:35 [INFO]: Searching Course with data:
+2025-11-30 22:54:35 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:54:51 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:54:51 [INFO]: Searching User with data:
+2025-11-30 22:54:51 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:54:51 [INFO]: Searching Movie with data:
+2025-11-30 22:54:51 [INFO]: Searching Course with data:
+2025-11-30 22:54:51 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:54:51 [INFO]: Searching User with data:
+2025-11-30 22:54:51 [INFO]: Searching Movie with data:
+2025-11-30 22:54:51 [INFO]: Searching Course with data:
+2025-11-30 22:54:51 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:57:44 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:57:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:57:45 [INFO]: Searching User with data:
+2025-11-30 22:57:45 [INFO]: Searching Movie with data:
+2025-11-30 22:57:45 [INFO]: Searching Course with data:
+2025-11-30 22:57:45 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 22:57:45 [INFO]: Searching User with data:
+2025-11-30 22:57:45 [INFO]: Searching Movie with data:
+2025-11-30 22:57:45 [INFO]: Searching Course with data:
+2025-11-30 22:57:45 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 22:58:14 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:10:32 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:10:32 [INFO]: Searching Movie with data:
+2025-11-30 23:10:32 [INFO]: Searching Course with data:
+2025-11-30 23:10:32 [INFO]: Searching Portfolio with data:
+2025-11-30 23:10:32 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:10:32 [INFO]: Searching Movie with data:
+2025-11-30 23:10:32 [INFO]: Searching Course with data:
+2025-11-30 23:10:32 [INFO]: Searching Portfolio with data:
+2025-11-30 23:10:32 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:10:32 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:10:54 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:10:54 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:11:03 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:11:03 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:11:03 [INFO]: Searching User with data:
+2025-11-30 23:11:03 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:11:03 [INFO]: Searching User with data:
+2025-11-30 23:11:03 [INFO]: Searching Movie with data:
+2025-11-30 23:11:03 [INFO]: Searching Course with data:
+2025-11-30 23:11:03 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:11:03 [INFO]: Searching Movie with data:
+2025-11-30 23:11:03 [INFO]: Searching Course with data:
+2025-11-30 23:11:10 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:11:10 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:11:11 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:11:11 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:11:11 [INFO]: Searching User with data:
+2025-11-30 23:11:11 [INFO]: Searching Movie with data:
+2025-11-30 23:11:26 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:11:26 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:11:28 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:11:28 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:11:28 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:11:28 [INFO]: Searching User with data:
+2025-11-30 23:11:28 [INFO]: Searching Movie with data:
+2025-11-30 23:11:28 [INFO]: Searching Course with data:
+2025-11-30 23:11:28 [INFO]: Searching User with data:
+2025-11-30 23:11:28 [INFO]: Searching Movie with data:
+2025-11-30 23:11:28 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:11:28 [INFO]: Searching Course with data:
+2025-11-30 23:13:40 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:13:40 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:13:42 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:13:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:13:42 [INFO]: Searching User with data:
+2025-11-30 23:13:42 [INFO]: Searching Movie with data:
+2025-11-30 23:13:42 [INFO]: Searching Course with data:
+2025-11-30 23:13:42 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:13:42 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:13:42 [INFO]: Searching User with data:
+2025-11-30 23:13:42 [INFO]: Searching Movie with data:
+2025-11-30 23:13:42 [INFO]: Searching Course with data:
+2025-11-30 23:15:28 [ERROR]: Account not found
+2025-11-30 23:16:50 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 23:16:50 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 23:16:50 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 23:16:50 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 23:16:50 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 23:16:50 [INFO]: server is running on port 4000
+2025-11-30 23:16:50 [INFO]: MongoDB Connected Successfully
+2025-11-30 23:16:50 [INFO]: Connected to database: test
+2025-11-30 23:16:50 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 23:16:50 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 23:16:52 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 23:16:52 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 23:16:52 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 23:16:52 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 23:16:58 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:16:58 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:17:00 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:17:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:17:00 [INFO]: Searching User with data:
+2025-11-30 23:17:00 [INFO]: Searching Movie with data:
+2025-11-30 23:17:00 [INFO]: Searching Course with data:
+2025-11-30 23:17:00 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:17:00 [INFO]: Searching User with data:
+2025-11-30 23:17:00 [INFO]: Searching Movie with data:
+2025-11-30 23:18:40 [INFO]: Searching Movie with data:
+2025-11-30 23:18:40 [INFO]: Searching Movie with data:
+2025-11-30 23:18:40 [INFO]: Searching Course with data:
+2025-11-30 23:18:40 [INFO]: Searching Portfolio with data:
+2025-11-30 23:18:41 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:18:41 [INFO]: Searching Course with data:
+2025-11-30 23:18:41 [INFO]: Searching Portfolio with data:
+2025-11-30 23:18:41 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:18:51 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:18:51 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:18:53 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:18:53 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:18:53 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:18:53 [INFO]: Searching User with data:
+2025-11-30 23:18:53 [INFO]: Searching Movie with data:
+2025-11-30 23:18:53 [INFO]: Searching Course with data:
+2025-11-30 23:18:53 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:18:53 [INFO]: Searching User with data:
+2025-11-30 23:18:53 [INFO]: Searching Movie with data:
+2025-11-30 23:18:53 [INFO]: Searching Course with data:
+2025-11-30 23:22:32 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:22:32 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:22:33 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:22:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:22:33 [INFO]: Searching User with data:
+2025-11-30 23:22:33 [INFO]: Searching Movie with data:
+2025-11-30 23:22:33 [INFO]: Searching Movie with data:
+2025-11-30 23:22:33 [INFO]: Searching Course with data:
+2025-11-30 23:22:33 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:22:33 [INFO]: Searching User with data:
+2025-11-30 23:22:33 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:22:33 [INFO]: Searching Course with data:
+2025-11-30 23:24:49 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:24:49 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:24:50 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:24:50 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:24:50 [INFO]: Searching User with data:
+2025-11-30 23:24:50 [INFO]: Searching Movie with data:
+2025-11-30 23:24:50 [INFO]: Searching Course with data:
+2025-11-30 23:24:50 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:24:50 [INFO]: Searching User with data:
+2025-11-30 23:24:50 [INFO]: Searching Movie with data:
+2025-11-30 23:24:50 [INFO]: Searching Course with data:
+2025-11-30 23:24:50 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:25:13 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 23:25:14 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 23:25:14 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 23:25:14 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 23:25:14 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 23:25:14 [INFO]: server is running on port 4000
+2025-11-30 23:25:14 [INFO]: MongoDB Connected Successfully
+2025-11-30 23:25:14 [INFO]: Connected to database: test
+2025-11-30 23:25:14 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 23:25:14 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 23:25:36 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 23:25:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 23:25:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 23:25:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 23:25:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 23:25:37 [INFO]: server is running on port 4000
+2025-11-30 23:25:37 [INFO]: MongoDB Connected Successfully
+2025-11-30 23:25:37 [INFO]: Connected to database: test
+2025-11-30 23:25:37 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 23:25:37 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 23:25:39 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 23:25:39 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 23:25:39 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 23:25:39 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 23:26:43 [INFO]: Searching Movie with data:
+2025-11-30 23:26:43 [INFO]: Searching Course with data:
+2025-11-30 23:26:43 [INFO]: Searching Portfolio with data:
+2025-11-30 23:26:43 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:26:43 [INFO]: Searching Movie with data:
+2025-11-30 23:26:43 [INFO]: Searching Course with data:
+2025-11-30 23:26:43 [INFO]: Searching Portfolio with data:
+2025-11-30 23:26:43 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:27:13 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:27:13 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:27:14 [INFO]: Searching Movie with data:
+2025-11-30 23:27:14 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:27:14 [INFO]: Searching User with data:
+2025-11-30 23:27:14 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:27:14 [INFO]: Searching Course with data:
+2025-11-30 23:27:14 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:27:14 [INFO]: Searching User with data:
+2025-11-30 23:27:14 [INFO]: Searching Movie with data:
+2025-11-30 23:27:14 [INFO]: Searching Course with data:
+2025-11-30 23:27:14 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:27:46 [INFO]: Attempting to connect to MongoDB...
+2025-11-30 23:27:46 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-11-30 23:27:46 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-11-30 23:27:46 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-11-30 23:27:46 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-11-30 23:27:46 [INFO]: server is running on port 4000
+2025-11-30 23:27:46 [INFO]: MongoDB Connected Successfully
+2025-11-30 23:27:46 [INFO]: Connected to database: test
+2025-11-30 23:27:46 [INFO]: ✅ MongoDB Connected Successfully
+2025-11-30 23:27:46 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-11-30 23:27:48 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-11-30 23:27:48 [INFO]: GridFS bucket 'uploads' initialized
+2025-11-30 23:27:48 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-11-30 23:27:48 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-11-30 23:27:53 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:27:53 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:27:54 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:27:54 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:27:54 [INFO]: Searching User with data:
+2025-11-30 23:27:55 [INFO]: Searching Movie with data:
+2025-11-30 23:27:55 [INFO]: Searching Course with data:
+2025-11-30 23:27:55 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:33:28 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:33:28 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:33:31 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:33:31 [INFO]: Searching User with data:
+2025-11-30 23:33:31 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:33:31 [INFO]: Searching User with data:
+2025-11-30 23:33:31 [INFO]: Searching Movie with data:
+2025-11-30 23:33:31 [INFO]: Searching Course with data:
+2025-11-30 23:33:31 [INFO]: Searching Movie with data:
+2025-11-30 23:33:31 [INFO]: Searching Course with data:
+2025-11-30 23:33:47 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:33:47 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-11-30 23:33:54 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:33:54 [INFO]: Searching User with data:
+2025-11-30 23:33:54 [INFO]: Searching Movie with data:
+2025-11-30 23:33:54 [INFO]: Getting one record for Portfolio with query:
+2025-11-30 23:33:54 [INFO]: Searching Course with data:
+2025-11-30 23:33:54 [INFO]: Searching NewsAndBlogs with data:
+2025-11-30 23:33:54 [INFO]: Searching Movie with data:
+2025-11-30 23:33:54 [INFO]: Searching User with data:
+2025-11-30 23:33:54 [INFO]: Searching Course with data:
+2025-11-30 23:33:54 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 20:59:50 [INFO]: Attempting to connect to MongoDB...
+2025-12-11 20:59:51 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-11 20:59:51 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-11 20:59:51 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-11 20:59:51 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-11 20:59:51 [INFO]: server is running on port 4000
+2025-12-11 20:59:52 [INFO]: MongoDB Connected Successfully
+2025-12-11 20:59:52 [INFO]: Connected to database: test
+2025-12-11 20:59:52 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-11 20:59:52 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-11 20:59:54 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-11 20:59:54 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-11 20:59:54 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-11 20:59:54 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-11 21:00:02 [INFO]: Searching Movie with data:
+2025-12-11 21:00:02 [INFO]: Searching Course with data:
+2025-12-11 21:00:02 [INFO]: Searching Portfolio with data:
+2025-12-11 21:00:02 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:00:02 [INFO]: Searching Movie with data:
+2025-12-11 21:00:02 [INFO]: Searching Course with data:
+2025-12-11 21:00:03 [INFO]: Searching Portfolio with data:
+2025-12-11 21:00:03 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:00:12 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-11 21:00:12 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-11 21:00:13 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 21:00:13 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:00:13 [INFO]: Searching User with data:
+2025-12-11 21:00:13 [INFO]: Searching Movie with data:
+2025-12-11 21:00:14 [INFO]: Searching Movie with data:
+2025-12-11 21:00:14 [INFO]: Searching User with data:
+2025-12-11 21:00:14 [INFO]: Searching Course with data:
+2025-12-11 21:01:23 [INFO]: Attempting to connect to MongoDB...
+2025-12-11 21:01:24 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-11 21:01:24 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-11 21:01:24 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-11 21:01:24 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-11 21:01:24 [INFO]: server is running on port 4000
+2025-12-11 21:01:25 [INFO]: MongoDB Connected Successfully
+2025-12-11 21:01:25 [INFO]: Connected to database: test
+2025-12-11 21:01:25 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-11 21:01:25 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-11 21:01:27 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-11 21:01:27 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-11 21:01:27 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-11 21:01:27 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-11 21:01:38 [INFO]: Attempting to connect to MongoDB...
+2025-12-11 21:01:40 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-11 21:01:40 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-11 21:01:40 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-11 21:01:40 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-11 21:01:40 [INFO]: server is running on port 4000
+2025-12-11 21:01:41 [INFO]: MongoDB Connected Successfully
+2025-12-11 21:01:41 [INFO]: Connected to database: test
+2025-12-11 21:01:41 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-11 21:01:41 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-11 21:01:43 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-11 21:01:43 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-11 21:01:43 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-11 21:01:43 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-11 21:04:15 [INFO]: Searching Portfolio with data:
+2025-12-11 21:04:15 [INFO]: Searching Movie with data:
+2025-12-11 21:04:15 [INFO]: Searching Portfolio with data:
+2025-12-11 21:04:15 [INFO]: Searching Course with data:
+2025-12-11 21:04:15 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:04:15 [INFO]: Searching Movie with data:
+2025-12-11 21:04:15 [INFO]: Searching Course with data:
+2025-12-11 21:04:15 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:04:38 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-11 21:04:38 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-11 21:04:39 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 21:04:39 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:04:39 [INFO]: Searching User with data:
+2025-12-11 21:04:39 [INFO]: Searching Movie with data:
+2025-12-11 21:04:39 [INFO]: Searching Course with data:
+2025-12-11 21:04:39 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:04:39 [INFO]: Searching User with data:
+2025-12-11 21:04:39 [INFO]: Searching Movie with data:
+2025-12-11 21:04:39 [INFO]: Searching Course with data:
+2025-12-11 21:04:39 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 21:06:20 [INFO]: Generating token for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-12-11 21:06:20 [INFO]: Login successful for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-12-11 21:06:21 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 21:06:21 [INFO]: Searching Movie with data:
+2025-12-11 21:06:21 [INFO]: Searching Course with data:
+2025-12-11 21:06:21 [INFO]: Searching Portfolio with data:
+2025-12-11 21:06:21 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:22 [INFO]: Searching Movie with data:
+2025-12-11 21:06:22 [INFO]: Searching Course with data:
+2025-12-11 21:06:22 [INFO]: Searching Portfolio with data:
+2025-12-11 21:06:22 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:22 [INFO]: Getting one record for Portfolio with query:
+2025-12-11 21:06:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:06:30 [INFO]: Searching Movie with data:
+2025-12-11 21:06:30 [INFO]: Searching Movie with data:
+2025-12-11 21:06:31 [INFO]: Searching Course with data:
+2025-12-11 21:06:31 [INFO]: Searching Payment with data:
+2025-12-11 21:06:31 [INFO]: Searching Course with data:
+2025-12-11 21:06:31 [INFO]: Searching Payment with data:
+2025-12-11 21:06:37 [INFO]: Searching Portfolio with data:
+2025-12-11 21:06:37 [INFO]: Searching Portfolio with data:
+2025-12-11 21:06:57 [INFO]: Searching JobPosting with data:
+2025-12-11 21:06:57 [INFO]: Searching JobPosting with data:
+2025-12-11 21:07:03 [INFO]: Searching Movie with data:
+2025-12-11 21:07:03 [INFO]: Searching Course with data:
+2025-12-11 21:07:03 [INFO]: Searching Portfolio with data:
+2025-12-11 21:07:03 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:07:03 [INFO]: Searching Movie with data:
+2025-12-11 21:07:03 [INFO]: Searching Course with data:
+2025-12-11 21:07:03 [INFO]: Searching Portfolio with data:
+2025-12-11 21:07:03 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:07:06 [INFO]: Searching Course with data:
+2025-12-11 21:07:06 [INFO]: Searching Course with data:
+2025-12-11 21:07:06 [INFO]: Searching Payment with data:
+2025-12-11 21:07:07 [INFO]: Searching Payment with data:
+2025-12-11 21:07:12 [INFO]: Searching Movie with data:
+2025-12-11 21:07:12 [INFO]: Searching Movie with data:
+2025-12-11 21:07:17 [INFO]: Searching Course with data:
+2025-12-11 21:07:17 [INFO]: Searching Payment with data:
+2025-12-11 21:07:17 [INFO]: Searching Course with data:
+2025-12-11 21:07:17 [INFO]: Searching Payment with data:
+2025-12-11 21:07:20 [INFO]: Searching Course with data:
+2025-12-11 21:07:20 [INFO]: Searching Course with data:
+2025-12-11 21:07:30 [INFO]: Searching Course with data:
+2025-12-11 21:07:30 [INFO]: Searching Course with data:
+2025-12-11 21:07:38 [INFO]: Searching Movie with data:
+2025-12-11 21:07:38 [INFO]: Searching Course with data:
+2025-12-11 21:07:38 [INFO]: Searching Portfolio with data:
+2025-12-11 21:07:38 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:07:38 [INFO]: Searching Movie with data:
+2025-12-11 21:07:38 [INFO]: Searching Course with data:
+2025-12-11 21:07:38 [INFO]: Searching Portfolio with data:
+2025-12-11 21:07:38 [INFO]: Searching NewsAndBlogs with data:
+2025-12-11 21:07:59 [INFO]: Searching Course with data:
+2025-12-11 21:07:59 [INFO]: Searching Course with data:
+2025-12-11 21:08:45 [INFO]: Searching Course with data:
+2025-12-11 21:08:45 [INFO]: Searching Payment with data:
+2025-12-11 21:08:45 [INFO]: Searching Course with data:
+2025-12-11 21:08:45 [INFO]: Searching Payment with data:
+2025-12-11 21:08:47 [INFO]: Searching Course with data:
+2025-12-11 21:08:47 [INFO]: Searching Course with data:
+2025-12-11 21:08:48 [INFO]: Searching Portfolio with data:
+2025-12-11 21:08:48 [INFO]: Searching Portfolio with data:
+2025-12-12 20:03:33 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:03:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:03:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:03:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:03:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:03:37 [INFO]: server is running on port 4000
+2025-12-12 20:03:37 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:03:37 [INFO]: Connected to database: test
+2025-12-12 20:03:37 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:03:37 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:03:40 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:03:40 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:03:40 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:03:40 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:04:25 [INFO]: Searching Course with data:
+2025-12-12 20:04:25 [INFO]: Searching Movie with data:
+2025-12-12 20:04:26 [INFO]: Searching Portfolio with data:
+2025-12-12 20:04:26 [INFO]: Searching Portfolio with data:
+2025-12-12 20:04:26 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:04:26 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:04:26 [INFO]: Searching Movie with data:
+2025-12-12 20:04:26 [INFO]: Searching Course with data:
+2025-12-12 20:10:22 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:10:23 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:10:23 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:10:23 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:10:23 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:10:24 [INFO]: server is running on port 4000
+2025-12-12 20:10:24 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:10:24 [INFO]: Connected to database: test
+2025-12-12 20:10:24 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:10:24 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:10:27 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:10:27 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:10:27 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:10:27 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:11:37 [INFO]: Searching Movie with data:
+2025-12-12 20:11:37 [INFO]: Searching Course with data:
+2025-12-12 20:11:37 [INFO]: Searching Portfolio with data:
+2025-12-12 20:11:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:11:37 [INFO]: Searching Movie with data:
+2025-12-12 20:11:37 [INFO]: Searching Course with data:
+2025-12-12 20:11:37 [INFO]: Searching Portfolio with data:
+2025-12-12 20:11:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:12:57 [INFO]: Searching Movie with data:
+2025-12-12 20:12:57 [INFO]: Searching Course with data:
+2025-12-12 20:12:57 [INFO]: Searching Portfolio with data:
+2025-12-12 20:12:57 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:14:46 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:14:48 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:14:48 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:14:48 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:14:48 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:14:48 [INFO]: server is running on port 4000
+2025-12-12 20:14:49 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:14:49 [INFO]: Connected to database: test
+2025-12-12 20:14:49 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:14:49 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:14:51 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:14:51 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:14:51 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:14:51 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:15:05 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:15:06 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:15:06 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:15:06 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:15:06 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:15:06 [INFO]: server is running on port 4000
+2025-12-12 20:15:07 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:15:07 [INFO]: Connected to database: test
+2025-12-12 20:15:07 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:15:07 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:15:09 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:15:09 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:15:09 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:15:09 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:15:11 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:15:13 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:15:13 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:15:13 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:15:13 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:15:13 [INFO]: server is running on port 4000
+2025-12-12 20:15:13 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:15:13 [INFO]: Connected to database: test
+2025-12-12 20:15:13 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:15:13 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:15:15 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:15:15 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:15:15 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:15:15 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:17:45 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:17:47 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:17:47 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:17:47 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:17:47 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:17:48 [INFO]: server is running on port 4000
+2025-12-12 20:17:49 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:17:49 [INFO]: Connected to database: test
+2025-12-12 20:17:49 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:17:49 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:17:51 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:17:51 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:17:51 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:17:51 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:18:03 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:18:05 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:18:05 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:18:05 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:18:05 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:18:06 [INFO]: server is running on port 4000
+2025-12-12 20:18:07 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:18:07 [INFO]: Connected to database: test
+2025-12-12 20:18:07 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:18:07 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:18:09 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:18:09 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:18:09 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:18:09 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:20:33 [INFO]: Searching Movie with data:
+2025-12-12 20:20:33 [INFO]: Searching Portfolio with data:
+2025-12-12 20:20:33 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:20:33 [INFO]: Searching Course with data:
+2025-12-12 20:20:33 [INFO]: Searching Portfolio with data:
+2025-12-12 20:20:33 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:20:33 [INFO]: Searching Movie with data:
+2025-12-12 20:20:33 [INFO]: Searching Course with data:
+2025-12-12 20:20:52 [INFO]: Generating token for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-12-12 20:20:52 [INFO]: Login successful for user: lolhappens53@gmail.com, ID: 6923319b827511e628b2cd5b
+2025-12-12 20:20:54 [INFO]: Searching Movie with data:
+2025-12-12 20:20:54 [INFO]: Searching Course with data:
+2025-12-12 20:20:54 [INFO]: Searching Portfolio with data:
+2025-12-12 20:20:54 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:20:54 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:20:54 [INFO]: Searching Movie with data:
+2025-12-12 20:20:54 [INFO]: Searching Course with data:
+2025-12-12 20:20:54 [INFO]: Searching Portfolio with data:
+2025-12-12 20:20:54 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:20:54 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:21:01 [INFO]: Searching Course with data:
+2025-12-12 20:21:01 [INFO]: Searching Payment with data:
+2025-12-12 20:21:01 [INFO]: Searching Course with data:
+2025-12-12 20:21:01 [INFO]: Searching Payment with data:
+2025-12-12 20:21:02 [INFO]: Searching Portfolio with data:
+2025-12-12 20:21:02 [INFO]: Searching Portfolio with data:
+2025-12-12 20:21:12 [INFO]: Searching Course with data:
+2025-12-12 20:21:12 [INFO]: Searching Payment with data:
+2025-12-12 20:21:12 [INFO]: Searching Course with data:
+2025-12-12 20:21:12 [INFO]: Searching Payment with data:
+2025-12-12 20:21:20 [INFO]: Searching JobPosting with data:
+2025-12-12 20:21:20 [INFO]: Searching JobPosting with data:
+2025-12-12 20:21:25 [INFO]: Searching Movie with data:
+2025-12-12 20:21:25 [INFO]: Searching Course with data:
+2025-12-12 20:21:25 [INFO]: Searching Portfolio with data:
+2025-12-12 20:21:25 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:21:25 [INFO]: Searching Movie with data:
+2025-12-12 20:21:25 [INFO]: Searching Course with data:
+2025-12-12 20:21:25 [INFO]: Searching Portfolio with data:
+2025-12-12 20:21:25 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:21:28 [INFO]: Searching Movie with data:
+2025-12-12 20:21:28 [INFO]: Searching Movie with data:
+2025-12-12 20:24:23 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-12 20:24:23 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-12 20:24:24 [INFO]: Searching Movie with data:
+2025-12-12 20:24:24 [INFO]: Searching Course with data:
+2025-12-12 20:24:24 [INFO]: Searching Portfolio with data:
+2025-12-12 20:24:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:24:24 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:24:24 [INFO]: Searching Movie with data:
+2025-12-12 20:24:24 [INFO]: Searching Course with data:
+2025-12-12 20:24:24 [INFO]: Searching Portfolio with data:
+2025-12-12 20:24:24 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:24:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:25:16 [INFO]: File uploaded to GridFS: 1765551316772_782747769_Screenshot 2025-11-30 015645.png (ID: 693c2cd4386c2625273a14bd, Size: 68172 bytes)
+2025-12-12 20:25:16 [INFO]: File upload request received
+2025-12-12 20:25:16 [INFO]: Files:
+2025-12-12 20:25:16 [INFO]: File:
+2025-12-12 20:25:16 [INFO]: Processing 1 file(s)
+2025-12-12 20:25:17 [INFO]: File 0 properties:
+2025-12-12 20:25:17 [INFO]: File 0 uploaded to GridFS: 1765551316772_782747769_Screenshot 2025-11-30 015645.png (ID: 693c2cd4386c2625273a14bd)
+2025-12-12 20:25:17 [INFO]: Upload response data:
+2025-12-12 20:25:21 [INFO]: Creating Course with data:
+2025-12-12 20:25:21 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:21 [ERROR]: Error message:
+2025-12-12 20:25:21 [ERROR]: Error stack:
+2025-12-12 20:25:21 [ERROR]: Request body:
+2025-12-12 20:25:26 [INFO]: Creating Course with data:
+2025-12-12 20:25:26 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:26 [ERROR]: Error message:
+2025-12-12 20:25:26 [ERROR]: Error stack:
+2025-12-12 20:25:26 [ERROR]: Request body:
+2025-12-12 20:25:27 [INFO]: Creating Course with data:
+2025-12-12 20:25:27 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:27 [ERROR]: Error message:
+2025-12-12 20:25:27 [ERROR]: Error stack:
+2025-12-12 20:25:27 [ERROR]: Request body:
+2025-12-12 20:25:44 [INFO]: Creating Course with data:
+2025-12-12 20:25:44 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required., thumbnail: Path `thumbnail` is required.
+2025-12-12 20:25:44 [ERROR]: Error message:
+2025-12-12 20:25:44 [ERROR]: Error stack:
+2025-12-12 20:25:44 [ERROR]: Request body:
+2025-12-12 20:26:53 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:26:54 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:26:54 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:26:54 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:26:54 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:26:54 [INFO]: server is running on port 4000
+2025-12-12 20:26:55 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:26:55 [INFO]: Connected to database: test
+2025-12-12 20:26:55 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:26:55 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:26:57 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:26:57 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:26:57 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:26:57 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:27:35 [WARN]: MongoDB disconnected
+2025-12-12 20:27:35 [INFO]: MongoDB reconnected
+2025-12-12 20:27:58 [INFO]: Creating Course with data:
+2025-12-12 20:27:58 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.
+2025-12-12 20:27:58 [ERROR]: Error message:
+2025-12-12 20:27:58 [ERROR]: Error stack:
+2025-12-12 20:27:58 [ERROR]: Request body:
+2025-12-12 20:28:52 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:28:54 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:28:54 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:28:54 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:28:54 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:28:55 [INFO]: server is running on port 4000
+2025-12-12 20:28:55 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:28:55 [INFO]: Connected to database: test
+2025-12-12 20:28:55 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:28:55 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:28:57 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:28:57 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:28:57 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:28:57 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:29:13 [INFO]: Creating Course with data:
+2025-12-12 20:29:13 [ERROR]: Error creating Course: Course validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.
+2025-12-12 20:29:13 [ERROR]: Error message:
+2025-12-12 20:29:13 [ERROR]: Error stack:
+2025-12-12 20:29:13 [ERROR]: Request body:
+2025-12-12 20:32:38 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:32:38 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:33:36 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:33:38 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:33:38 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:33:38 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:33:38 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:33:38 [INFO]: server is running on port 4000
+2025-12-12 20:33:38 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:33:38 [INFO]: Connected to database: test
+2025-12-12 20:33:38 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:33:38 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:33:40 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:33:40 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:33:40 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:33:40 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:34:03 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:34:03 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:38:55 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:38:56 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:39:25 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-12 20:39:25 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-12 20:39:27 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:39:27 [INFO]: Searching Movie with data:
+2025-12-12 20:39:27 [INFO]: Searching Course with data:
+2025-12-12 20:39:27 [INFO]: Searching Portfolio with data:
+2025-12-12 20:39:27 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:39:27 [INFO]: Searching Movie with data:
+2025-12-12 20:39:28 [INFO]: Searching Course with data:
+2025-12-12 20:39:28 [INFO]: Searching Portfolio with data:
+2025-12-12 20:39:28 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:39:28 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:40:13 [INFO]: File uploaded to GridFS: 1765552213737_400789615_Screenshot 2025-12-08 023433.png (ID: 693c3055c2c3cd7ef99d5d97, Size: 234384 bytes)
+2025-12-12 20:40:13 [INFO]: File upload request received
+2025-12-12 20:40:13 [INFO]: Files:
+2025-12-12 20:40:13 [INFO]: File:
+2025-12-12 20:40:13 [INFO]: Processing 1 file(s)
+2025-12-12 20:40:13 [INFO]: File 0 properties:
+2025-12-12 20:40:13 [INFO]: File 0 uploaded to GridFS: 1765552213737_400789615_Screenshot 2025-12-08 023433.png (ID: 693c3055c2c3cd7ef99d5d97)
+2025-12-12 20:40:13 [INFO]: Upload response data:
+2025-12-12 20:41:23 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:41:23 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:41:33 [INFO]: Searching Movie with data:
+2025-12-12 20:41:33 [INFO]: Searching Course with data:
+2025-12-12 20:41:33 [INFO]: Searching Portfolio with data:
+2025-12-12 20:41:33 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:41:33 [INFO]: Searching Movie with data:
+2025-12-12 20:41:33 [INFO]: Searching Course with data:
+2025-12-12 20:41:33 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 20:41:33 [INFO]: Searching Portfolio with data:
+2025-12-12 20:42:46 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:42:50 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:42:50 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:42:50 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:42:50 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:42:53 [INFO]: server is running on port 4000
+2025-12-12 20:42:54 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:42:54 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:42:54 [INFO]: Connected to database: test
+2025-12-12 20:42:54 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:42:54 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:42:55 [INFO]: Getting one record for Portfolio with query:
+2025-12-12 20:42:56 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:42:56 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:42:56 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:42:56 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 20:43:02 [INFO]: Searching Portfolio with data:
+2025-12-12 20:43:02 [INFO]: Searching Portfolio with data:
+2025-12-12 20:43:14 [INFO]: Searching Course with data:
+2025-12-12 20:43:14 [INFO]: Searching Course with data:
+2025-12-12 20:44:23 [INFO]: File uploaded to GridFS: 1765552463772_843202388_Screenshot 2025-12-08 023433.png (ID: 693c314fbe40975febb7e00f, Size: 234384 bytes)
+2025-12-12 20:44:23 [INFO]: File upload request received
+2025-12-12 20:44:23 [INFO]: Files:
+2025-12-12 20:44:23 [INFO]: File:
+2025-12-12 20:44:23 [INFO]: Processing 1 file(s)
+2025-12-12 20:44:23 [INFO]: File 0 properties:
+2025-12-12 20:44:23 [INFO]: File 0 uploaded to GridFS: 1765552463772_843202388_Screenshot 2025-12-08 023433.png (ID: 693c314fbe40975febb7e00f)
+2025-12-12 20:44:23 [INFO]: Upload response data:
+2025-12-12 20:47:56 [INFO]: Attempting to connect to MongoDB...
+2025-12-12 20:47:58 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-12 20:47:58 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-12 20:47:58 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-12 20:47:58 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-12 20:47:58 [INFO]: server is running on port 4000
+2025-12-12 20:47:59 [INFO]: MongoDB Connected Successfully
+2025-12-12 20:47:59 [INFO]: Connected to database: test
+2025-12-12 20:47:59 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-12 20:47:59 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-12 20:48:01 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-12 20:48:01 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-12 20:48:01 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-12 20:48:01 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-12 21:04:57 [INFO]: Searching Course with data:
+2025-12-12 21:04:57 [INFO]: Searching Movie with data:
+2025-12-12 21:04:57 [INFO]: Searching Portfolio with data:
+2025-12-12 21:04:57 [INFO]: Searching Portfolio with data:
+2025-12-12 21:04:57 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:04:57 [INFO]: Searching Movie with data:
+2025-12-12 21:04:57 [INFO]: Searching Course with data:
+2025-12-12 21:04:57 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:20:57 [INFO]: Searching Movie with data:
+2025-12-12 21:20:57 [INFO]: Searching Movie with data:
+2025-12-12 21:20:57 [INFO]: Searching Course with data:
+2025-12-12 21:20:57 [INFO]: Searching Portfolio with data:
+2025-12-12 21:20:57 [INFO]: Searching Course with data:
+2025-12-12 21:20:57 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:20:57 [INFO]: Searching Portfolio with data:
+2025-12-12 21:20:57 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:21:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:21:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:21:40 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:21:40 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:21:40 [INFO]: Searching Movie with data:
+2025-12-12 21:21:40 [INFO]: Searching Course with data:
+2025-12-12 21:21:40 [INFO]: Searching Portfolio with data:
+2025-12-12 21:21:40 [INFO]: Searching Movie with data:
+2025-12-12 21:21:40 [INFO]: Searching Course with data:
+2025-12-12 21:21:40 [INFO]: Searching Portfolio with data:
+2025-12-12 21:24:37 [INFO]: Searching Movie with data:
+2025-12-12 21:24:37 [INFO]: Searching Course with data:
+2025-12-12 21:24:37 [INFO]: Searching Portfolio with data:
+2025-12-12 21:24:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-12 21:24:37 [INFO]: Searching Movie with data:
+2025-12-12 21:24:37 [INFO]: Searching Course with data:
+2025-12-12 21:24:37 [INFO]: Searching Portfolio with data:
+2025-12-12 21:24:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 16:45:08 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 16:45:09 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 16:45:09 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 16:45:09 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 16:45:09 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 16:45:10 [INFO]: server is running on port 4000
+2025-12-15 16:45:11 [INFO]: MongoDB Connected Successfully
+2025-12-15 16:45:11 [INFO]: Connected to database: test
+2025-12-15 16:45:11 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 16:45:11 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 16:45:14 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 16:45:14 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 16:45:14 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 16:45:14 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 16:46:13 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 16:46:13 [INFO]: Searching Movie with data:
+2025-12-15 16:46:13 [INFO]: Searching Course with data:
+2025-12-15 16:46:13 [INFO]: Searching Portfolio with data:
+2025-12-15 16:46:13 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 16:46:13 [INFO]: Searching Movie with data:
+2025-12-15 16:46:13 [INFO]: Searching Course with data:
+2025-12-15 16:46:14 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 16:47:33 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-15 16:47:33 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-15 16:47:35 [INFO]: Searching Portfolio with data:
+2025-12-15 16:47:35 [INFO]: Searching Movie with data:
+2025-12-15 16:47:35 [INFO]: Searching Course with data:
+2025-12-15 16:47:35 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 16:47:36 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 16:47:37 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 16:47:37 [INFO]: Searching Movie with data:
+2025-12-15 16:47:37 [INFO]: Searching Course with data:
+2025-12-15 16:47:37 [INFO]: Searching Portfolio with data:
+2025-12-15 16:47:37 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 16:59:45 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 16:59:46 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 16:59:46 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 16:59:46 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 16:59:46 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 16:59:46 [INFO]: server is running on port 4000
+2025-12-15 16:59:46 [INFO]: MongoDB Connected Successfully
+2025-12-15 16:59:46 [INFO]: Connected to database: test
+2025-12-15 16:59:46 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 16:59:46 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 16:59:48 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 16:59:48 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 16:59:48 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 16:59:48 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 16:59:56 [INFO]: Searching Course with data:
+2025-12-15 16:59:56 [INFO]: Searching Course with data:
+2025-12-15 17:00:30 [INFO]: File uploaded to GridFS: 1765798230102_721439095_Screenshot 2025-12-12 214119.png (ID: 693ff156a4a65c6e78781782, Size: 614933 bytes)
+2025-12-15 17:00:30 [INFO]: File upload request received
+2025-12-15 17:00:30 [INFO]: Files:
+2025-12-15 17:00:30 [INFO]: File:
+2025-12-15 17:00:30 [INFO]: Processing 1 file(s)
+2025-12-15 17:00:30 [INFO]: File 0 properties:
+2025-12-15 17:00:30 [INFO]: File 0 uploaded to GridFS: 1765798230102_721439095_Screenshot 2025-12-12 214119.png (ID: 693ff156a4a65c6e78781782)
+2025-12-15 17:00:30 [INFO]: Upload response data:
+2025-12-15 17:07:49 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:07:50 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:07:50 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:07:50 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:07:50 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:07:50 [INFO]: server is running on port 4000
+2025-12-15 17:07:51 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:07:51 [INFO]: Connected to database: test
+2025-12-15 17:07:51 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:07:51 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:07:53 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:07:53 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:07:53 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:07:53 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:07:56 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:07:58 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:07:58 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:07:58 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:07:58 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:07:58 [INFO]: server is running on port 4000
+2025-12-15 17:08:02 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:08:03 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:08:03 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:08:03 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:08:03 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:08:03 [INFO]: server is running on port 4000
+2025-12-15 17:08:03 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:08:03 [INFO]: Connected to database: test
+2025-12-15 17:08:03 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:08:03 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:08:05 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:08:05 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:08:05 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:08:05 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:08:11 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:08:11 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:08:11 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:08:11 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:08:11 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:08:12 [INFO]: server is running on port 4000
+2025-12-15 17:08:12 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:08:12 [INFO]: Connected to database: test
+2025-12-15 17:08:12 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:08:12 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:08:14 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:08:14 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:08:14 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:08:14 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:08:26 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:08:27 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:08:27 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:08:27 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:08:27 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:08:28 [INFO]: server is running on port 4000
+2025-12-15 17:08:28 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:08:28 [INFO]: Connected to database: test
+2025-12-15 17:08:28 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:08:28 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:08:30 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:08:30 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:08:30 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:08:30 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:08:40 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:08:41 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:08:41 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:08:41 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:08:41 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:08:41 [INFO]: server is running on port 4000
+2025-12-15 17:08:42 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:08:42 [INFO]: Connected to database: test
+2025-12-15 17:08:42 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:08:42 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:08:44 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:08:44 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:08:44 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:08:44 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:25:11 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:25:12 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:25:12 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:25:12 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:25:12 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:25:13 [INFO]: server is running on port 4000
+2025-12-15 17:25:13 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:25:13 [INFO]: Connected to database: test
+2025-12-15 17:25:13 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:25:13 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:25:15 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:25:15 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:25:15 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:25:15 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:26:43 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:26:43 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:26:43 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:26:43 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:26:43 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:26:44 [INFO]: server is running on port 4000
+2025-12-15 17:26:44 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:26:44 [INFO]: Connected to database: test
+2025-12-15 17:26:44 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:26:44 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:26:46 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:26:46 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:26:46 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:26:46 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:29:29 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 17:29:30 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 17:29:30 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 17:29:30 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 17:29:30 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 17:29:32 [INFO]: server is running on port 4000
+2025-12-15 17:29:32 [INFO]: MongoDB Connected Successfully
+2025-12-15 17:29:32 [INFO]: Connected to database: test
+2025-12-15 17:29:32 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 17:29:32 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 17:29:34 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 17:29:34 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 17:29:34 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 17:29:34 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 17:29:37 [INFO]: Searching Movie with data:
+2025-12-15 17:29:37 [INFO]: Searching Course with data:
+2025-12-15 17:29:38 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 17:29:38 [INFO]: Searching Movie with data:
+2025-12-15 17:29:38 [INFO]: Searching Course with data:
+2025-12-15 17:29:38 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 17:29:38 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 17:29:38 [INFO]: Searching Portfolio with data:
+2025-12-15 17:29:38 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 17:29:38 [INFO]: Searching Portfolio with data:
+2025-12-15 17:32:16 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 17:32:16 [INFO]: Searching Movie with data:
+2025-12-15 17:32:16 [INFO]: Searching Course with data:
+2025-12-15 17:32:16 [INFO]: Searching Portfolio with data:
+2025-12-15 17:32:16 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 17:32:16 [INFO]: Searching Movie with data:
+2025-12-15 17:32:16 [INFO]: Searching Course with data:
+2025-12-15 17:32:16 [INFO]: Searching Portfolio with data:
+2025-12-15 17:32:16 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 17:32:16 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 17:33:30 [INFO]: File uploaded to GridFS: 1765800210589_373326096_Screenshot 2025-12-12 214119.png (ID: 693ff912e70cf0f6b5f2b1ed, Size: 614933 bytes)
+2025-12-15 17:33:30 [INFO]: File upload request received
+2025-12-15 17:33:30 [INFO]: Files:
+2025-12-15 17:33:30 [INFO]: File:
+2025-12-15 17:33:30 [INFO]: Processing 1 file(s)
+2025-12-15 17:33:30 [INFO]: File 0 properties:
+2025-12-15 17:33:30 [INFO]: File 0 uploaded to GridFS: 1765800210589_373326096_Screenshot 2025-12-12 214119.png (ID: 693ff912e70cf0f6b5f2b1ed)
+2025-12-15 17:33:30 [INFO]: Upload response data:
+2025-12-15 20:55:37 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 20:55:37 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 20:55:37 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 20:55:37 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 20:55:37 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 20:55:38 [INFO]: server is running on port 4000
+2025-12-15 20:55:38 [INFO]: MongoDB Connected Successfully
+2025-12-15 20:55:38 [INFO]: Connected to database: test
+2025-12-15 20:55:38 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 20:55:38 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 20:55:40 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 20:55:40 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 20:55:40 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 20:55:40 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 20:58:29 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 20:58:29 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 20:58:29 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 20:58:29 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 20:58:29 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 20:58:29 [INFO]: server is running on port 4000
+2025-12-15 20:58:30 [INFO]: MongoDB Connected Successfully
+2025-12-15 20:58:30 [INFO]: Connected to database: test
+2025-12-15 20:58:30 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 20:58:30 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 20:58:32 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 20:58:32 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 20:58:32 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 20:58:32 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 21:06:24 [WARN]: MongoDB disconnected
+2025-12-15 21:06:49 [INFO]: MongoDB reconnected
+2025-12-15 22:25:42 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:25:45 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:25:45 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:25:45 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:25:45 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:25:48 [INFO]: server is running on port 4000
+2025-12-15 22:25:48 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:25:48 [INFO]: Connected to database: test
+2025-12-15 22:25:48 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:25:48 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:25:50 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:25:50 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:25:50 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:25:50 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:26:58 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:26:58 [INFO]: Searching Movie with data:
+2025-12-15 22:26:58 [INFO]: Searching Course with data:
+2025-12-15 22:26:58 [INFO]: Searching Portfolio with data:
+2025-12-15 22:26:58 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 22:26:58 [INFO]: Searching Movie with data:
+2025-12-15 22:26:58 [INFO]: Searching Course with data:
+2025-12-15 22:26:58 [INFO]: Searching Portfolio with data:
+2025-12-15 22:26:58 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 22:26:58 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:27:16 [INFO]: Searching Portfolio with data:
+2025-12-15 22:27:16 [INFO]: Searching Portfolio with data:
+2025-12-15 22:27:33 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-15 22:27:33 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-15 22:27:35 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:27:35 [INFO]: Searching Movie with data:
+2025-12-15 22:27:35 [INFO]: Searching Movie with data:
+2025-12-15 22:27:35 [INFO]: Searching Course with data:
+2025-12-15 22:27:35 [INFO]: Searching Portfolio with data:
+2025-12-15 22:27:35 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 22:27:35 [INFO]: Searching Course with data:
+2025-12-15 22:27:35 [INFO]: Searching Portfolio with data:
+2025-12-15 22:27:35 [INFO]: Searching NewsAndBlogs with data:
+2025-12-15 22:27:35 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:28:16 [INFO]: File uploaded to GridFS: 1765817896323_385295096_Screenshot 2025-12-12 214119.png (ID: 69403e281bedcf3084ac1108, Size: 614933 bytes)
+2025-12-15 22:28:16 [INFO]: File upload request received
+2025-12-15 22:28:16 [INFO]: Files:
+2025-12-15 22:28:16 [INFO]: File:
+2025-12-15 22:28:16 [INFO]: Processing 1 file(s)
+2025-12-15 22:28:16 [INFO]: File 0 properties:
+2025-12-15 22:28:16 [INFO]: File 0 uploaded to GridFS: 1765817896323_385295096_Screenshot 2025-12-12 214119.png (ID: 69403e281bedcf3084ac1108)
+2025-12-15 22:28:16 [INFO]: Upload response data:
+2025-12-15 22:30:59 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:31:35 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:31:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:31:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:31:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:31:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:31:38 [INFO]: server is running on port 4000
+2025-12-15 22:31:39 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:31:39 [INFO]: Connected to database: test
+2025-12-15 22:31:39 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:31:39 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:31:41 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:31:41 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:31:41 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:31:41 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:31:52 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:31:58 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:33:08 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:33:08 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:34:30 [INFO]: File uploaded to GridFS: 1765818270650_876919403_Screenshot 2025-12-15 222844.png (ID: 69403f9e8ca958f6ca08805e, Size: 223848 bytes)
+2025-12-15 22:34:30 [INFO]: File upload request received
+2025-12-15 22:34:30 [INFO]: Files:
+2025-12-15 22:34:30 [INFO]: File:
+2025-12-15 22:34:30 [INFO]: Processing 1 file(s)
+2025-12-15 22:34:30 [INFO]: File 0 properties:
+2025-12-15 22:34:30 [INFO]: File 0 uploaded to GridFS: 1765818270650_876919403_Screenshot 2025-12-15 222844.png (ID: 69403f9e8ca958f6ca08805e)
+2025-12-15 22:34:30 [INFO]: Upload response data:
+2025-12-15 22:36:00 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:36:01 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:36:01 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:36:01 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:36:01 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:36:01 [INFO]: server is running on port 4000
+2025-12-15 22:36:02 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:36:02 [INFO]: Connected to database: test
+2025-12-15 22:36:02 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:36:02 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:36:04 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:36:04 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:36:04 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:36:04 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:36:39 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:36:39 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:36:39 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:36:39 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:36:39 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:36:40 [INFO]: server is running on port 4000
+2025-12-15 22:36:40 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:36:40 [INFO]: Connected to database: test
+2025-12-15 22:36:40 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:36:40 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:36:42 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:36:42 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:36:42 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:36:42 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:37:38 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:38:51 [INFO]: File uploaded to GridFS: 1765818531829_363767072_Screenshot 2025-12-15 222844.png (ID: 694040a3bc4f489364d62edf, Size: 223848 bytes)
+2025-12-15 22:38:51 [INFO]: File upload request received
+2025-12-15 22:38:51 [INFO]: Files:
+2025-12-15 22:38:51 [INFO]: File:
+2025-12-15 22:38:51 [INFO]: Processing 1 file(s)
+2025-12-15 22:38:51 [INFO]: File 0 properties:
+2025-12-15 22:38:51 [INFO]: File 0 uploaded to GridFS: 1765818531829_363767072_Screenshot 2025-12-15 222844.png (ID: 694040a3bc4f489364d62edf)
+2025-12-15 22:38:51 [INFO]: Upload response data:
+2025-12-15 22:39:22 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:39:23 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:39:23 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:39:23 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:39:23 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:39:24 [INFO]: server is running on port 4000
+2025-12-15 22:39:25 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:39:25 [INFO]: Connected to database: test
+2025-12-15 22:39:25 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:39:25 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:39:27 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:39:27 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:39:27 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:39:27 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:39:51 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:39:51 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 22:41:27 [INFO]: File uploaded to GridFS: 1765818687206_900838782_Screenshot 2025-12-15 205300.png (ID: 6940413f2b5bbf88c34846a2, Size: 1102001 bytes)
+2025-12-15 22:41:27 [INFO]: File upload request received
+2025-12-15 22:41:27 [INFO]: Files:
+2025-12-15 22:41:27 [INFO]: File:
+2025-12-15 22:41:27 [INFO]: Processing 1 file(s)
+2025-12-15 22:41:27 [INFO]: File 0 properties:
+2025-12-15 22:41:27 [INFO]: File 0 uploaded to GridFS: 1765818687206_900838782_Screenshot 2025-12-15 205300.png (ID: 6940413f2b5bbf88c34846a2)
+2025-12-15 22:41:27 [INFO]: Upload response data:
+2025-12-15 22:41:58 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:41:59 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:41:59 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:41:59 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:41:59 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:41:59 [INFO]: server is running on port 4000
+2025-12-15 22:42:00 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:42:00 [INFO]: Connected to database: test
+2025-12-15 22:42:00 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:42:00 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:42:04 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:42:04 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:42:04 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:42:04 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:42:04 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:42:05 [INFO]: server is running on port 4000
+2025-12-15 22:42:05 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:42:05 [INFO]: Connected to database: test
+2025-12-15 22:42:05 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:42:05 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:42:07 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:42:07 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:42:07 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:42:07 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-15 22:43:16 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 22:43:17 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 22:43:17 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 22:43:17 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 22:43:17 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 22:43:17 [INFO]: server is running on port 4000
+2025-12-15 22:43:18 [INFO]: MongoDB Connected Successfully
+2025-12-15 22:43:18 [INFO]: Connected to database: test
+2025-12-15 22:43:18 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 22:43:18 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-15 22:43:20 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-15 22:43:20 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-15 22:43:20 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-15 22:43:20 [INFO]: ✅ Successfully switched to MongoDB GridFS storage

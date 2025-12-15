@@ -18,7 +18,7 @@ const { verifySign } = require("../utils/token");
 router.route("/create").post(
   prepareBody,
   //  modelvalidate,
-  asyncHandler("", createData)
+  asyncHandler("Course", createData)
 );
 router.route("/insertMany").post(
   // prepareBody,

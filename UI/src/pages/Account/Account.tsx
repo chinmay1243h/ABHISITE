@@ -6,14 +6,11 @@ import {
   Container,
   Grid,
   IconButton,
-  InputAdornment,
   TextField,
   Typography,
   useMediaQuery,
 } from "@mui/material";
 import PhotoCamera from "@mui/icons-material/PhotoCamera";
-import Visibility from "@mui/icons-material/Visibility";
-import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { inputSx } from "../../components/utils/CommonStyle";
 import color from "../../components/utils/Colors";
 import { docsUpload, editProfile, getPortfolio, getProfile, updatePortfolio } from "../../services/services";
@@ -35,6 +32,12 @@ const Account: React.FC = () => {
       setProfileData(res?.data?.data)
     }).catch((err: any) => {
       console.log(err)
+      // Check if it's an authentication error
+      if (err?.response?.status === 401) {
+        console.error("Session expired");
+        // Redirect to login page
+        window.location.href = '/login';
+      }
     })
   }, [])
   const [profileData, setProfileData] = useState<ProfileData>({

@@ -1,18 +1,17 @@
-import { faCamera, faEdit } from "@fortawesome/free-solid-svg-icons";
+import { faEdit } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Box, Button, Tab, Tabs, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import color from "../../components/utils/Colors";
-
 import { useNavigate, useParams } from "react-router-dom";
-import Achievements from "./Achievements";
-import Contact from "./Contact";
-import Photos from "./Photos";
+import { getPortfolioDetails, getPortfolioDetailsBelongsToTable, getProfile } from "../../services/services";
+import { getUserId, getUserRoll, getfirstName, getlastName } from "../../services/axiosClient";
+import { toast } from "react-toastify";
 import Profile from "./Profile";
 import Projects from "./Projects";
-import { getportfolioAchivement, getportfolioContact, getportfolioData, getPortfolioDetails, getPortfolioDetailsBelongsToTable, getPortfolioPhoto, getportfolioProject, getProfile } from "../../services/services";
-import { getfirstName, getlastName, getUserId, getUserRoll } from "../../services/axiosClient";
-import { toast } from "react-toastify";
+import Photos from "./Photos";
+import Achievements from "./Achievements";
+import Contact from "./Contact";
 export const Portfolio: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0);
   const navigate = useNavigate();
@@ -51,11 +50,17 @@ export const Portfolio: React.FC = () => {
 
 
   useEffect(() => {
-    getProfile().then((res) => {
+    getProfile().then((res: any) => {
       // console.log(res)
       setUser(res?.data?.data)
-    }).catch((err) => {
+    }).catch((err: any) => {
       console.log(err)
+      // Check if it's an authentication error
+      if (err?.response?.status === 401) {
+        console.error("Session expired");
+        // Redirect to login page
+        window.location.href = '/login';
+      }
     })
   }, [])
 
@@ -69,7 +74,7 @@ export const Portfolio: React.FC = () => {
       console.log(err)
       toast(err);
     })
-  }, [])
+  }, [userId])
 
   console.log(portfolio.id)
   useEffect(() => {

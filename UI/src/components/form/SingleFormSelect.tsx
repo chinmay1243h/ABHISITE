@@ -56,12 +56,25 @@ export default function FormSelect2({
         // }`}
       >
         <Select
-          placeholder={label}
+          displayEmpty
           value={selectedOption[valueProp] || ""}
           onChange={(e) => handleOption(valueProp, e.target.value)}
           inputProps={{
             readOnly: readonly,
             // ...register(valueProp),
+          }}
+          renderValue={(selected) => {
+            if (!selected) {
+              return <em>{label}</em>;
+            }
+            const selectedItem = options.find(
+              (item: any) => 
+                (item.value === selected) || 
+                (item[primeryKey] === selected) || 
+                (item.id === selected) || 
+                (item === selected)
+            );
+            return selectedItem?.label || selectedItem?.name || selectedItem || '';
           }}
         >
           {options.map((item: any, index: any) => {

@@ -2,6 +2,7 @@ import axios from 'axios';
 import CryptoJS from 'crypto-js'
 import CYS from './Secret';
 import { logout } from './axiosClient';
+import { toast } from 'react-toastify';
 
 export function createAxiosClient({
     options,
@@ -11,7 +12,7 @@ export function createAxiosClient({
     client.interceptors.request.use((config: any) => {
         const token = getCurrentAccessToken();
         if (token) {
-            config.headers.Authorization = token;
+            config.headers.Authorization = `Bearer ${token}`;
         }
         if(config.data instanceof FormData) {
             console.log(config.data)
@@ -61,8 +62,13 @@ export function createAxiosClient({
                 alert("Internet failure or server disconnected")
             }
             else if (error.response.status === 401) {
+                console.error("Authentication error - token expired or invalid");
                 logout();
                 return axios(error.config);
+            }
+            else if (error.response.status === 403) {
+                console.error("Access forbidden - insufficient permissions");
+                toast.error("You don't have permission to perform this action");
             }
             return Promise.reject(error);
         }

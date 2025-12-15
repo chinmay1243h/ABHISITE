@@ -8,6 +8,11 @@ const courseSchema = new mongoose.Schema(
       required: true,
       index: true,
     },
+    instructor: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
+    },
     firstName: {
       type: String,
       required: true,
@@ -35,14 +40,21 @@ const courseSchema = new mongoose.Schema(
     category: {
       type: String,
       required: true,
+      enum: ['programming', 'design', 'business', 'marketing', 'music', 'art', 'other'],
+    },
+    level: {
+      type: String,
+      enum: ['beginner', 'intermediate', 'advanced'],
+      default: 'beginner',
     },
     tags: {
-      type: String,
-      default: null,
+      type: [String],
+      default: [],
     },
     price: {
       type: Number,
       required: true,
+      min: 0,
     },
     discount: {
       type: String,
@@ -54,7 +66,26 @@ const courseSchema = new mongoose.Schema(
     },
     thumbnail: {
       type: String,
-      required: true,
+      required: false,
+      default: null,
+    },
+    files: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "TelegramFile",
+    }],
+    telegramFileId: {
+      type: String,
+      default: null,
+    },
+    courseCode: {
+      type: String,
+      unique: true,
+      sparse: true,
+    },
+    accessCode: {
+      type: String,
+      unique: true,
+      sparse: true,
     },
     releaseDate: {
       type: Date,
@@ -64,12 +95,45 @@ const courseSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
+    isPublished: {
+      type: Boolean,
+      default: false,
+    },
+    isDraft: {
+      type: Boolean,
+      default: true,
+    },
+    publishedAt: {
+      type: Date,
+    },
+    requirements: [{
+      type: String,
+      maxlength: 200,
+    }],
+    whatYouWillLearn: [{
+      type: String,
+      maxlength: 200,
+    }],
   },
   {
     timestamps: true,
     collection: "courses",
   }
 );
+
+// Index for search functionality
+courseSchema.index({ title: 'text', description: 'text', tags: 'text' });
+courseSchema.index({ instructor: 1, isPublished: 1 });
+courseSchema.index({ category: 1, level: 1 });
+
+// Update publishedAt when course is published
+courseSchema.pre('save', function(next) {
+  if (this.isModified('isPublished') && this.isPublished && !this.publishedAt) {
+    this.publishedAt = new Date();
+    this.isDraft = false;
+  }
+  next();
+});
 
 const Course = mongoose.model("Course", courseSchema);
 

@@ -233,6 +233,7 @@ const UploadCourse: React.FC = () => {
                                         <iframe
                                             src={file.previewURL}
                                             style={{ width: "100%", height: "300px" }}
+                                            title="PDF Preview"
                                         ></iframe>
                                     )}
                                     <IconButton

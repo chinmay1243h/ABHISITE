@@ -38,7 +38,8 @@ const paymentSchema = new mongoose.Schema(
   }
 );
 
-paymentSchema.index({ transactionId: 1 }, { unique: true });
+// Indexes
+// transactionId index is automatically created by unique: true in schema definition
 paymentSchema.index({ userId: 1 });
 paymentSchema.index({ courseId: 1 });
 paymentSchema.index({ status: 1 });

@@ -1,6 +1,6 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import { Field, Form, Formik } from "formik";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import * as Yup from "yup";
 import { useParams, useNavigate } from "react-router-dom";
 import { inputSx } from "../../components/utils/CommonStyle";
@@ -36,11 +36,7 @@ const EditMovie: React.FC = () => {
     const [posterPreview, setPosterPreview] = useState<string | null>(null);
     const [imagePreview, setImagePreview] = useState<string | null>(null);
 
-    useEffect(() => {
-        fetchMovieDetails();
-    }, []);
-
-    const fetchMovieDetails = async () => {
+    const fetchMovieDetails = useCallback(async () => {
         try {
             const res = await getOneMovies(id);
             const movieData = res?.data?.data;
@@ -49,16 +45,29 @@ const EditMovie: React.FC = () => {
                 setPosterPreview(movieData.poster || null);
                 setImagePreview(movieData.images || null); // Expecting a single image
                 setInitialValues({
-                    ...movieData,
+                    poster: movieData.poster || "",
+                    title: movieData.title || "",
+                    year: movieData.year || "",
+                    duration: movieData.duration || "",
+                    rating: movieData.rating || "",
+                    age: movieData.age || "",
+                    overview: movieData.overview || "",
+                    plot: movieData.plot || "",
+                    trailer: movieData.trailer || "",
                     images: movieData.images || "",
                 });
             }
         } catch (error: any) {
-            console.error("Error fetching movie:", error);
-            const errorMessage = error?.response?.data?.msg || error?.message || "Failed to fetch movie details";
-            toast.error(errorMessage);
+            console.error("Error fetching movie details:", error);
+            toast.error("Failed to load movie details.");
         }
-    };
+    }, [id]);
+
+    useEffect(() => {
+        if (id) {
+            fetchMovieDetails();
+        }
+    }, [id, fetchMovieDetails]);
 
     const handleFileUpload = async (
         event: React.ChangeEvent<HTMLInputElement>,
@@ -138,9 +147,16 @@ const EditMovie: React.FC = () => {
                         console.error("No valid user ID found. Please log out and log back in.");
                         return;
                     }
-                } catch (profileError) {
+                } catch (profileError: any) {
                     console.error("Error fetching profile:", profileError);
-                    toast.error("User ID not found. Please login again.");
+                    // Check if it's an authentication error
+                    if (profileError?.response?.status === 401) {
+                        toast.error("Session expired. Please login again.");
+                        // Redirect to login page
+                        navigate('/login');
+                        return;
+                    }
+                    toast.error("Unable to verify user identity. Please login again.");
                     return;
                 }
             }
@@ -200,7 +216,7 @@ const EditMovie: React.FC = () => {
                                 {/* Single Image Upload */}
                                 <label>Image:</label>
                                 <input type="file" accept="image/*" onChange={(e) => handleFileUpload(e, setFieldValue, "images")} />
-                                {imagePreview && <img src={imagePreview} alt="Uploaded Image" style={{ width: "100%", height: "150px", objectFit: "cover", marginTop: "10px", borderRadius: "8px" }} />}
+                                {imagePreview && <img src={imagePreview} alt="Uploaded" style={{ width: "100%", height: "150px", objectFit: "cover", marginTop: "10px", borderRadius: "8px" }} />}
                                 {touched.images && errors.images && <Typography color="error"></Typography>}
 
                                 {/* Submit Button */}

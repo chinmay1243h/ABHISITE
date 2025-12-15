@@ -88,15 +88,15 @@ export function editProfile(payLoad:any){
 }
 
 export function insertCourse(payLoad:any){
-    return client.post('/Course/create',payLoad);
+    return client.post('/courses',payLoad);
 }
 
 export function getAllCourse(payLoad:any){
-    return client.post("/Course/search-record",payLoad);
+    return client.get("/courses",{ params: payLoad });
 }
 
 export function getOneCourse(id:any){
-    return client.get(`/Course/get-one-record/${id}`);
+    return client.get(`/courses/${id}`);
 }
 
 export function createOrder (payload:any) {
@@ -235,13 +235,13 @@ export function getAllAppliedJobsBelongsTo(payLoad:any){
 }
 
 export function deleteCourse(id:any){
-    return client.delete(`/Course/delete-record/${id}`)
+    return client.delete(`/courses/${id}`)
 }
 export function deleteJobs(id:any){
     return client.delete(`/JobPosting/delete-record/${id}`)
 }
 export function updateCourse(payLoad:any,id:any){
-    return client.patch(`/Course/update-record/${id}`,payLoad)
+    return client.patch(`/courses/${id}`,payLoad)
 }
 
 export function updatePortfolio(id: any,payLoad:any) {
@@ -286,4 +286,12 @@ export function editPortfolioContact(id:any,payLoad:any){
 
 export function askChatbot(payload: { message: string; history?: { role: string; content: string }[] }) {
     return client.post("/chatbot/ask", payload);
+}
+
+export function createCourseWithTelegram(payLoad: any) {
+    return client.post("/Course/create-with-telegram", payLoad);
+}
+
+export function getCourseByAccessCode(accessCode: string) {
+    return client.get(`/Course/get-by-access-code/${accessCode}`);
 }

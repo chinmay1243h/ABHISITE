@@ -5,16 +5,11 @@ import {
   Card,
   CardContent,
   CircularProgress,
-  Container,
-  Divider,
   Grid,
   IconButton,
   List,
-  ListItem,
-  ListItemText,
   Menu,
   MenuItem,
-  Paper,
   TextField,
   Typography,
 } from "@mui/material";
@@ -37,7 +32,6 @@ import { MoreVert, SendRounded } from "@mui/icons-material";
 import ShareIcon from "@mui/icons-material/Share";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import { inputSx } from "../../components/utils/CommonStyle";
-import axios from "axios"
 
 interface ProfileData {
   firstName: string;
@@ -65,6 +59,12 @@ const Player = () => {
       setProfileData(res?.data?.data)
     }).catch((err: any) => {
       console.log(err)
+      // Check if it's an authentication error
+      if (err?.response?.status === 401) {
+        console.error("Session expired");
+        // Redirect to login page
+        window.location.href = '/login';
+      }
     })
   }, [])
 
@@ -141,6 +141,12 @@ const Player = () => {
       })
       .catch((err: any) => {
         console.error(err);
+        // Check if it's an authentication error
+        if (err?.response?.status === 401) {
+          console.error("Session expired");
+          // Redirect to login page
+          window.location.href = '/login';
+        }
       });
   }, []);
 
@@ -175,10 +181,10 @@ const Player = () => {
       pageSize: 50,
       order: [["createdAt", "ASC"]],
     };
-    getAllComments(payLoad).then((res: any) => {
+    getAllComments(payLoad).then((res) => {
       setComments(res?.data?.data?.rows);
     });
-  }, []);
+  }, [id]);
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
 
   useEffect(() => {
