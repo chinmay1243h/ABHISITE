@@ -40,7 +40,7 @@ const courseSchema = new mongoose.Schema(
     category: {
       type: String,
       required: true,
-      enum: ['programming', 'design', 'business', 'marketing', 'music', 'art', 'other'],
+      enum: ['programming', 'design', 'business', 'marketing', 'music', 'art', 'film', 'soft-books', 'video', 'other'],
     },
     level: {
       type: String,
@@ -105,6 +105,25 @@ const courseSchema = new mongoose.Schema(
     },
     publishedAt: {
       type: Date,
+    },
+    submittedForApproval: {
+      type: Boolean,
+      default: false,
+    },
+    adminApproved: {
+      type: Boolean,
+      default: false,
+    },
+    approvedAt: {
+      type: Date,
+    },
+    approvedBy: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
+    rejectionReason: {
+      type: String,
+      default: null,
     },
     requirements: [{
       type: String,

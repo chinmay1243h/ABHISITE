@@ -7567,3 +7567,442 @@ notNull Violation: payment.amount cannot be null
 2025-12-15 22:43:27 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
 2025-12-15 22:44:41 [INFO]: Getting one record for Portfolio with query:
 2025-12-15 22:44:41 [INFO]: Getting one record for Portfolio with query:
+2025-12-15 23:13:47 [INFO]: Attempting to connect to MongoDB...
+2025-12-15 23:13:48 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-15 23:13:48 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-15 23:13:48 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-15 23:13:48 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-15 23:13:48 [INFO]: server is running on port 4000
+2025-12-15 23:13:49 [INFO]: MongoDB Connected Successfully
+2025-12-15 23:13:49 [INFO]: Connected to database: test
+2025-12-15 23:13:49 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-15 23:13:49 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:09:32 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:09:33 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:09:33 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:09:33 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:09:33 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:09:33 [INFO]: server is running on port 4000
+2025-12-16 01:09:34 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:09:34 [INFO]: Connected to database: test
+2025-12-16 01:09:34 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:09:34 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:09:36 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:09:36 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:09:36 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:09:36 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:11:18 [INFO]: File uploaded to GridFS: 1765827678549_24399626_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 6940645e46c2c048feb54045, Size: 95242 bytes)
+2025-12-16 01:11:18 [INFO]: File upload request received
+2025-12-16 01:11:18 [INFO]: Files:
+2025-12-16 01:11:18 [INFO]: File:
+2025-12-16 01:11:18 [INFO]: Processing 1 file(s)
+2025-12-16 01:11:18 [INFO]: File 0 properties:
+2025-12-16 01:11:18 [INFO]: File 0 uploaded to GridFS: 1765827678549_24399626_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 6940645e46c2c048feb54045)
+2025-12-16 01:11:18 [INFO]: Upload response data:
+2025-12-16 01:12:36 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:12:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:12:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:12:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:12:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:12:37 [INFO]: server is running on port 4000
+2025-12-16 01:12:38 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:12:38 [INFO]: Connected to database: test
+2025-12-16 01:12:38 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:12:38 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:12:39 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:12:40 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:12:40 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:12:40 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:12:40 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:12:40 [INFO]: server is running on port 4000
+2025-12-16 01:12:40 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:12:40 [INFO]: Connected to database: test
+2025-12-16 01:12:40 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:12:40 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:12:42 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:12:42 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:12:42 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:12:42 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:13:52 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:13:52 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:13:52 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:13:52 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:13:52 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:13:53 [INFO]: server is running on port 4000
+2025-12-16 01:13:53 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:13:53 [INFO]: Connected to database: test
+2025-12-16 01:13:53 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:13:53 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:13:55 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:13:55 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:13:55 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:13:55 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:14:35 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:14:36 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:14:36 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:14:36 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:14:36 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:14:36 [INFO]: server is running on port 4000
+2025-12-16 01:14:37 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:14:37 [INFO]: Connected to database: test
+2025-12-16 01:14:37 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:14:37 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:14:39 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:14:39 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:14:39 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:14:39 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:15:12 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:15:12 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:15:12 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:15:12 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:15:12 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:15:13 [INFO]: server is running on port 4000
+2025-12-16 01:15:13 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:15:13 [INFO]: Connected to database: test
+2025-12-16 01:15:13 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:15:13 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:15:15 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:15:15 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:15:15 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:15:15 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:15:45 [INFO]: File uploaded to GridFS: 1765827944965_924888675_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 69406568bd41c2f3db6488fd, Size: 95242 bytes)
+2025-12-16 01:15:45 [INFO]: File upload request received
+2025-12-16 01:15:45 [INFO]: Files:
+2025-12-16 01:15:45 [INFO]: File:
+2025-12-16 01:15:45 [INFO]: Processing 1 file(s)
+2025-12-16 01:15:45 [INFO]: File 0 properties:
+2025-12-16 01:15:45 [INFO]: File 0 uploaded to GridFS: 1765827944965_924888675_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 69406568bd41c2f3db6488fd)
+2025-12-16 01:15:45 [INFO]: Upload response data:
+2025-12-16 01:16:13 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:16:14 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:16:14 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:16:14 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:16:14 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:16:15 [INFO]: server is running on port 4000
+2025-12-16 01:16:15 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:16:15 [INFO]: Connected to database: test
+2025-12-16 01:16:15 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:16:15 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:16:17 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:16:17 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:16:17 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:16:17 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:16:28 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:16:28 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:16:28 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:16:28 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:16:28 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:16:29 [INFO]: server is running on port 4000
+2025-12-16 01:16:29 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:16:29 [INFO]: Connected to database: test
+2025-12-16 01:16:29 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:16:29 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:16:31 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:16:31 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:16:31 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:16:31 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:16:31 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:16:32 [INFO]: server is running on port 4000
+2025-12-16 01:16:32 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:16:32 [INFO]: Connected to database: test
+2025-12-16 01:16:32 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:16:32 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:16:34 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:16:34 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:16:34 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:16:34 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:18:22 [INFO]: File uploaded to GridFS: 1765828101987_733972002_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 69406605364158ab851cebbb, Size: 95242 bytes)
+2025-12-16 01:18:22 [INFO]: File upload request received
+2025-12-16 01:18:22 [INFO]: Files:
+2025-12-16 01:18:22 [INFO]: File:
+2025-12-16 01:18:22 [INFO]: Processing 1 file(s)
+2025-12-16 01:18:22 [INFO]: File 0 properties:
+2025-12-16 01:18:22 [INFO]: File 0 uploaded to GridFS: 1765828101987_733972002_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 69406605364158ab851cebbb)
+2025-12-16 01:18:22 [INFO]: Upload response data:
+2025-12-16 01:18:51 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:18:51 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:18:51 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:18:51 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:18:51 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:18:52 [INFO]: server is running on port 4000
+2025-12-16 01:18:52 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:18:52 [INFO]: Connected to database: test
+2025-12-16 01:18:52 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:18:52 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:18:54 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:18:54 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:18:54 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:18:54 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:19:36 [INFO]: File uploaded to GridFS: 1765828175945_919038851_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 6940664fc4576df3678894e4, Size: 95242 bytes)
+2025-12-16 01:19:36 [INFO]: File upload request received
+2025-12-16 01:19:36 [INFO]: Files:
+2025-12-16 01:19:36 [INFO]: File:
+2025-12-16 01:19:36 [INFO]: Processing 1 file(s)
+2025-12-16 01:19:36 [INFO]: File 0 properties:
+2025-12-16 01:19:36 [INFO]: File 0 uploaded to GridFS: 1765828175945_919038851_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 6940664fc4576df3678894e4)
+2025-12-16 01:19:36 [INFO]: Upload response data:
+2025-12-16 01:20:19 [INFO]: Searching Movie with data:
+2025-12-16 01:20:19 [INFO]: Searching Movie with data:
+2025-12-16 01:20:19 [INFO]: Searching Portfolio with data:
+2025-12-16 01:20:19 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:20:19 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:20:19 [INFO]: Searching Portfolio with data:
+2025-12-16 01:20:20 [INFO]: Searching Movie with data:
+2025-12-16 01:20:20 [INFO]: Searching Movie with data:
+2025-12-16 01:20:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:20:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:21:10 [INFO]: File uploaded to GridFS: 1765828270132_292182822_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 694066aec4576df36788950e, Size: 95242 bytes)
+2025-12-16 01:21:10 [INFO]: File upload request received
+2025-12-16 01:21:10 [INFO]: Files:
+2025-12-16 01:21:10 [INFO]: File:
+2025-12-16 01:21:10 [INFO]: Processing 1 file(s)
+2025-12-16 01:21:10 [INFO]: File 0 properties:
+2025-12-16 01:21:10 [INFO]: File 0 uploaded to GridFS: 1765828270132_292182822_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 694066aec4576df36788950e)
+2025-12-16 01:21:10 [INFO]: Upload response data:
+2025-12-16 01:21:33 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:21:33 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:21:33 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:21:33 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:21:33 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:21:33 [INFO]: server is running on port 4000
+2025-12-16 01:21:34 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:21:34 [INFO]: Connected to database: test
+2025-12-16 01:21:34 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:21:34 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:21:36 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:21:36 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:21:36 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:21:36 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:22:06 [INFO]: File uploaded to GridFS: 1765828326552_798807722_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 694066e66e87c377f39464b6, Size: 95242 bytes)
+2025-12-16 01:22:06 [INFO]: File upload request received
+2025-12-16 01:22:06 [INFO]: Files:
+2025-12-16 01:22:06 [INFO]: File:
+2025-12-16 01:22:06 [INFO]: Processing 1 file(s)
+2025-12-16 01:22:06 [INFO]: File 0 properties:
+2025-12-16 01:22:06 [INFO]: File 0 uploaded to GridFS: 1765828326552_798807722_WhatsApp Image 2025-12-15 at 11.27.45 PM.jpeg (ID: 694066e66e87c377f39464b6)
+2025-12-16 01:22:06 [INFO]: Upload response data:
+2025-12-16 01:24:28 [INFO]: Generating token for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-16 01:24:28 [INFO]: Login successful for user: joshichinmay775@gmail.com, ID: 6922d8d70396191ad8ba6faa
+2025-12-16 01:24:29 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:24:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:24:29 [INFO]: Searching User with data:
+2025-12-16 01:24:29 [INFO]: Searching Movie with data:
+2025-12-16 01:24:29 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:24:29 [INFO]: Searching User with data:
+2025-12-16 01:24:29 [INFO]: Searching Movie with data:
+2025-12-16 01:24:29 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:25:01 [INFO]: Searching Portfolio with data:
+2025-12-16 01:25:01 [INFO]: Searching Portfolio with data:
+2025-12-16 01:25:03 [INFO]: Searching Movie with data:
+2025-12-16 01:25:03 [INFO]: Searching Movie with data:
+2025-12-16 01:25:04 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:05 [INFO]: Searching Movie with data:
+2025-12-16 01:25:06 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:25:06 [INFO]: Searching Movie with data:
+2025-12-16 01:25:06 [INFO]: Searching User with data:
+2025-12-16 01:25:06 [INFO]: Searching User with data:
+2025-12-16 01:29:16 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:29:16 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:29:16 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:29:16 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:29:16 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:29:17 [INFO]: server is running on port 4000
+2025-12-16 01:29:17 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:29:17 [INFO]: Connected to database: test
+2025-12-16 01:29:17 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:29:17 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:29:19 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:29:19 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:29:19 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:29:19 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:29:28 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:29:29 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:29:29 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:29:29 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:29:29 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:29:29 [INFO]: server is running on port 4000
+2025-12-16 01:29:31 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:29:31 [INFO]: Connected to database: test
+2025-12-16 01:29:31 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:29:31 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:29:33 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:29:33 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:29:33 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:29:33 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:29:51 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:29:51 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:29:51 [INFO]: Searching User with data:
+2025-12-16 01:29:51 [INFO]: Searching Movie with data:
+2025-12-16 01:29:51 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:29:51 [INFO]: Searching User with data:
+2025-12-16 01:29:51 [INFO]: Searching Movie with data:
+2025-12-16 01:29:51 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:31:06 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:31:07 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:31:07 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:31:07 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:31:07 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:31:09 [INFO]: server is running on port 4000
+2025-12-16 01:31:09 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:31:09 [INFO]: Connected to database: test
+2025-12-16 01:31:09 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:31:09 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:31:11 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:31:11 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:31:11 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:31:11 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:32:46 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:32:47 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:32:47 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:32:47 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:32:47 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:32:47 [INFO]: server is running on port 4000
+2025-12-16 01:32:48 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:32:48 [INFO]: Connected to database: test
+2025-12-16 01:32:48 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:32:48 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:32:50 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:32:50 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:32:50 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:32:50 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:33:09 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:33:09 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:33:09 [INFO]: Searching User with data:
+2025-12-16 01:33:09 [INFO]: Searching Movie with data:
+2025-12-16 01:33:09 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:33:09 [INFO]: Searching User with data:
+2025-12-16 01:33:09 [INFO]: Searching Movie with data:
+2025-12-16 01:33:09 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:33:19 [INFO]: Searching JobPosting with data:
+2025-12-16 01:33:19 [INFO]: Searching JobPosting with data:
+2025-12-16 01:33:21 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:21 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:34 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:34 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:34 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:39 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:39 [INFO]: Searching Portfolio with data:
+2025-12-16 01:33:42 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:33:42 [INFO]: Searching User with data:
+2025-12-16 01:33:42 [INFO]: Searching Movie with data:
+2025-12-16 01:33:42 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:33:42 [INFO]: Searching User with data:
+2025-12-16 01:33:42 [INFO]: Searching Movie with data:
+2025-12-16 01:34:16 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:34:17 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:34:17 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:34:17 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:34:17 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:34:18 [INFO]: server is running on port 4000
+2025-12-16 01:34:18 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:34:18 [INFO]: Connected to database: test
+2025-12-16 01:34:18 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:34:18 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:34:20 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:34:20 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:34:20 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:34:20 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:34:25 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:34:26 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:34:26 [INFO]: Searching User with data:
+2025-12-16 01:34:26 [INFO]: Searching Movie with data:
+2025-12-16 01:34:26 [INFO]: Searching Movie with data:
+2025-12-16 01:34:26 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:34:26 [INFO]: Searching User with data:
+2025-12-16 01:34:26 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:35:40 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:35:41 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:35:41 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:35:41 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:35:41 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:35:41 [INFO]: server is running on port 4000
+2025-12-16 01:35:42 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:35:42 [INFO]: Connected to database: test
+2025-12-16 01:35:42 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:35:42 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:35:44 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:35:44 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:35:44 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:35:44 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:35:44 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:35:45 [INFO]: server is running on port 4000
+2025-12-16 01:35:46 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:35:46 [INFO]: Connected to database: test
+2025-12-16 01:35:46 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:35:46 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:35:48 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:35:48 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:35:48 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:35:48 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
+2025-12-16 01:36:19 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:36:19 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:36:19 [INFO]: Searching User with data:
+2025-12-16 01:36:19 [INFO]: Searching Movie with data:
+2025-12-16 01:36:19 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:36:19 [INFO]: Searching User with data:
+2025-12-16 01:36:19 [INFO]: Searching Movie with data:
+2025-12-16 01:36:19 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:36:49 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:36:49 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:37:01 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:37:01 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:37:01 [INFO]: Searching User with data:
+2025-12-16 01:37:01 [INFO]: Searching Movie with data:
+2025-12-16 01:37:01 [INFO]: Searching Movie with data:
+2025-12-16 01:37:01 [INFO]: Searching User with data:
+2025-12-16 01:37:07 [INFO]: Searching Movie with data:
+2025-12-16 01:37:07 [INFO]: Searching Movie with data:
+2025-12-16 01:37:22 [INFO]: Searching JobPosting with data:
+2025-12-16 01:37:22 [INFO]: Searching JobPosting with data:
+2025-12-16 01:37:32 [INFO]: Searching Portfolio with data:
+2025-12-16 01:37:32 [INFO]: Searching Portfolio with data:
+2025-12-16 01:38:07 [INFO]: Searching Movie with data:
+2025-12-16 01:38:07 [INFO]: Searching Portfolio with data:
+2025-12-16 01:38:07 [INFO]: Searching Movie with data:
+2025-12-16 01:38:07 [INFO]: Searching Portfolio with data:
+2025-12-16 01:38:07 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:38:08 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:38:13 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:38:13 [INFO]: Searching User with data:
+2025-12-16 01:38:13 [INFO]: Searching Movie with data:
+2025-12-16 01:38:13 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:38:14 [INFO]: Searching User with data:
+2025-12-16 01:38:14 [INFO]: Searching Movie with data:
+2025-12-16 01:41:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:41:05 [INFO]: Searching User with data:
+2025-12-16 01:41:05 [INFO]: Searching Movie with data:
+2025-12-16 01:41:05 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:41:05 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:41:05 [INFO]: Searching User with data:
+2025-12-16 01:41:05 [INFO]: Searching Movie with data:
+2025-12-16 01:41:05 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:41:17 [INFO]: Generating token for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-16 01:41:17 [INFO]: Login successful for user: iamgamer4u@gmail.com, ID: 69233371827511e628b2cdc5
+2025-12-16 01:41:18 [INFO]: Searching Movie with data:
+2025-12-16 01:41:18 [INFO]: Searching Movie with data:
+2025-12-16 01:41:18 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:41:18 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:41:18 [INFO]: Searching Portfolio with data:
+2025-12-16 01:41:18 [INFO]: Searching Portfolio with data:
+2025-12-16 01:41:19 [INFO]: Searching NewsAndBlogs with data:
+2025-12-16 01:41:19 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:41:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:41:24 [INFO]: Getting one record for Portfolio with query:
+2025-12-16 01:47:20 [INFO]: Attempting to connect to MongoDB...
+2025-12-16 01:47:21 [WARN]: ⚠️ MongoDB not connected (state: 2)
+2025-12-16 01:47:21 [INFO]: ℹ️ Will use local storage - files will be stored in 'uploads' folder
+2025-12-16 01:47:21 [INFO]: ℹ️ To use MongoDB GridFS, ensure MongoDB is connected before starting the server
+2025-12-16 01:47:21 [INFO]: ✅ Using local disk storage for files (uploads directory)
+2025-12-16 01:47:22 [INFO]: server is running on port 4000
+2025-12-16 01:47:22 [INFO]: MongoDB Connected Successfully
+2025-12-16 01:47:22 [INFO]: Connected to database: test
+2025-12-16 01:47:22 [INFO]: ✅ MongoDB Connected Successfully
+2025-12-16 01:47:22 [INFO]: 📦 MongoDB GridFS will be used for file storage
+2025-12-16 01:47:24 [INFO]: 🔄 MongoDB connected - switching to GridFS storage
+2025-12-16 01:47:24 [INFO]: GridFS bucket 'uploads' initialized
+2025-12-16 01:47:24 [INFO]: ✅ Using MongoDB GridFS for file storage
+2025-12-16 01:47:24 [INFO]: ✅ Successfully switched to MongoDB GridFS storage
