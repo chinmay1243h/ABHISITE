@@ -17,6 +17,7 @@ import { artistCategoryTypes } from "../../../components/utils/data";
 import { ProfileSchema } from "../../../components/utils/schema";
 import { docsUpload, getPortfolioDetails, insertPortfolioData, updatePortfolio } from "../../../services/services";
 import { getUserId } from "../../../services/axiosClient";
+import ResumeUploadComponent from "./ResumeUploadComponent";
 
 type PortfolioFormProps = {
   onSubmit: () => void;
@@ -34,6 +35,8 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
   const [uploading, setUploading] = useState(false);
 
   const [portfolio, setPortfolio] = useState<any>({})
+  const [resumeData, setResumeData] = useState<any>(null)
+  
   useEffect(() => {
     if (isEditing && profileId) {
       getPortfolioDetails(getUserId()).then((res) => {
@@ -42,7 +45,13 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
         console.log(err)
       })
     }
-  }, [])
+  }, [isEditing, profileId])
+
+  // Handle resume data parsing
+  const handleResumeParsed = (data: any) => {
+    setResumeData(data);
+    toast.success('Resume data extracted! Form fields have been populated.');
+  };
   const handleFileChange = async (
     e: React.ChangeEvent<HTMLInputElement>,
     setFieldValue: (field: string, value: any) => void
@@ -76,24 +85,38 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
 
 
   return (
-    <Formik
-      initialValues={{
-        tagline: portfolio?.tagline || "",
-        about: portfolio?.about || "",
-        coverPhoto: portfolio?.coverPhoto || null,
-        experienceOverview: portfolio?.experienceOverview || "",
-        socialLinks: {
-          instagram: "",
-          x: "",
-          facebook: "",
-          linkedin: "",
-        },
-        artistCategory: portfolio?.artistCategory || "",
-        experience: [
-          { title: portfolio?.experience?.title || "", dateRange: { from: portfolio?.experience?.dateRange?.from || "", to: portfolio?.experience?.dateRange?.to || "" }, description: portfolio?.experience?.dateRange?.description || "" },
-        ],
-        education: [{ degree: portfolio?.education?.degree || "", instituteName: portfolio?.education?.instituteName || "", year: portfolio?.education?.year || "", location: portfolio?.education?.location || "" }],
-      }}
+    <>
+      {/* Resume Upload Component */}
+      <ResumeUploadComponent onResumeParsed={handleResumeParsed} />
+      
+      <Formik
+        initialValues={{
+          tagline: resumeData?.summary || portfolio?.tagline || "",
+          about: resumeData?.summary || portfolio?.about || "",
+          coverPhoto: portfolio?.coverPhoto || null,
+          experienceOverview: resumeData?.summary || portfolio?.experienceOverview || "",
+          socialLinks: {
+            instagram: "",
+            x: "",
+            facebook: "",
+            linkedin: "",
+          },
+          artistCategory: portfolio?.artistCategory || "",
+          experience: resumeData?.experience?.length > 0 ? resumeData.experience.map((exp: any) => ({
+            title: exp.title || "",
+            dateRange: { 
+              from: exp.duration?.split('-')[0]?.trim() || "", 
+              to: exp.duration?.split('-')[1]?.trim() || "" 
+            }, 
+            description: exp.description || ""
+          })) : [{ title: portfolio?.experience?.title || "", dateRange: { from: portfolio?.experience?.dateRange?.from || "", to: portfolio?.experience?.dateRange?.to || "" }, description: portfolio?.experience?.dateRange?.description || "" }],
+          education: resumeData?.education?.length > 0 ? resumeData.education.map((edu: any) => ({
+            degree: edu.degree || "",
+            instituteName: edu.institute || "",
+            year: edu.year || "",
+            location: edu.location || ""
+          })) : [{ degree: portfolio?.education?.degree || "", instituteName: portfolio?.education?.instituteName || "", year: portfolio?.education?.year || "", location: portfolio?.education?.location || "" }],
+        }}
       validationSchema={ProfileSchema}
       enableReinitialize
       onSubmit={async (values) => {
@@ -272,7 +295,7 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
             {({ push, remove }) => (
               <div>
                 <h4>Experience</h4>
-                {values.experience.map((_, index) => (
+                {values.experience.map((_: any, index: number) => (
                   <div key={index} style={{ marginBottom: "20px" }}>
                     <Field
                       name={`experience[${index}].title`}
@@ -331,7 +354,7 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
             {({ push, remove }) => (
               <div>
                 <h4>Educational Qualifications</h4>
-                {values.education.map((_, index) => (
+                {values.education.map((_: any, index: number) => (
                   <div key={index} style={{ marginBottom: "20px" }}>
                     <Field
                       name={`education[${index}].degree`}
@@ -412,6 +435,7 @@ const PortfolioForm: React.FC<PortfolioFormProps> = ({
         </Form>
       )}
     </Formik>
+    </>
   );
 };
 

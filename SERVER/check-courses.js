@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Course = require('./src/models/course.model');
 
-mongoose.connect('mongodb://localhost:27017/test')
+mongoose.connect('mongodb://localhost:27017/abhisite')
   .then(async () => {
     console.log('=== ALL COURSES IN DATABASE ===');
     const courses = await Course.find({});

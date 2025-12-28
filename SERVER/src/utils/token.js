@@ -14,7 +14,7 @@ let generateSign = (email_id, name, user_status, id, role) => {
     { email_id, name, id, user_status, role },
     JWT_SECRET_KEY,
     {
-      expiresIn: "1d",
+      expiresIn: "7d",
     }
   );
   return token;

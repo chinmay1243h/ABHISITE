@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const Course = require('../models/course.model');
 const File = require('../models/telegramFile.model');
 const User = require('../models/user.model');
@@ -134,6 +135,22 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json({
+        success: false,
+        message: 'Course ID is required'
+      });
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid course ID format'
+      });
+    }
 
     const course = await Course.findById(id)
       .populate('instructor', 'username email profile')
@@ -175,6 +192,22 @@ router.get('/:id', async (req, res) => {
 router.put('/:id', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json({
+        success: false,
+        message: 'Course ID is required'
+      });
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid course ID format'
+      });
+    }
 
     const course = await Course.findById(id);
     
@@ -216,6 +249,22 @@ router.put('/:id', verifySign, async (req, res, next) => {
 router.delete('/:id', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json({
+        success: false,
+        message: 'Course ID is required'
+      });
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid course ID format'
+      });
+    }
 
     const course = await Course.findById(id);
     
@@ -297,7 +346,7 @@ router.get('/instructor/me', verifySign, async (req, res, next) => {
       .populate('files', 'filename size mimeType')
       .sort({ createdAt: -1 })
       .limit(limit * 1)
-      .skip((page - 1) * limit)
+      .skip(Math.max(0, (page - 1) * limit))
       .exec();
 
     console.log("Courses found:", courses.length);
@@ -332,6 +381,16 @@ router.get('/instructor/me', verifySign, async (req, res, next) => {
 router.post('/:id/submit-for-approval', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json(prepareResponse(false, 'Course ID is required'));
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json(prepareResponse(false, 'Invalid course ID format'));
+    }
 
     const course = await Course.findById(id);
     
@@ -501,6 +560,16 @@ router.get('/admin/pending', verifySign, async (req, res, next) => {
 router.post('/admin/:id/approve', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json(prepareResponse(false, 'Course ID is required'));
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json(prepareResponse(false, 'Invalid course ID format'));
+    }
 
     // Check if user is admin
     const user = await User.findById(req.decoded.id);
@@ -544,6 +613,16 @@ router.post('/admin/:id/reject', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
     const { rejectionReason } = req.body;
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json(prepareResponse(false, 'Course ID is required'));
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json(prepareResponse(false, 'Invalid course ID format'));
+    }
 
     if (!rejectionReason || rejectionReason.trim().length === 0) {
       return res.status(400).json(prepareResponse(false, 'Rejection reason is required'));
@@ -587,8 +666,30 @@ router.post('/admin/:id/reject', verifySign, async (req, res, next) => {
 router.post('/:id/publish', verifySign, async (req, res, next) => {
   try {
     const { id } = req.params;
+    
+    console.log('=== PUBLISH COURSE REQUEST ===');
+    console.log('Course ID:', id);
+    console.log('User ID:', req.decoded.id);
+    
+    // Validate that id is provided
+    if (!id) {
+      return res.status(400).json({
+        success: false,
+        message: 'Course ID is required'
+      });
+    }
+    
+    // Validate ObjectId format
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      console.log('Invalid ObjectId format:', id);
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid course ID format'
+      });
+    }
 
     const course = await Course.findById(id);
+    console.log('Course found:', course ? 'Yes' : 'No');
     
     if (!course) {
       return res.status(404).json({
@@ -599,18 +700,26 @@ router.post('/:id/publish', verifySign, async (req, res, next) => {
 
     // Check ownership
     if (course.instructor.toString() !== req.decoded.id.toString()) {
+      console.log('Access denied - instructor:', course.instructor, 'user:', req.decoded.id);
       return res.status(403).json({
         success: false,
         message: 'Access denied'
       });
     }
 
-    // Check if course has files
-    const fileCount = await File.countDocuments({ course: id });
-    if (fileCount === 0) {
+    // Check if course has files (check both TelegramFile and course files array)
+    const telegramFileCount = await File.countDocuments({ course: id });
+    const courseFilesCount = course?.files?.length || 0;
+    const totalFileCount = telegramFileCount + courseFilesCount;
+    
+    console.log('Telegram file count:', telegramFileCount);
+    console.log('Course files count:', courseFilesCount);
+    console.log('Total file count:', totalFileCount);
+    
+    if (totalFileCount === 0) {
       return res.status(400).json({
         success: false,
-        message: 'Course must have at least one file to be published'
+        message: 'Course must have at least one file to be published. Please add files to your course first.'
       });
     }
 

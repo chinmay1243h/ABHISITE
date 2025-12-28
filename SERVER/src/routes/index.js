@@ -20,6 +20,9 @@ router.use("/Course", require("./course.routes"));
 router.use("/courses", require("./courses"));
 router.use("/telegram-files", require("./telegramFiles"));
 
+// Resume parsing route
+router.use("/resume", require("./resume.route"));
+
 // Catch-all route should be last - only match paths not already handled
 const queryRoute = require("./query.route");
 router.use("/:tableName", queryRoute);

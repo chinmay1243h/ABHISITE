@@ -4,6 +4,7 @@ import {
     faFileAlt,
     faMusic,
     faVideo,
+    faUpload,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Avatar, Box, Container, Grid2, Typography } from "@mui/material";
@@ -21,6 +22,8 @@ import SearchBar from "../../components/utils/SearchBar";
 
 const MyCourses = () => {
   const [combinedData, setCombinedData] = useState<any>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const payLoad = {
@@ -30,26 +33,50 @@ const MyCourses = () => {
       order: [["createdAt", "ASC"]],
     };
 
+    console.log('Fetching courses with payload:', payLoad);
+    console.log('Current user ID:', getUserId());
+    setLoading(true);
+    setError(null);
+
     Promise.all([getAllCourse(payLoad), getAllPaymentDetailsForUser(payLoad)])
       .then(([courseRes, paymentRes]) => {
+        console.log('Course response:', courseRes);
+        console.log('Payment response:', paymentRes);
+        
         const courses = courseRes?.data?.data?.rows || [];
         const payments = paymentRes?.data?.data?.rows || [];
+        const currentUserId = getUserId();
+
+        console.log('Total courses found:', courses.length);
+        console.log('Total payments found:', payments.length);
 
         const filteredData = courses
           .map((course: any) => {
+            // Show courses if user is the instructor OR if user has purchased the course
+            const isInstructor = course.instructor === currentUserId || course.userId === currentUserId;
             const matchingPayment = payments.find(
               (payment: any) =>
                 payment.courseId === course.id &&
-                payment.userId === getUserId() &&
+                payment.userId === currentUserId &&
                 payment.status === "success"
             );
 
-            if (matchingPayment) {
+            console.log(`Course ${course.id}:`, {
+              title: course.title,
+              instructor: course.instructor,
+              userId: course.userId,
+              currentUserId: currentUserId,
+              isInstructor,
+              hasPayment: !!matchingPayment
+            });
+
+            if (isInstructor || matchingPayment) {
               return {
                 ...course,
-                updatedAt: dayjs(matchingPayment.updatedAt).format(
-                  "MMM D, YYYY"
-                ),
+                updatedAt: matchingPayment ? 
+                  dayjs(matchingPayment.updatedAt).format("MMM D, YYYY") :
+                  dayjs(course.updatedAt).format("MMM D, YYYY"),
+                isOwner: isInstructor,
               };
             }
 
@@ -57,10 +84,14 @@ const MyCourses = () => {
           })
           .filter(Boolean);
 
+        console.log('Filtered courses to display:', filteredData);
         setCombinedData(filteredData);
+        setLoading(false);
       })
       .catch((err) => {
-        console.log(err);
+        console.error('Error fetching courses:', err);
+        setError('Failed to load courses');
+        setLoading(false);
       });
   }, []);
 
@@ -221,24 +252,41 @@ const MyCourses = () => {
                       display: "flex",
                       justifyContent: "center",
                       alignItems: "center",
-                      // gap: "5px",
-                      // // margin: "10px 0px",
-                      // marginBottom:'5px',
-                      // background: "white",
-                      // color: news.theme,
-                      // borderRadius: "12px",
-                      // padding: "0px 15px",
+                      gap: "8px",
                     }}
                   >
-                    {/* <Typography style={{fontSize:'12px'}}>Enter</Typography> */}
+                    {/* Show upload button only for instructors */}
+                    {(news.instructor === getUserId() || news.userId === getUserId()) && (
+                      <FontAwesomeIcon
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          navigate('/upload', { state: news.id });
+                        }}
+                        style={{
+                          color: "white",
+                          background: "#1976d2",
+                          borderRadius: "50%",
+                          padding: "4px",
+                          cursor: "pointer",
+                          border: "solid 1px #1976d2",
+                        }}
+                        icon={faUpload}
+                        title="Upload Files"
+                      />
+                    )}
+                    
                     <FontAwesomeIcon
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        navigate(`/player/${news.id}`);
+                      }}
                       style={{
-                        // fontSize:'12px',
                         color: "white",
                         background: "black",
                         borderRadius: "50%",
                         border: "solid 1px",
                         borderColor: "black",
+                        cursor: "pointer",
                       }}
                       icon={faChevronCircleRight}
                     />

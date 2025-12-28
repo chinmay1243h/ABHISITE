@@ -8,6 +8,7 @@ const TelegramService = require('../config/telegram');
 const { verifySign } = require('../utils/token');
 const { asyncHandler } = require('../middleware/asyncHandler');
 const { prepareResponse } = require('../utils/response');
+const { roleBasedAccess, canAccessCourse } = require('../middleware/roleBasedAccess');
 
 const router = express.Router();
 const telegramService = new TelegramService();
@@ -51,25 +52,17 @@ const upload = multer({
 /**
  * Upload file to Telegram and store metadata
  * POST /api/telegram-files/upload
+ * Only Artist and Business roles can upload files
  */
-router.post('/upload', verifySign, upload.single('file'), asyncHandler(async (req, res) => {
+router.post('/upload', verifySign, roleBasedAccess(['Artist', 'Business', 'Admin']), upload.single('file'), canAccessCourse(), asyncHandler(async (req, res) => {
   if (!req.file) {
-    return res.status(400).json({
-      success: false,
-      message: 'No file uploaded'
-    });
+    return res.status(400).json(prepareResponse(false, 'No file uploaded'));
   }
 
-  const { courseId, description } = req.body;
+  const { description } = req.body;
   
-  // Validate course ownership
-  const course = await Course.findById(courseId);
-  if (!course || course.instructor.toString() !== req.user.id.toString()) {
-    return res.status(403).json({
-      success: false,
-      message: 'Access denied or course not found'
-    });
-  }
+  // Course is already validated by canAccessCourse middleware
+  const course = req.course;
 
   // Read file buffer
   const fileBuffer = fs.readFileSync(req.file.path);
@@ -94,8 +87,8 @@ router.post('/upload', verifySign, upload.single('file'), asyncHandler(async (re
     size: req.file.size,
     telegramFileId: telegramResult.fileId,
     telegramMessageId: telegramResult.messageId,
-    uploadedBy: req.user.id,
-    course: courseId,
+    uploadedBy: req.decoded.id,
+    course: course._id,
     order: course.files.length
   });
 
@@ -108,18 +101,14 @@ router.post('/upload', verifySign, upload.single('file'), asyncHandler(async (re
   // Clean up temporary file
   fs.unlinkSync(req.file.path);
 
-  res.status(201).json({
-    success: true,
-    message: 'File uploaded successfully to Telegram',
-    data: {
-      fileId: fileRecord._id,
-      filename: fileRecord.originalName,
-      size: fileRecord.size,
-      mimeType: fileRecord.mimetype,
-      uploadedAt: fileRecord.createdAt,
-      telegramFileId: fileRecord.telegramFileId
-    }
-  });
+  res.status(201).json(prepareResponse(true, 'File uploaded successfully to Telegram', {
+    fileId: fileRecord._id,
+    filename: fileRecord.originalName,
+    size: fileRecord.size,
+    mimeType: fileRecord.mimetype,
+    uploadedAt: fileRecord.createdAt,
+    telegramFileId: fileRecord.telegramFileId
+  }));
 }));
 
 /**
@@ -133,21 +122,15 @@ router.get('/:fileId/stream', verifySign, asyncHandler(async (req, res) => {
   const fileRecord = await File.findById(fileId).populate('course');
   
   if (!fileRecord) {
-    return res.status(404).json({
-      success: false,
-      message: 'File not found'
-    });
+    return res.status(404).json(prepareResponse(false, 'File not found'));
   }
 
   // Check if user has access to the course
   const course = fileRecord.course;
-  const isInstructor = course.instructor.toString() === req.user.id.toString();
+  const isInstructor = course.instructor.toString() === req.decoded.id.toString();
   
   if (!isInstructor) {
-    return res.status(403).json({
-      success: false,
-      message: 'Access denied'
-    });
+    return res.status(403).json(prepareResponse(false, 'Access denied'));
   }
 
   // Get file stream from Telegram
@@ -177,21 +160,15 @@ router.get('/:fileId/download', verifySign, asyncHandler(async (req, res) => {
   const fileRecord = await File.findById(fileId).populate('course');
   
   if (!fileRecord) {
-    return res.status(404).json({
-      success: false,
-      message: 'File not found'
-    });
+    return res.status(404).json(prepareResponse(false, 'File not found'));
   }
 
   // Check access permissions
   const course = fileRecord.course;
-  const isInstructor = course.instructor.toString() === req.user.id.toString();
+  const isInstructor = course.instructor.toString() === req.decoded.id.toString();
   
   if (!isInstructor) {
-    return res.status(403).json({
-      success: false,
-      message: 'Access denied'
-    });
+    return res.status(403).json(prepareResponse(false, 'Access denied'));
   }
 
   // Get file link from Telegram
@@ -201,8 +178,20 @@ router.get('/:fileId/download', verifySign, asyncHandler(async (req, res) => {
     throw new Error('Failed to get file link');
   }
 
-  // Redirect to Telegram file URL
-  res.redirect(fileLink.downloadUrl);
+  // Stream file directly from Telegram to avoid exposing URL
+  const axios = require('axios');
+  const response = await axios({
+    method: 'get',
+    url: fileLink.downloadUrl,
+    responseType: 'stream'
+  });
+  
+  res.setHeader('Content-Type', fileRecord.mimeType);
+  res.setHeader('Content-Length', fileRecord.size);
+  res.setHeader('Content-Disposition', `attachment; filename="${fileRecord.originalName}"`);
+  res.setHeader('Cache-Control', 'public, max-age=3600');
+  
+  response.data.pipe(res);
   
   // Update access statistics
   fileRecord.updateAccess();
@@ -220,26 +209,18 @@ router.get('/:fileId/info', verifySign, asyncHandler(async (req, res) => {
     .populate('course', 'title description');
   
   if (!fileRecord) {
-    return res.status(404).json({
-      success: false,
-      message: 'File not found'
-    });
+    return res.status(404).json(prepareResponse(false, 'File not found'));
   }
 
   // Check access permissions
   const course = fileRecord.course;
-  const isInstructor = course.instructor.toString() === req.user.id.toString();
+  const isInstructor = course.instructor.toString() === req.decoded.id.toString();
   
   if (!isInstructor) {
-    return res.status(403).json({
-      success: false,
-      message: 'Access denied'
-    });
+    return res.status(403).json(prepareResponse(false, 'Access denied'));
   }
 
-  res.json({
-    success: true,
-    data: {
+  res.json(prepareResponse(true, 'File information retrieved', {
       id: fileRecord._id,
       filename: fileRecord.originalName,
       size: fileRecord.size,
@@ -249,9 +230,10 @@ router.get('/:fileId/info', verifySign, asyncHandler(async (req, res) => {
       uploadedAt: fileRecord.createdAt,
       downloadCount: fileRecord.downloadCount,
       lastAccessed: fileRecord.lastAccessed,
-      telegramFileId: fileRecord.telegramFileId
+      telegramFileId: fileRecord.telegramFileId,
+      order: fileRecord.order
     }
-  });
+  ));
 }));
 
 /**
@@ -265,19 +247,13 @@ router.delete('/:fileId', verifySign, asyncHandler(async (req, res) => {
   const fileRecord = await File.findById(fileId).populate('course');
   
   if (!fileRecord) {
-    return res.status(404).json({
-      success: false,
-      message: 'File not found'
-    });
+    return res.status(404).json(prepareResponse(false, 'File not found'));
   }
 
   // Check if user owns the course
   const course = fileRecord.course;
-  if (course.instructor.toString() !== req.user.id.toString()) {
-    return res.status(403).json({
-      success: false,
-      message: 'Access denied'
-    });
+  if (course.instructor.toString() !== req.decoded.id.toString()) {
+    return res.status(403).json(prepareResponse(false, 'Access denied'));
   }
 
   // Delete message from Telegram
@@ -290,10 +266,7 @@ router.delete('/:fileId', verifySign, asyncHandler(async (req, res) => {
   // Delete file record from database
   await File.findByIdAndDelete(fileId);
 
-  res.json({
-    success: true,
-    message: 'File deleted successfully from Telegram and database'
-  });
+  res.json(prepareResponse(true, 'File deleted successfully from Telegram and database'));
 }));
 
 module.exports = router;

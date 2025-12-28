@@ -37,7 +37,7 @@ import MoviePage from "./pages/Movies/MoviePage";
 import MovieDetailsPage from "./pages/Movies/MovieDetailsPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 import TermsAndConditionsPage from "./pages/TermsAndConditions";
-import AdminHomepage from "./pages/Admin/AdminHomepage";
+import SimpleCourseManager from "./pages/Admin/SimpleCourseManager";
 import MyOrderPage from "./pages/Account/MyOrderPage";
 import AddNewsandBlogsPage from "./pages/Admin/AddNewsandBlogs/AddNewsandBlogsPage";
 import EditNewsAndBlogs from "./pages/Admin/AddNewsandBlogs/EditNewsandBlogs";
@@ -94,6 +94,7 @@ function App() {
                   <Route path="/account" element={<PrivateRoute component={Account} />} />
                   <Route path="/course-upload" element={<PrivateRoute component={CourseUploadForm} />} />
                   <Route path="/upload" element={<PrivateRoute component={UploadCourse} />} />
+                  <Route path="/upload-course" element={<PrivateRoute component={UploadCourse} />} />
                   {/* <Route path="/telegram-upload" element={<PrivateRoute component={TelegramCourseUpload} />} /> */}
                   <Route path="/course-access" element={<CourseAccess />} />
 
@@ -111,6 +112,7 @@ function App() {
                   <Route path="/applied-jobs" element={<AppliedJobs />} />
                   <Route path="/player/:id" element={<PrivateRoute component={Player} />} />
                   <Route path="/artist-courses" element={<PrivateRoute component={AristMyCourse} />} />
+                  <Route path="/admin/artist-courses" element={<PrivateRoute component={AristMyCourse} />} />
                   <Route path="/my-order" element={<PrivateRoute component={MyOrderPage} />} />
                   <Route path="/edit-course/:id" element={<PrivateRoute component={EditCourseForm} />} />
 
@@ -127,7 +129,7 @@ function App() {
                   <Route path='/terms-conditions' element={<TermsAndConditionsPage />} />
 
                   {/*Admin pages  */}
-                  <Route path="/admin-dashboard" element={<PrivateRoute component={AdminHomepage} requiredRole="Admin" />} />
+                  <Route path="/admin-dashboard" element={<PrivateRoute component={SimpleCourseManager} requiredRole="Admin" />} />
                   <Route path="/addnewsandblogs" element={<AddNewsandBlogsPage />} />
                   <Route path="/edit-news-and-blogs/:id" element={<EditNewsAndBlogs />} />
                   <Route path="/add-movie" element={<AddMovie />} />

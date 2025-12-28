@@ -237,6 +237,10 @@ export function getAllAppliedJobsBelongsTo(payLoad:any){
 export function deleteCourse(id:any){
     return client.delete(`/courses/${id}`)
 }
+
+export function publishCourse(id: any) {
+    return client.post(`/courses/${id}/publish`);
+}
 export function deleteJobs(id:any){
     return client.delete(`/JobPosting/delete-record/${id}`)
 }

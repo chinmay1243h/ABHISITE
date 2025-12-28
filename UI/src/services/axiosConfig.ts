@@ -64,7 +64,7 @@ export function createAxiosClient({
             else if (error.response.status === 401) {
                 console.error("Authentication error - token expired or invalid");
                 logout();
-                return axios(error.config);
+                return Promise.reject(error);
             }
             else if (error.response.status === 403) {
                 console.error("Access forbidden - insufficient permissions");

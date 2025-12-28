@@ -4,7 +4,8 @@ const CYS = process.env.CYS;
 const cryptoJS = require("crypto-js");
 
 const prepareResponse = (status_code, msg, data, error) => {
-  console.log(error);
+  console.log('CYS key from env:', CYS);
+  console.log('Data to encrypt:', data);
   
   if (!CYS) {
     console.error("CYS encryption key is missing - returning unencrypted response");
@@ -17,10 +18,13 @@ const prepareResponse = (status_code, msg, data, error) => {
   }
   
   try {
+    const encryptedData = cryptoJS.AES.encrypt(JSON.stringify(data), CYS).toString();
+    console.log('Encrypted data length:', encryptedData.length);
+    
     return {
       status_code: status_code,
       msg: msg,
-      data: cryptoJS.AES.encrypt(JSON.stringify(data), CYS).toString(),
+      data: encryptedData,
       error: error,
     };
   } catch (encryptError) {

@@ -35,6 +35,7 @@ exports.createCourseWithTelegram = async (req, res) => {
     
     const coursePayload = {
       userId: decoded?.id || req.body.userId,
+      instructor: decoded?.id || req.body.userId, // Add instructor field
       firstName: decoded?.name?.split(' ')[0] || "Unknown",
       lastName: decoded?.name?.split(' ')[1] || "Artist",
       profileImage: null,

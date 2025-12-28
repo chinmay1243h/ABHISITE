@@ -141,24 +141,11 @@ export const Portfolio: React.FC = () => {
       <div>
         <Box
           sx={{
-            // background: color.firstColor,
-            background: "white",
+            background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
             width: "100%",
             minHeight: "100vh",
             mt: { xs: "-174px", md: "-94px" },
             pb: 4,
-            "&::before": {
-              content: '""',
-              position: "absolute",
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              background:
-                "linear-gradient(to top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.2))",
-              //   backdropFilter: "blur(2px)",
-              // zIndex: 1,
-            },
           }}
         >
           <Box
@@ -179,16 +166,22 @@ export const Portfolio: React.FC = () => {
               sx={{
                 position: "absolute",
                 right: { xs: '10px', md: '100px' },
-                bottom: "150px",
-
-              }}
-              style={{
-                color: color.textColor1,
-                borderColor: color.textColor1,
+                top: "280px",
+                background: "rgba(26, 26, 26, 0.8)",
+                color: "white",
+                border: "1px solid #d1c7b8",
                 fontSize: "16px",
                 display: "flex",
                 gap: "10px",
-                textTransform: 'none'
+                textTransform: 'none',
+                borderRadius: "8px",
+                px: 3,
+                py: 1,
+                "&:hover": {
+                  background: "rgba(26, 26, 26, 0.9)",
+                  transform: "translateY(-2px)",
+                  transition: "all 0.3s ease"
+                }
               }}
             >
               Edit
@@ -197,55 +190,40 @@ export const Portfolio: React.FC = () => {
 
             <Box
               sx={{
-                backgroundImage: `url(${portfolio?.coverPhoto})`,
+                backgroundImage: `url(${portfolio?.coverPhoto || '/images/default-cover.jpg'})`,
                 backgroundSize: "cover",
-                objectPosition: "center top",
-                height: "250px",
+                backgroundPosition: "center",
+                height: "300px",
                 width: "100%",
-                position: "absolute",
+                position: "relative",
                 zIndex: 1,
-              }}
-            >
-              {/* <FontAwesomeIcon
-                icon={faCamera}
-                style={{
-                  fontSize: "24px",
-                  bottom: 20,
-                  right: 20,
+                "&::after": {
+                  content: '""',
                   position: "absolute",
-                  color: "white",
-                  // textShadow: "2px 2px 8px rgba(0, 0, 0, 0.68)",
-                  filter: "drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.28))",
-                }}
-              ></FontAwesomeIcon> */}
-            </Box>
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  background: "linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4))"
+                }
+              }}
+            />
 
             <Box
               sx={{
-                backgroundImage: `url(${user.profileImage})`,
-                // backgroundImage: "url(/images/Photography.jpg)",
+                backgroundImage: `url(${user?.profileImage || '/images/default-avatar.jpg'})`,
                 backgroundSize: "cover",
-                height: "200px",
-                width: "200px",
+                backgroundPosition: "center",
+                height: "180px",
+                width: "180px",
                 borderRadius: "50%",
-                mt: 16,
+                mt: -8,
                 zIndex: 2,
                 position: "relative",
+                border: "4px solid white",
+                boxShadow: "0 8px 32px rgba(0,0,0,0.12)"
               }}
-            >
-              {/* <FontAwesomeIcon
-                icon={faCamera}
-                style={{
-                  fontSize: "24px",
-                  bottom: 20,
-                  right: 20,
-                  position: "absolute",
-                  color: "white",
-                  // textShadow: "2px 2px 8px rgba(0, 0, 0, 0.68)",
-                  filter: "drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.28))",
-                }}
-              ></FontAwesomeIcon> */}
-            </Box>
+            />
 
             <div
               style={{

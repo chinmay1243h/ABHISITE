@@ -1,6 +1,5 @@
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Card, CardContent, Grid, Divider, Chip, Avatar } from "@mui/material";
+import { Work, School, Email, Phone, EmojiEvents, BusinessCenter } from "@mui/icons-material";
 
 interface PortfolioContact {
   id: number;
@@ -55,339 +54,319 @@ export default function profile({
 }: PortfolioProps) {
   console.log("portfolio1:", portfolioProject);
   return (
-    <>
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          justifyContent: "space-between",
-          alignItems: "center",
-          maxWidth: "80%",
-          margin: "auto",
-        }}
-      >
-        <Box
-          sx={{
-            textAlign: "center",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-around",
-            height: "100%",
-            width: { xs: "100%", md: "50%" },
+    <Box sx={{ maxWidth: "1200px", margin: "0 auto", p: { xs: 2, md: 4 } }}>
+      {/* Hero Section */}
+      <Box sx={{ textAlign: "center", mb: 6 }}>
+        <Typography 
+          variant="h2" 
+          component="h1" 
+          sx={{ 
+            fontSize: { xs: "2.5rem", md: "3.5rem" },
+            fontWeight: 700,
+            color: "#1a1a1a",
+            mb: 2,
+            lineHeight: 1.2
           }}
         >
-          <Typography sx={{ fontSize: "32px" }}>
-            {portfolio?.tagline}
-          </Typography>
-          <Typography
-            sx={{ fontSize: "16px", mt: 2, fontFamily: "custom-regular" }}
-          >
-            {portfolio?.about}
-          </Typography>
-
-          {/* <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              gap: "10px",
-              mt: 2,
-            }}
-          >
-            <IconButton
-              color="inherit"
-              component="a"
-              href={"https://facebook.com/"}
-            >
-              <FacebookIcon />
-            </IconButton>
-            <IconButton color="inherit" component="a" href={"https://x.com/"}>
-              <TwitterIcon />
-            </IconButton>
-            <IconButton
-              color="inherit"
-              component="a"
-              href={"https://linkedin.com/"}
-            >
-              <LinkedInIcon />
-            </IconButton>
-            <IconButton
-              color="inherit"
-              component="a"
-              href={"https://instagram.com"}
-            >
-              <InstagramIcon />
-            </IconButton>
-          </Box> */}
-        </Box>
-
-        <Box
-          sx={{
-            width: { xs: "100%", md: "40%" },
-            display: "flex",
+          {portfolio?.tagline}
+        </Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ 
+            fontSize: "1.1rem",
+            color: "#666",
+            maxWidth: "800px",
+            margin: "0 auto",
+            lineHeight: 1.6
           }}
         >
-          <Box
-            sx={{
-              backgroundImage: `url(${user?.profileImage})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              height: "350px",
-              width: "300px",
-              zIndex: 1,
-              justifySelf: "center",
-              marginLeft: { xs: "none", md: "auto" },
-            }}
-          ></Box>
-        </Box>
+          {portfolio?.about}
+        </Typography>
       </Box>
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: { xs: "start", md: "space-between" },
-          alignItems: "center",
-          maxWidth: "100%",
-          margin: "auto",
-          minHeight: "400px",
-          marginTop: "30px",
-          flexDirection: { xs: "column-reverse", md: "row" },
-          gap: 6,
-        }}
-      >
-        <Box
-          sx={{
-            textAlign: "center",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-around",
-            height: "100%",
-            width: { xs: "100%", md: "50%" },
-          }}
-        >
-          <Typography sx={{ fontSize: "22px" }}>
-            Professional Experience(s)
-          </Typography>
 
-          {portfolio?.experience?.map((experience: any, index: any) => (
-            <div key={index}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginTop: "25px",
-                  marginBottom: "10px",
-                }}
-              >
-                <Typography sx={{ fontWeight: "bold" }}>
-                  {experience?.title}
-                </Typography>
-                <Typography sx={{ fontWeight: "bold" }}>
-                  {experience?.dateRange?.from}-{experience?.dateRange?.to}
-                </Typography>
-              </div>
-
-              <div
-                style={{
-                  fontFamily: "custom-regular",
-                  fontSize: "14px",
-                  textAlign: "left",
-                }}
-              >
-                {experience?.description}
-              </div>
-            </div>
-          ))}
-
-          <Typography sx={{ fontSize: "22px", mt: 4, mb: 2 }}>
-            Educational Qualification
-          </Typography>
-
-          {portfolio?.education?.map((education: any, index: any) => (
-            <div key={index}>
-              <Typography
-                sx={{
-                  textAlign: "left",
-                  fontSize: "14px",
-                  mt: 2,
-                  fontWeight: "bold",
-                }}
-              >
-                {education.degree}
-              </Typography>
-              <Typography
-                sx={{
-                  textAlign: "left",
-                  fontFamily: "custom-regular",
-                  fontSize: "14px",
-                }}
-              >
-                {education.instituteName}, {education.year},{" "}
-                {education.location}
-              </Typography>
-            </div>
-          ))}
-        </Box>
-
-        <Box
-          sx={{
-            width: { xs: "100%", md: "40%" },
-
-            textAlign: "center",
-          }}
-        >
-          <Box
-            sx={{
-              width: "300px",
-            }}
-          ></Box>
-          <Typography sx={{ fontSize: "22px", textAlign: "center" }}>
-            {user?.firstName} {user?.lastName}
-          </Typography>
-          <Typography
-            sx={{
-              textAlign: "center",
-              background: "black",
-              color: "white",
-              fontSize: "16px",
-              borderRadius: "44px",
-              margin: "auto",
-              marginTop: "10px",
-              padding: "2px 25px",
-              width: "fit-content",
-            }}
-          >
-            {portfolio?.artistCategory}
-          </Typography>
-
-          <Typography
-            sx={{
-              marginTop: "15px",
-              fontSize: "12px",
-              lineHeight: 1.2,
-              fontFamily: "custom-regular",
-            }}
-          >
-            {portfolio?.experienceOverview}
-          </Typography>
-
-          {portfolioAchivement[0]?.portfolioAchivement &&
-            portfolioAchivement[0]?.portfolioAchivement.length > 0 && (
-              <>
-                <Typography
-                  sx={{
-                    marginTop: "15px",
-                    textAlign: "left",
+      <Grid container spacing={4}>
+        {/* Left Column - Experience & Education */}
+        <Grid item xs={12} md={8}>
+          {/* Professional Experience */}
+          <Card sx={{ mb: 4, boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+            <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+              <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+                <BusinessCenter sx={{ mr: 2, color: "#d1c7b8" }} />
+                <Typography 
+                  variant="h4" 
+                  component="h2"
+                  sx={{ 
+                    fontSize: "1.8rem",
+                    fontWeight: 600,
+                    color: "#1a1a1a"
                   }}
                 >
-                  Awards{" "}
-                  <FontAwesomeIcon
-                    style={{ fontSize: "12px", marginLeft: "4px" }}
-                    icon={faArrowUpRightFromSquare}
-                  ></FontAwesomeIcon>
+                  Professional Experience
                 </Typography>
+              </Box>
+              
+              {portfolio?.experience?.map((experience: any, index: any) => (
+                <Box key={index} sx={{ mb: 3 }}>
+                  {index !== 0 && <Divider sx={{ mb: 3 }} />}
+                  <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", mb: 2 }}>
+                    <Box sx={{ flex: 1 }}>
+                      <Typography 
+                        variant="h6" 
+                        sx={{ 
+                          fontWeight: 600,
+                          color: "#1a1a1a",
+                          fontSize: "1.2rem"
+                        }}
+                      >
+                        {experience?.title}
+                      </Typography>
+                      <Typography 
+                        variant="body2" 
+                        sx={{ 
+                          color: "#666",
+                          mt: 0.5
+                        }}
+                      >
+                        {experience?.description}
+                      </Typography>
+                    </Box>
+                    <Chip 
+                      label={`${experience?.dateRange?.from}-${experience?.dateRange?.to}`}
+                      variant="outlined"
+                      size="small"
+                      sx={{ 
+                        ml: 2,
+                        borderColor: "#d1c7b8",
+                        color: "#666",
+                        fontWeight: 500
+                      }}
+                    />
+                  </Box>
+                </Box>
+              ))}
+              
+              {(!portfolio?.experience || portfolio.experience.length === 0) && (
+                <Typography sx={{ color: "#999", fontStyle: "italic" }}>
+                  No experience added yet
+                </Typography>
+              )}
+            </CardContent>
+          </Card>
 
-                <Typography
-                  sx={{
-                    fontFamily: "custom-regular",
-                    fontSize: "12px",
-                    textAlign: "left",
-                    marginTop: "5px",
+          {/* Education */}
+          <Card sx={{ boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+            <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+              <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+                <School sx={{ mr: 2, color: "#d1c7b8" }} />
+                <Typography 
+                  variant="h4" 
+                  component="h2"
+                  sx={{ 
+                    fontSize: "1.8rem",
+                    fontWeight: 600,
+                    color: "#1a1a1a"
                   }}
                 >
-                  {portfolioAchivement?.map(
-                    (achivementGroup: any, groupIndex: any) =>
-                      achivementGroup?.portfolioAchivements?.map(
-                        (achievement: any, achievementIndex: any) =>
-                          achievement?.achievements?.map(
-                            (award: any, awardIndex: any) => (
-                              <li
-                                key={`${groupIndex}-${achievementIndex}-${awardIndex}`}
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                  justifyContent: "center",
-                                }}
-                              >
-                                <span
-                                  style={{
-                                    marginRight: "8px",
-                                    fontSize: "1.2em",
-                                  }}
-                                >
-                                  .
-                                </span>
-                                {award}
-                              </li>
-                            )
+                  Educational Qualification
+                </Typography>
+              </Box>
+              
+              {portfolio?.education?.map((education: any, index: any) => (
+                <Box key={index} sx={{ mb: 3 }}>
+                  {index !== 0 && <Divider sx={{ mb: 3 }} />}
+                  <Typography 
+                    variant="h6" 
+                    sx={{ 
+                      fontWeight: 600,
+                      color: "#1a1a1a",
+                      mb: 1
+                    }}
+                  >
+                    {education.degree}
+                  </Typography>
+                  <Typography 
+                    variant="body2" 
+                    sx={{ 
+                      color: "#666",
+                      mb: 0.5
+                    }}
+                  >
+                    {education.instituteName}
+                  </Typography>
+                  <Typography 
+                    variant="body2" 
+                    sx={{ 
+                      color: "#999"
+                    }}
+                  >
+                    {education.year} • {education.location}
+                  </Typography>
+                </Box>
+              ))}
+              
+              {(!portfolio?.education || portfolio.education.length === 0) && (
+                <Typography sx={{ color: "#999", fontStyle: "italic" }}>
+                  No education details added yet
+                </Typography>
+              )}
+            </CardContent>
+          </Card>
+        </Grid>
+
+        {/* Right Column - Profile & Contact */}
+        <Grid item xs={12} md={4}>
+          {/* Profile Card */}
+          <Card sx={{ mb: 4, boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+            <CardContent sx={{ p: { xs: 3, md: 4 }, textAlign: "center" }}>
+              <Avatar 
+                src={user?.profileImage}
+                sx={{ 
+                  width: 120, 
+                  height: 120, 
+                  margin: "0 auto 2rem",
+                  border: "4px solid #d1c7b8"
+                }}
+              />
+              <Typography 
+                variant="h4" 
+                component="h2"
+                sx={{ 
+                  fontSize: "1.8rem",
+                  fontWeight: 600,
+                  color: "#1a1a1a",
+                  mb: 1
+                }}
+              >
+                {user?.firstName} {user?.lastName}
+              </Typography>
+              <Chip 
+                label={portfolio?.artistCategory}
+                sx={{ 
+                  background: "#1a1a1a",
+                  color: "white",
+                  fontWeight: 500,
+                  mb: 2
+                }}
+              />
+              <Typography 
+                variant="body2" 
+                sx={{ 
+                  color: "#666",
+                  lineHeight: 1.6,
+                  textAlign: "center"
+                }}
+              >
+                {portfolio?.experienceOverview}
+              </Typography>
+            </CardContent>
+          </Card>
+
+          {/* Contact Card */}
+          <Card sx={{ mb: 4, boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+            <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+              <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+                <Email sx={{ mr: 2, color: "#d1c7b8" }} />
+                <Typography 
+                  variant="h6" 
+                  sx={{ 
+                    fontWeight: 600,
+                    color: "#1a1a1a"
+                  }}
+                >
+                  Contact
+                </Typography>
+              </Box>
+              
+              {portfolioContact?.[0]?.portfolioContacts?.map((contact: any, index: any) => (
+                <Box key={index}>
+                  <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
+                    <Phone sx={{ fontSize: 16, mr: 1, color: "#999" }} />
+                    <Typography variant="body2" sx={{ color: "#666" }}>
+                      {contact.phoneNumber}
+                    </Typography>
+                  </Box>
+                  <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                    <Email sx={{ fontSize: 16, mr: 1, color: "#999" }} />
+                    <Typography variant="body2" sx={{ color: "#666" }}>
+                      {contact.email}
+                    </Typography>
+                  </Box>
+                </Box>
+              ))}
+              
+              {!portfolioContact?.[0]?.portfolioContacts?.length && (
+                <Typography sx={{ color: "#999", fontStyle: "italic" }}>
+                  No contact information available
+                </Typography>
+              )}
+            </CardContent>
+          </Card>
+
+          {/* Awards Card */}
+          {portfolioAchivement[0]?.portfolioAchivement && 
+           portfolioAchivement[0]?.portfolioAchivement.length > 0 && (
+            <Card sx={{ boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+              <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+                <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+                  <EmojiEvents sx={{ mr: 2, color: "#d1c7b8" }} />
+                  <Typography 
+                    variant="h6" 
+                    sx={{ 
+                      fontWeight: 600,
+                      color: "#1a1a1a"
+                    }}
+                  >
+                    Awards
+                  </Typography>
+                </Box>
+                
+                {portfolioAchivement?.map(
+                  (achivementGroup: any, groupIndex: any) =>
+                    achivementGroup?.portfolioAchivements?.map(
+                      (achievement: any, achievementIndex: any) =>
+                        achievement?.achievements?.map(
+                          (award: any, awardIndex: any) => (
+                            <Box key={`${groupIndex}-${achievementIndex}-${awardIndex}`} sx={{ mb: 1 }}>
+                              <Typography variant="body2" sx={{ color: "#666" }}>
+                                • {award}
+                              </Typography>
+                            </Box>
                           )
-                      )
-                  )}
-                </Typography>
-              </>
-            )}
-
-          {portfolioProject[0]?.portfolioProjects &&
-            portfolioProject[0]?.portfolioProjects.length > 0 && (
-              <Typography
-                sx={{
-                  marginTop: "15px",
-                  textAlign: "left",
-                }}
-              >
-                Projects
-                <FontAwesomeIcon
-                  style={{ fontSize: "12px", marginLeft: "4px" }}
-                  icon={faArrowUpRightFromSquare}
-                ></FontAwesomeIcon>
-              </Typography>
-            )}
-
-          {portfolioProject?.[0]?.portfolioProjects?.map(
-            (project: any, index: any) => (
-              <Typography
-                key={index}
-                sx={{
-                  fontFamily: "custom-regular",
-                  fontSize: "12px",
-                  textAlign: "left",
-                  marginTop: "5px",
-                }}
-              >
-                {project?.title} <br />
-              </Typography>
-            )
+                        )
+                    )
+                )}
+              </CardContent>
+            </Card>
           )}
 
-          <Typography
-            sx={{
-              marginTop: "15px",
-              textAlign: "left",
-            }}
-          >
-            Contact
-            <FontAwesomeIcon
-              style={{ fontSize: "12px", marginLeft: "4px" }}
-              icon={faArrowUpRightFromSquare}
-            ></FontAwesomeIcon>
-          </Typography>
-
-          {portfolioContact?.[0]?.portfolioContacts?.map(
-            (contact: any, index: any) => (
-              <div key={index}>
-                <Typography
-                  sx={{
-                    fontFamily: "custom-regular",
-                    fontSize: "12px",
-                    textAlign: "left",
-                  }}
-                >
-                  Phone: {contact.phoneNumber} <br />
-                  Email: {contact.email}
-                </Typography>
-              </div>
-            )
+          {/* Projects Card */}
+          {portfolioProject[0]?.portfolioProjects && 
+           portfolioProject[0]?.portfolioProjects.length > 0 && (
+            <Card sx={{ mt: 4, boxShadow: "0 4px 20px rgba(0,0,0,0.08)", borderRadius: 2 }}>
+              <CardContent sx={{ p: { xs: 3, md: 4 } }}>
+                <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
+                  <Work sx={{ mr: 2, color: "#d1c7b8" }} />
+                  <Typography 
+                    variant="h6" 
+                    sx={{ 
+                      fontWeight: 600,
+                      color: "#1a1a1a"
+                    }}
+                  >
+                    Projects
+                  </Typography>
+                </Box>
+                
+                {portfolioProject?.[0]?.portfolioProjects?.map((project: any, index: any) => (
+                  <Typography key={index} variant="body2" sx={{ color: "#666", mb: 1 }}>
+                    • {project?.title}
+                  </Typography>
+                ))}
+              </CardContent>
+            </Card>
           )}
-        </Box>
-      </Box>
-    </>
+        </Grid>
+      </Grid>
+    </Box>
   );
 }

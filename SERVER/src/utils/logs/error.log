@@ -792,3 +792,12 @@ notNull Violation: payment.amount cannot be null
 2025-12-12 20:29:13 [ERROR]: Error message:
 2025-12-12 20:29:13 [ERROR]: Error stack:
 2025-12-12 20:29:13 [ERROR]: Request body:
+2025-12-18 19:52:34 [ERROR]: connection <monitor> to [64:ff9b::9f29:f2f7]:27017 timed out
+2025-12-18 19:52:34 [ERROR]: Error getting one record for Portfolio: connection <monitor> to [64:ff9b::9f29:f2f7]:27017 timed out
+2025-12-18 19:52:34 [ERROR]: Error message:
+2025-12-18 19:52:34 [ERROR]: connection <monitor> to [64:ff9b::9f29:f2f7]:27017 timed out
+2025-12-18 19:52:34 [ERROR]: Error getting one record for Portfolio: connection <monitor> to [64:ff9b::9f29:f2f7]:27017 timed out
+2025-12-18 19:52:34 [ERROR]: Error message:
+2025-12-18 19:52:44 [ERROR]: Socket 'secureConnect' timed out after 10007ms (connectTimeoutMS: 10000)
+2025-12-18 19:52:44 [ERROR]: Error getting one record for Portfolio: Socket 'secureConnect' timed out after 10007ms (connectTimeoutMS: 10000)
+2025-12-18 19:52:44 [ERROR]: Error message:

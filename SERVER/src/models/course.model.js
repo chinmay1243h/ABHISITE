@@ -40,7 +40,7 @@ const courseSchema = new mongoose.Schema(
     category: {
       type: String,
       required: true,
-      enum: ['programming', 'design', 'business', 'marketing', 'music', 'art', 'film', 'soft-books', 'video', 'other'],
+      enum: ['programming', 'design', 'business', 'marketing', 'music', 'art', 'film', 'soft-books', 'video', 'other', 'songs', 'video-non-copyrighted', 'poetry', 'lines-shayari', 'dialogue', 'movies', 'gameplay', 'walkthrough', 'tricks-tips', 'fan-art', 'tribute', 'series', 'documentary', 'journey'],
     },
     level: {
       type: String,
